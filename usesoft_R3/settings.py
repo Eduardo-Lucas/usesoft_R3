@@ -139,19 +139,15 @@ DATABASES = {
         # 'ENGINE': 'tenant_schemas.postgresql_backend',
 
         # Or path to database file if using sqlite3.
-        'NAME': 'd97mijqsjdkl8g'
-        'USER': 'ienceiqnrrjcnq',
-        'PASSWORD': '780e31f7339fc569e728017fd5fc1b9739cc6feabc35f35ba108526b78df5a84',
-
-        # 'NAME': config('DB_NAME'),
-        # 'USER': config('DB_USER'),
-        # 'PASSWORD': config('DB_PASSWORD'),
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
 
         # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'HOST': 'ec2-54-235-177-183.compute-1.amazonaws.com',
+        'HOST': '',
 
         # Set to empty string for default
-        'PORT': '5432',
+        'PORT': '',
     }
 
 }
