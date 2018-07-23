@@ -32,7 +32,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = 'central-aluminio.herokuapp.com'
+ALLOWED_HOSTS = ['central-aluminio.herokuapp.com', '127.0.0.1']
 
 
 LOGIN_URL = 'login'
@@ -145,7 +145,7 @@ DATABASES = {
         'PASSWORD': config('DB_PASSWORD'),
 
         # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'HOST': config('DB_HOST'),
+        'HOST': '127.0.0.1',
 
         # Set to empty string for default
         'PORT': '',
