@@ -145,7 +145,7 @@ DATABASES = {
         'PASSWORD': config('DB_PASSWORD'),
 
         # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'HOST': '',
+        'HOST': 'central-aluminio.herokuapp.com',
 
         # Set to empty string for default
         'PORT': '5432',
