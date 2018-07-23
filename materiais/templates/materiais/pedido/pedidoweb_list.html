@@ -1,0 +1,158 @@
+{% extends "materiais/base.html" %}
+{% load static %}
+
+{% block content %}
+
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<div class="container">
+
+    <div class="card-group">
+
+        <div class="card" align="center">
+            <h5 style="margin-center"><strong>Lista de Pedidos Web</strong></h5>
+        </div>
+
+        <div class="card" align="left">
+             <!-- Pesquisa -->
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Pesquisa" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa <i class="fas fa-search"></i></button>
+            </form>
+            <a href="{% url 'materiais:search_pedidoweb' %}">Filtro <i class="fas fa-search"></i></a>
+        </div>
+
+
+
+        <div class="card" align="center">
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination pagination-sm justify-content-end">
+
+                {% if object_list.has_previous %}
+                <li class="page-item"><a class="page-link" href="?page={{ object_list.previous_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-left"></i> Anterior</a></li>
+                {% endif %}
+
+                <li class="page-item active">
+                    <span class="page-link">
+                            Página {{ object_list.number }} de {{ object_list.paginator.num_pages }}
+                            <span class="sr-only">(current)</span>
+                    </span>
+                </li>
+
+                {% if object_list.has_next %}
+                <li class="page-item"><a class="page-link" href="?page={{ object_list.next_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-right"></i> Próxima</a></li>
+                {% endif %}
+
+              </ul>
+            </nav>
+            <!--end of pagination-->
+        </div>
+
+    </div>
+    <!--end of card-group-->
+</div>
+
+
+
+
+<div class="container">
+
+
+
+    {% if object_list %}
+
+            <table class="table table-responsive table-condensed table-bordered table-hover table-striped">
+                <tbody>
+                    <tr>
+                        <th>Status</th>
+                        <th>Pedido</th>
+                        <th>Série</th>
+                        <th>Subsérie</th>
+                        <th>Total</th>
+                        <th>Data do Pedido</th>
+                        <th>Participante</th>
+                        <th>Tipo Pagamento</th>
+                        <th>Prazo Pagamento</th>
+                        <th>Observações</th>
+                        <th>Ações</th>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <th>Status</th>
+                            <th>Pedido</th>
+                            <th>Série</th>
+                            <th>Subsérie</th>
+                            <th>Total</th>
+                            <th>Data do Pedido</th>
+                            <th>Participante</th>
+                            <th>Tipo Pagamento</th>
+                            <th>Prazo Pagamento</th>
+                            <th>Observações</th>
+                            <th>Ações</th>
+                        </tr>
+                    </tfoot>
+                    {% for pedidoweb in object_list %}
+
+                        <tr>
+                            {% if pedidoweb.pode_alterar_pedido %}
+                                <td style="text-align:center"><i class="far fa-thumbs-up" data-toggle="tooltip"
+                                        title="Ainda pode alterar o Pedido"></i></td>
+                            {% else %}
+                                <td style="text-align:center"><i class="far fa-thumbs-down" data-toggle="tooltip"
+                                        title="Pedido NÃO pode mais ser alterado"></i></td>
+                            {% endif %}
+                           <td>{{ pedidoweb.id }}</td>
+                           <td>{{ pedidoweb.serie }}</td>
+                           <td>{{ pedidoweb.subserie }}</td>
+                           <td style="text-align:right">{{ pedidoweb.total_produtos }}</td>
+                           <td>{{ pedidoweb.data_pedido }}</td>
+                           <td>{{ pedidoweb.participante }}</td>
+                           <td>{{ pedidoweb.tipo_de_pagamento }}</td>
+                           <td>{{ pedidoweb.prazo_de_pagamento }}</td>
+                           <td>{{ pedidoweb.observacoes }}</td>
+
+                            <td>
+                                <div class="btn-group">
+                                    {% if pedidoweb.pode_alterar_pedido %}
+                                        <!-- Altera -->
+                                        <a href="{% url 'materiais:pedidoweb_edit' pedidoweb.id %}"
+                                            class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
+                                            title="Altera o pedido">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                    {% else %}
+                                        <a href="#"
+                                            class="btn btn-primary btn-sm disabled" role="button" data-toggle="tooltip"
+                                            title="Altera o pedido">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                    {% endif%}
+                                    <!-- Detalhes -->
+                                    <a href="{% url 'materiais:pedidoweb_detail' pedidoweb.id %}"
+                                        class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
+                                        title="Detalhes do pedido">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+    {% endif %}
+</div>
+
+
+{% endblock %}

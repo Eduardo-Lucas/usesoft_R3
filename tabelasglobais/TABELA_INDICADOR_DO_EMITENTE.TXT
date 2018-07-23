@@ -1,0 +1,3 @@
+versão=1.0
+0|Emissão própria|01012009|
+1|Terceiros|01012009|

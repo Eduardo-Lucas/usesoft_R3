@@ -1,0 +1,33 @@
+{% extends 'materiais/base.html' %}
+
+{% block content %}
+<div class="col-md-offset-3">
+
+    <!-- Histórico Padrão Info -->
+    <h1>Razão Social: <strong><u>{{ participante.razao_social}}</u></strong></h1>
+    <div class="col-sm-4 col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body" align="right">
+                <a href="{% url 'faturamento:participante_list' %}">
+                   <span class="glyphicon glyphicon-arrow-left"></span>  Voltar
+                </a>
+            </div>
+
+            <h5>Nome Fantasia: <strong>{{ participante.nome_fantasia }}</strong></h5>
+            <h5>Endereço     : <strong>{{ participante.endereco }}</strong></h5>
+            <h5>Complemento  : <strong>{{ participante.exibe_complemento }}</strong></h5>
+            <h5>Telefone 1   : <strong>{{ participante.telefone }}</strong></h5>
+            <h5>Telefone 2   : <strong>{{ participante.exibe_telefone2 }}</strong></h5>
+            <h5>E-mail       : <strong>{{ participante.exibe_email }}</strong></h5>
+            <h5>Bairro       : <strong>{{ participante.exibe_bairro }}</strong></h5>
+            <h5>Cidade       : <strong>{{ participante.cidade }}</strong></h5>
+            <h5>Estado       : <strong>{{ participante.estado }}</strong></h5>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
+
+
+

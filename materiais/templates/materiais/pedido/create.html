@@ -1,0 +1,72 @@
+{% extends "materiais/base.html" %}
+
+{% block title %}
+    Fechar Pedido
+{% endblock %}
+
+{% block content %}
+
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{% if user.groups.all.0.name == "Representantes" %}
+    <h3>Grupo de Representantes</h3>
+{% else %}
+    <h3>Grupo de {{user.groups.all.0.name}}</h3>
+{% endif %}
+
+<h2>Fechar Pedido</h2>
+<h2>Itens no Pedido:</h2>
+<div class="container">
+
+    <div class="row">
+
+            {% for item in cart %}
+                <div class="col-sm-3">
+                    <div class="card border-warning mb-3" style="background-color: #eee;">
+                        <div class="card-body">
+                            <h5 class="card-title">{{item.codigo}}-{{ item.descricao }}</h5>
+                            <h5 class="card-text"> x {{ item.quantity }} = R$ {{ item.total_price|floatformat:2 }}</h5>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card border-warning mb-3" style="background-color: #eee;">
+                <h5 class="card-text">Total do Pedido: R$ {{ cart.get_total_price|floatformat:2 }}</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card border-warning mb-3" style="background-color: #eee;">
+                <div class="card-body">
+                <form action="." method="post" class="order-form">
+                        {% csrf_token %}
+                        <h6 class="card-text">Vendedor: {{ form.vendedor }}</h6>
+                        <h6 class="card-text">Participante: <a href="{% url 'faturamento:participante_list' %}"></a> {{ form.participante }}</h6>
+                        <h6 class="card-text"><a href="{% url 'faturamento:participante_add' %}">Criar Novo Participante</a></h6>
+                        <h6 class="card-text">Forma de Pagamento: {{ form.tipo_de_pagamento }}</h6>
+                        <h6 class="card-text">Prazo de Pagamento: {{ form.prazo_de_pagamento }}</h6>
+                        <h6 class="card-text">Observações: {{ form.observacoes }}</h6>
+
+                        <p><input type="submit" value="Gravar Pedido"></p>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

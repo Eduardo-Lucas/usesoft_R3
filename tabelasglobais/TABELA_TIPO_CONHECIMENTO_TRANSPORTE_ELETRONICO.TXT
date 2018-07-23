@@ -1,0 +1,7 @@
+versão=2 TP_CT-e, DESC_TP_CT, DT_INI, DT_FIM
+0|CT-e Normal|01012009|31122017
+1|CT-e de Complemento de Valores|01012009|
+2|CT-e emitido em hipótese de anulação de débito|01012009|
+3|CTE substituto do CT-e anulado|01012009|31122017
+0|CT-e ou BP-e Normal|01012018|
+3|CTE substituto do CT-e anulado ou BP-e substituição|01012018|

@@ -1,0 +1,15 @@
+id	codigo_fake	codigo	descricao	data_publicacao_fake	data_publicacao	data_validade	habilitado
+	0	0	Entrada com recuperação de crédito	1012009	01-01-2009		S
+	1	1	Entrada tributada com alíquota zero	1012009	01-01-2009		S
+	2	2	Entrada isenta	1012009	01-01-2009		S
+	3	3	Entrada não-tributada	1012009	01-01-2009		S
+	4	4	Entrada imune	1012009	01-01-2009		S
+	5	5	Entrada com suspensão	1012009	01-01-2009		S
+	49	49	Outras entradas	1012009	01-01-2009		S
+	50	50	Saída tributada	1012009	01-01-2009		S
+	51	51	Saída tributada com alíquota zero	1012009	01-01-2009		S
+	52	52	Saída isenta	1012009	01-01-2009		S
+	53	53	Saída não-tributada	1012009	01-01-2009		S
+	54	54	Saída imune	1012009	01-01-2009		S
+	55	55	Saída com suspensão	1012009	01-01-2009		S
+	99	99	Outras saídas	1012009	01-01-2009		S

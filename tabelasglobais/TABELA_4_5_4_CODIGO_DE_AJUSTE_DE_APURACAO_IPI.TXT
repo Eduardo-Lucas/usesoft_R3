@@ -1,0 +1,14 @@
+versão=1.0
+001|Estorno de débito; C; montante do débito do IPI estornado|01012009|
+002|Crédito recebido por transferência; C; montante dos créditos do IPI recebidos por transferência, de outro(s) estabelecimento(s) da mesma empresa|01012009|
+010|Crédito Presumido de IPI - ressarcimento do PIS/Pasep e da Cofins - Lei nº 9.363/1996; C; valor do crédito presumido de IPI decorrente do ressarcimento do PIS/Pasep e da Cofins nas operações de exportação de produtos industrializados (Lei nº 9.363/1996, art. 1º)|01012009|
+011|Crédito Presumido de IPI - ressarcimento do PIS/Pasep e da Cofins - Lei nº 10.276/2001; C; valor do crédito presumido de IPI decorrente do ressarcimento do PIS/Pasep e da Cofins nas operações de exportação de produtos industrializados (Lei nº 10.276/2001, art. 1º)|01012009|
+012|Crédito Presumido de IPI - regiões incentivadas - Lei nº 9.826/1999; C; valor do crédito presumido relativo ao IPI incidente nas saídas, do estabelecimento industrial, dos produtos classificados nas posições 8702 a 8704 da Tipi (Lei nº 9.826/1999, art. 1º)|01012009|
+013|Crédito Presumido de IPI-frete-MP2.158/2001; C; valor do crédito presumido de IPI relativamente à parcela do frete cobrado pela prestação do serviço de transporte dos produtos classificados nos códigos 8433.53.00, 8433.59.1, 8701.10.00, 8701.30.00, 8701.90.00, 8702.10.00 Ex 01, 8703, 8704.2, 8704.3 e 87.06.00.20, da TIPI (MP nº2.158/2001, art.56)|01012009|
+019|Crédito Presumido de IPI - outros; C; outros valores de crédito presumido de IPI|01012009|
+098|Créditos decorrentes de medida judicial; C; valores de crédito de IPI decorrentes de medida judicial|01012009|
+099|Outros créditos; C; montante de outros créditos do IPI|01012009|
+101|Estorno de crédito; D; montante do crédito do IPI estornado|01012009|
+102|Transferência de crédito; D; montante do crédito do IPI transferido no período, para outro(s) estabelecimento(s) da mesma empresa, conforme previsto na legislação tributária.|01012009|
+103|Ressarcimento / compensação de créditos; D; montante do crédito do IPI, pleiteado, junto a SRF/MF|01012009|
+199|Outros débitos; D; montante de outros débitos do IPI|01012009|

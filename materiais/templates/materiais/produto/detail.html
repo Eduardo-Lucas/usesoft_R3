@@ -1,0 +1,33 @@
+{% extends "materiais/base.html" %}
+{% load static %}
+
+{% block title %}
+    {{ produto.descricao }}
+{% endblock %}
+
+
+{% block content %}
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <div class="product-detail">
+       <!-- <img src="{% if produto.image %}{{ produto.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}">-->
+
+        <h4>Código: {{ produto.produto }}</h4>
+        <h5>{{ produto.descricao|linebreaks }}</h5>
+        <h6><a href="{{ produto.categoria.get_absolute_url }}">Categoria: {{ produto.categoria }}</a></h6>
+        <p class="price"><h6>Preço Unitário: R$ {{ produto.preco_venda }}</h6></p>
+        <form action="{% url 'cart:cart_add' produto.id %}" method="post">
+            {{ cart_produto_form }}
+            {% csrf_token %}
+
+            <input type="submit" value="Adicionar ao Carrinho">
+            <i class="far fa-thumbs-up fa-2x"></i>
+        </form>
+
+    </div>
+{% endblock %}

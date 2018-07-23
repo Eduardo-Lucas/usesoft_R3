@@ -1,0 +1,78 @@
+{% extends "materiais/base.html" %}
+
+{% load widget_tweaks %}
+
+{% block content %}
+  <form method="get">
+    <div class="well">
+      <h4 style="margin-top: 0">Filtro: Pedido Web</h4>
+      <div class="row">
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.ano_pedido.label_tag }}
+          {% render_field filter.form.ano_pedido class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.mes_pedido.label_tag }}
+          {% render_field filter.form.mes_pedido class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.participante.label_tag }}
+          {% render_field filter.form.participante class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.tipo_de_pagamento.label_tag }}
+          {% render_field filter.form.tipo_de_pagamento class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.prazo_de_pagamento.label_tag }}
+          {% render_field filter.form.prazo_de_pagamento class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.total_produtos.label_tag }}
+          {% render_field filter.form.total_produtos class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.total_produtos__gt.label_tag }}
+          {% render_field filter.form.total_produtos__gt class="form-control" %}
+        </div>
+        <div class="form-group col-sm-4 col-md-3">
+          {{ filter.form.total_produtos__lt.label_tag }}
+          {% render_field filter.form.total_produtos__lt class="form-control" %}
+        </div>
+
+      </div>
+      <button type="submit" class="btn btn-primary">
+         <i class="fas fa-search"></i> Pesquisa
+      </button>
+    </div>
+  </form>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Data do Pedido</th>
+        <th>Participante</th>
+        <th>Tipo de Pagamento</th>
+        <th>Prazo de Pagamento</th>
+        <th>Total dos Produtos</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pedido in filter.qs %}
+        <tr>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.id }}</a></td>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.data_pedido }}</a></td>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.participante }}</a></td>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.tipo_de_pagamento }}</a></td>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.prazo_de_pagamento }}</a></td>
+          <td><a href="{% url 'materiais:pedidoweb_detail' pedido.id %}">{{ pedido.total_produtos }}</a></td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">Nenhum registro!</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

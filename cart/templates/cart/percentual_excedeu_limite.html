@@ -1,0 +1,16 @@
+{% extends "materiais/base.html" %}
+{% load static %}
+
+{% block title %}
+   O Percentual de Desconto excedeu o limite máximo!
+{% endblock %}
+
+{% block content %}
+    <div class="d-block">
+       <h3 align="center"><i class="fas fa-shopping-cart"></i> O Percentual de Desconto de {{ desconto}}% excedeu o limite máximo!</h3>
+
+       <p class="text-right">
+            <a href="{% url 'materiais:produto_list' %}" class="btn btn-outline-success" role="button">Continuar comprando</a>
+       </p>
+    </div>
+{% endblock %}

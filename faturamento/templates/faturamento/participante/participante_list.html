@@ -1,0 +1,145 @@
+{% extends 'materiais/base.html' %}
+{% block participante_active %}active{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <div class="card-group">
+
+        <div class="card" align="center">
+            <h5 style="margin-center"><strong>Lista de Participantes</strong></h5>
+        </div>
+
+        <div class="card" align="left">
+             <!-- Pesquisa -->
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Razão Social e CNPJ" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa <i class="fas fa-search"></i></button>
+            </form>
+        </div>
+
+
+
+        <div class="card" align="center">
+            <!-- pagination -->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination pagination-sm justify-content-end">
+
+                {% if object_list.has_previous %}
+                <li class="page-item"><a class="page-link" href="?page={{ object_list.previous_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-left"></i> Anterior</a></li>
+                {% endif %}
+
+                <li class="page-item active">
+                    <span class="page-link">
+                            Página {{ object_list.number }} de {{ object_list.paginator.num_pages }}
+                            <span class="sr-only">(current)</span>
+                    </span>
+                </li>
+
+                {% if object_list.has_next %}
+                <li class="page-item"><a class="page-link" href="?page={{ object_list.next_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-right"></i> Próxima</a></li>
+                {% endif %}
+
+              </ul>
+            </nav>
+            <!--end of pagination-->
+        </div>
+
+        <!--<div class="card" align="center">
+         &lt;!&ndash; Botão Cria Registro &ndash;&gt;
+            <a href="{% url 'faturamento:participante_add' %}">
+                <button type="button" class="btn btn-success" data-toggle="tooltip"
+                        title="Cria um novo registro"
+                        style="margin-center: 4px;">
+                    <i class="fas fa-plus-circle"></i>&nbsp; Cria Participante
+                </button>
+            </a>
+        </div>-->
+
+    </div>
+    <!--end of card-group-->
+</div>
+
+<div class="container">
+        {% if object_list %}
+                <table class=" responsive table table-responsive table-condensed table-bordered table-hover table-striped"
+                   style="margin-bottom: 0px;">
+                    <tbody>
+                        <tr>
+                            <th>Código</th>
+                            <th>Razão Social</th>
+                            <th>Nome Fantasia</th>
+                            <th>CNPJ / CPF</th>
+                            <th>Telefone</th>
+                            <th>Estado</th>
+                            <th>E-mail</th>
+                            <th>Ações</th>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <th>Código</th>
+                                <th>Razão Social</th>
+                                <th>Nome Fantasia</th>
+                                <th>CNPJ / CPF</th>
+                                <th>Telefone</th>
+                                <th>Estado</th>
+                                <th>E-mail</th>
+                                <th>Ações</th>
+                            </tr>
+                        </tfoot>
+                        {% for participante in object_list %}
+                                <tr class="danger">
+
+                                <td>{{ participante.codigo  }}</td>
+                                <td>{{ participante.razao_social  }}</td>
+                                <td>{{ participante.nome_fantasia  }}</td>
+                                <td>{{ participante.cnpj_cpf}}</td>
+                                <td>{{ participante.telefone}}</td>
+                                <td>{{ participante.estado}}</td>
+                                <td>{{ participante.exibe_email}}</td>
+
+                                <td>
+                                    <div class="btn-group">
+                                            <!-- Edita -->
+                                            <a href="{% url 'faturamento:participante_edit' participante.id %}"
+                                                class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
+                                                title="Altera o registro">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </a>
+                                            <!-- Detalhes -->
+                                            <a href="{% url 'faturamento:participante_detail' participante.id %}"
+                                                class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
+                                                title="Detalhes do participante">
+                                                <i class="fas fa-info-circle"></i>
+                                            </a>
+                                            <!-- Deleta -->
+                                            <!--<form action="{% url 'faturamento:participante_delete' participante.id %}">
+                                                {% csrf_token %}
+                                                <input type="hidden"   />
+                                                    <button type="submit" class="btn btn-danger btn-sm"
+                                                            data-toggle="tooltip" title="Exclui o registro">
+
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </button>
+                                            </form>-->
+                                    </div>
+                                </td>
+                            </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+        {% else %}
+            <h2>Nenhum registro encontrado para a pesquisa {{ request.GET.q }} </h2>
+        <div align="right">
+            <a class="nav-link" href="{% url 'faturamento:participante_list' %}">
+                <i class="fas fa-arrow-circle-left"></i> Voltar
+            </a>
+        </div>
+        {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,102 @@
+{% load static %}
+{% load l10n %}
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>{% block title %}{% endblock %}</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <link href="{% static 'accounts/css/signin.css' %}" rel="stylesheet">
+
+        <!-- Use Font Awesome Free CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="{% static 'img/logo.jpg' %}" height="80" width="80"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        {% if request.user.is_authenticated %}
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+              <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'faturamento:participante_list' %}">Participantes</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">Meus Pedidos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">{{user.username}}
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="dropdown07">
+                              <a class="dropdown-item" href="{% url 'accounts:userprofile-detail' request.user.id %}">Perfil</a>
+                              <a class="dropdown-item" href="{% url 'reset_password' %}">Mudar a Senha</a>
+                              <a class="dropdown-item" href="{% url 'logout' %}">Sair</a>
+                         </div>
+                    </li>
+              </ul>
+        </div>
+        {% else %}
+             <div class="dropdown-menu" aria-labelledby="dropdown07">
+                      <a class="dropdown-item" href="#">Login</a>
+             </div>
+        {% endif %}
+      </div>
+    </nav>
+
+    <div class="container">
+        {% if request.user.is_authenticated %}
+            <div class="container" id="subheader">
+
+                <div class="cart">
+
+                    {% with total_items=cart|length %}
+                        {% if cart|length > 0 %}
+                            Carrinho de Compras:
+                            <a href="{% url 'cart:cart_detail' %}">
+                                {{ total_items }} item{{ total_items|localize|pluralize }}, R$ {{ cart.get_total_price|floatformat:2 }}
+                            </a>
+                        {% endif %}
+                    {% endwith %}
+                </div>
+            </div>
+        {% endif %}
+        <div class="d-block">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>
+
+
+</body>
+</html>

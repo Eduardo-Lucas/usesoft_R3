@@ -1,0 +1,22 @@
+{% extends "materiais/base.html" %}
+
+{% block title %}
+    Obrigado!
+{% endblock %}
+
+{% block content %}
+
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <h1>Obrigado!</h1>
+        <p>Seu Pedido foi gravado com sucesso.</p>
+        <p>O número do Pedido é <strong>{{ pedidoweb.id }}</strong> <i class="fas fa-briefcase"></i> </p>
+        <a href="/"> <p><span class="glyphicon glyphicon-chevron-left"></span> Página Inicial</p></a>
+
+{% endblock %}

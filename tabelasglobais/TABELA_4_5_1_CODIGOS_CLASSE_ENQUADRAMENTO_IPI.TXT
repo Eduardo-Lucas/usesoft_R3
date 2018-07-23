@@ -1,0 +1,32 @@
+versão=2.0
+I|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002 ou Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+II|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002|01012009|
+III-M|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002|01012009|
+III-R|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002|01012009|
+IV-M|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002|01012009|
+IV-R|Cigarros; 24022000; Art. 153 do Decreto 4.544/2002|01012009|
+A|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+B|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+C|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+D|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+E|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+F|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+G|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+H|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+J|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+K|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+L|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+M|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+N|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+O|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+P|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+Q|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+R|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+S|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+T|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+U|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+V|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+X|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+Y|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+Z|Bebidas "Quentes"; 2204 / 2205 / 2206 / 2208; Art. 149 do Decreto 4.544/2002|01012009|
+99999|Outros produtos|01012009|

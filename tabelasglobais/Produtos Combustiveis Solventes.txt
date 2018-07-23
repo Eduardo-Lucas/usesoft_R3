@@ -1,0 +1,960 @@
+versão=11 COD_COMB, DESC_AJUR, DT_INI, DT_FIM
+110101001|Albacora; Petróleo|01012009|
+110101002|Anequim; Petróleo|01012009|
+110101003|Badejo; Petróleo|01012009|
+110101004|Bagre; Petróleo|01012009|
+110101005|Barracuda; Petróleo|01012009|
+110101006|Bicudo; Petróleo|01012009|
+110101007|Bijupirá; Petróleo|01012009|
+110101008|Bonito; Petróleo|01012009|
+110101009|Cabiúnas Mistura; Petróleo|01012009|
+110101010|Carapeba; Petróleo|01012009|
+110101011|Caratinga; Petróleo|01012009|
+110101012|Cherne; Petróleo|01012009|
+110101013|Corvina; Petróleo|01012009|
+110101014|Enchova; Petróleo|01012009|
+110101015|Espadarte; Petróleo|01012009|
+110101016|Espírito Santo Submarino; Petróleo|01012009|
+110101017|Garoupa; Petróleo|01012009|
+110101018|Garoupinha; Petróleo|01012009|
+110101019|Jubarte; Petróleo|01012009|
+110101020|Linguado; Petróleo|01012009|
+110101021|Malhado; Petróleo|01012009|
+110101022|Marimba; Petróleo|01012009|
+110101023|Marlim; Petróleo|01012009|
+110101024|Marlim Leste; Petróleo|01012009|
+110101025|Marlim Sul; Petróleo|01012009|
+110101026|Moreia; Petróleo|01012009|
+110101027|Namorado; Petróleo|01012009|
+110101028|Pampo; Petróleo|01012009|
+110101029|Parati; Petróleo|01012009|
+110101030|Pargo; Petróleo|01012009|
+110101031|Pirauna; Petróleo|01012009|
+110101032|Polo Nordeste; Petróleo|01012009|
+110101033|Roncador; Petróleo|01012009|
+110101034|Trilha; Petróleo|01012009|
+110101035|Vermelho; Petróleo|01012009|
+110101036|Viola; Petróleo|01012009|
+110101037|Voador; Petróleo|01012009|
+110101038|Bijupirá/Salema; Petróleo|01012009|
+110101039|Marlin/Voador; Petróleo|01012009|
+110101040|Roncador Leste; Petróleo|01012009|
+110101041|Roncador Oeste; Petróleo|01012009|
+110101042|Albacora Leste; Petróleo|01012009|
+110101043|Frade; Petróleo|01012009|
+110101044|Siri|01012009|
+110101045|Roncador Mistura|01012009|
+110101046|Jabuti|01012009|
+110101047|Polvo|01012009|
+110101048|Rjs-609|01012009|
+110101049|PAPATERRA|01052009|
+110101050|PEREGRINO|01052009|
+110102001|BAS-60; Petróleo|01012009|
+110103001|Água Grande; Petróleo|01012009|
+110103002|Aratu; Petróleo|01012009|
+110103003|Araçás; Petróleo|01012009|
+110103004|Baiano Borda Nordeste; Petróleo|01012009|
+110103005|Baiano Mistura; Petróleo|01012009|
+110103006|Candeias; Petróleo|01012009|
+110103007|Dom João; Petróleo|01012009|
+110103008|Ilhéus; Petróleo|01012009|
+110103009|Miranga; Petróleo|01012009|
+110103010|Miranga/Água Grande; Petróleo|01012009|
+110103011|Recôncavo; Petróleo|01012009|
+110103012|Uirapuru; Petróleo|01012009|
+110103013|Guanambi|01012009|
+110103014|Quiambina|01012009|
+110103015|Juriti|01012009|
+110103016|Tigre|01012009|
+110103017|Bom Lugar|01012009|
+110103018|Sempre Viva|01012009|
+110104001|Cação; Petróleo|01012009|
+110104002|Espirito Santo; Petróleo|01012009|
+110104003|Fazenda São Rafael; Petróleo|01012009|
+110104004|Lagoa Parda; Petróleo|01012009|
+110104005|Golfinho; Petróleo|01012009|
+110104006|Cachalote|01012009|
+110104007|Parque Das Conchas|01012009|
+110104008|Crejoa|01012009|31072009
+110104008|CREJOA|01082009|
+110105001|Alto do Rodrigues; Petróleo|01012009|
+110105002|Aratum; Petróleo|01012009|
+110105003|Canto do Amaro; Petróleo|01012009|
+110105004|Estreito; Petróleo|01012009|
+110105005|Fazenda Alegre; Petróleo|01012009|
+110105006|Fazenda Belém; Petróleo|01012009|
+110105007|Fazenda Pocinho; Petróleo|01012009|
+110105008|Livramento; Petróleo|01012009|
+110105009|Lorena; Petróleo|01012009|
+110105010|Potiguar Terra; Petróleo|01012009|
+110105011|RGN Mistura; Petróleo|01012009|
+110105012|Serraria; Petróleo|01012009|
+110105013|Upanema; Petróleo|01012009|
+110105014|Ubarana/Agulha; Petróleo|01012009|
+110105015|João de Barro; Petróleo|01012009|
+110105016|Pescada/Arabaiana; Petróleo|01012009|
+110105017|Auri|01012009|
+110105018|Bv|01012009|
+110105019|Rt|01012009|
+110105020|Ptx|01012009|
+110105021|Poti|01012009|
+110105022|Ptx-11|01012009|
+110105023|Chauá|01012009|
+110105024|Rv-1|01012009|
+110105025|Koch|01012009|31072009
+110105025|KOCH|01082009|
+110105029|SÃO MANOEL|01052009|
+110106001|Alagoano; Petróleo|01012009|
+110106002|Camorim; Petróleo|01012009|
+110106003|Castanhal; Petróleo|01012009|
+110106004|Sergipano Mar; Petróleo|01012009|
+110106005|Sergipano Mistura; Petróleo|01012009|
+110106006|Sergipano Terra; Petróleo|01012009|
+110106007|Piranema; Petróleo|01012009|
+110106008|1-Ww-1-Ba|01012009|
+110106009|Tartaruga|01012009|
+110106010|CAJUEIRO|01032009|
+110107001|Caravela; Petróleo|01012009|
+110107002|Coral; Petróleo|01012009|
+110107003|Estrela do Mar; Petróleo|01012009|
+110107004|Tupi|01012009|
+110107005|TIRO|01022009|
+110107006|URUGUA-TAMBAU|01042009|
+110108001|Atum; Petróleo|01012009|
+110108002|Caraunas; Petróleo|01012009|
+110108003|Ceará Mar; Petróleo|01012009|
+110108004|Curimã/Espada; Petróleo|01012009|
+110108005|Espada; Petróleo|01012009|
+110108006|Xareu/Atum; Petróleo|01012009|
+110109001|Urucu; Petróleo|01012009|
+110110001|Nacional Mistura; Petróleo|01012009|
+110110002|Outros Petróleos Nacionais; Petróleo|01012009|
+110111001|Pau Lavado|01012009|
+110111002|Canário|01012009|
+110113001|Jiribatuba|01012009|
+110201001|Anaco Wax; Petróleo|01012009|
+110201002|Bachaquero; Petróleo|01012009|
+110201003|BCF; Petróleo|01012009|
+110201004|BCF 22; Petróleo|01012009|
+110201005|BCF 23; Petróleo|01012009|
+110201006|BCF 24; Petróleo|01012009|
+110201007|Bolivian Blend; Petróleo|01012009|
+110201008|Boliviano; Petróleo|01012009|
+110201009|Boscan; Petróleo|01012009|
+110201010|Cañadon Seco; Petróleo|01012009|
+110201011|Caño Limón; Petróleo|01012009|
+110201012|Caranda; Petróleo|01012009|
+110201013|Ceuta; Petróleo|01012009|
+110201014|Chubut; Petróleo|01012009|
+110201015|Coblan Blend; Petróleo|01012009|
+110201016|Corrientes; Petróleo|01012009|
+110201017|Cupiagua; Petróleo|01012009|
+110201018|Cusiana; Petróleo|01012009|
+110201019|Escalante; Petróleo|01012009|
+110201020|Furrial; Petróleo|01012009|
+110201021|Guafita Blend; Petróleo|01012009|
+110201022|Guanipa; Petróleo|01012009|
+110201023|Hydra; Petróleo|01012009|
+110201024|Lagocinco; Petróleo|01012009|
+110201025|Lagocinco Liviano; Petróleo|01012009|
+110201026|Lagomedio; Petróleo|01012009|
+110201027|Lagotreco; Petróleo|01012009|
+110201028|Lagotreco Heavy; Petróleo|01012009|
+110201029|Lagotreco Medio; Petróleo|01012009|
+110201030|Laguna; Petróleo|01012009|
+110201031|Leona; Petróleo|01012009|
+110201032|Leona 21,9; Petróleo|01012009|
+110201033|Leona 24; Petróleo|01012009|
+110201034|Loreto; Petróleo|01012009|
+110201035|Maria Ignes; Petróleo|01012009|
+110201036|Marlago; Petróleo|01012009|
+110201037|Medanito; Petróleo|01012009|
+110201038|Merey; Petróleo|01012009|
+110201039|Merey/Leona; Petróleo|01012009|
+110201040|Mesa; Petróleo|01012009|
+110201041|Mescla Venezuelano; Petróleo|01012009|
+110201042|Monogas; Petróleo|01012009|
+110201043|Oficina; Petróleo|01012009|
+110201044|Oriente; Petróleo|01012009|
+110201045|Orito; Petróleo|01012009|
+110201046|Pilon; Petróleo|01012009|
+110201047|Recon Boliviano; Petróleo|01012009|
+110201048|Recon Merey; Petróleo|01012009|
+110201049|Rincón de los Sauces; Petróleo|01012009|
+110201050|San Sebastian; Petróleo|01012009|
+110201051|Santa Barbara; Petróleo|01012009|
+110201052|Santa Cruz; Petróleo|01012009|
+110201053|Santa Cruz do Sul; Petróleo|01012009|
+110201054|Shiviyacu; Petróleo|01012009|
+110201055|Tia Juana; Petróleo|01012009|
+110201056|Tia Juana Medio; Petróleo|01012009|
+110201057|Tia Juana Pesado; Petróleo|01012009|
+110201058|Vasconia 29,3; Petróleo|01012009|
+110201059|Vasconia Blend; Petróleo|01012009|
+110201060|Yanayacu; Petróleo|01012009|
+110201061|Zuata; Petróleo|01012009|
+110201062|Napo|01012009|
+110201063|South Blend|01012009|
+110202001|Cold Lake Blend; Petróleo|01012009|
+110202002|Isthmus; Petróleo|01012009|
+110202003|Isthmus Maya; Petróleo|01012009|
+110202004|Maya; Petróleo|01012009|
+110202005|Maya Leve; Petróleo|01012009|
+110202006|Olmeca; Petróleo|01012009|
+110202007|Calypso|01012009|
+110202008|Msw Edmonton|01012009|
+110202009|HIBERNIA|01032011|
+110203001|Amna; Petróleo|01012009|
+110203002|Angolano; Petróleo|01012009|
+110203003|Antan; Petróleo|01012009|
+110203004|Arzew; Petróleo|01012009|
+110203005|Belaym; Petróleo|01012009|
+110203006|Bonny Leve; Petróleo|01012009|
+110203007|Bonny Medio; Petróleo|01012009|
+110203008|Bouri; Petróleo|01012009|
+110203009|Brass Blend; Petróleo|01012009|
+110203010|Brass River; Petróleo|01012009|
+110203011|Cabina/Takula; Petróleo|01012009|
+110203012|Cabinda; Petróleo|01012009|
+110203013|Coco; Petróleo|01012009|
+110203014|Djeno Blend; Petróleo|01012009|
+110203015|East Zeit Mix; Petróleo|01012009|
+110203016|El Huemel; Petróleo|01012009|
+110203017|El Morgan; Petróleo|01012009|
+110203018|El Oriente; Petróleo|01012009|
+110203019|Emeraude; Petróleo|01012009|
+110203020|Es Sider; Petróleo|01012009|
+110203021|Escravos; Petróleo|01012009|
+110203022|Forcados; Petróleo|01012009|
+110203023|Gamba; Petróleo|01012009|
+110203024|Geisum; Petróleo|01012009|
+110203025|Gulf of Suez; Petróleo|01012009|
+110203026|Gulf of Suez Mix; Petróleo|01012009|
+110203027|Hassi Messaoud; Petróleo|01012009|
+110203028|Hassi Rmel; Petróleo|01012009|
+110203029|Ima Light; Petróleo|01012009|
+110203030|Kitina; Petróleo|01012009|
+110203031|Kole; Petróleo|01012009|
+110203032|Kutubu; Petróleo|01012009|
+110203033|Lokele; Petróleo|01012009|
+110203034|Lucina Mare; Petróleo|01012009|
+110203035|Lucula; Petróleo|01012009|
+110203036|Mandji; Petróleo|01012009|
+110203037|Mbia; Petróleo|01012009|
+110203038|Moanda; Petróleo|01012009|
+110203039|Moudi; Petróleo|01012009|
+110203040|Nemba; Petróleo|01012009|
+110203041|Nigeriano Brass Light; Petróleo|01012009|
+110203042|Nigeriano Leve; Petróleo|01012009|
+110203043|Nigeriano Leve Qua Iboe; Petróleo|01012009|
+110203044|Nkossa; Petróleo|01012009|
+110203045|Odudu; Petróleo|01012009|
+110203046|Oguendjo; Petróleo|01012009|
+110203047|Okan; Petróleo|01012009|
+110203048|Okono; Petróleo|01012009|
+110203049|Oribi; Petróleo|01012009|
+110203050|Palanca; Petróleo|01012009|
+110203051|Pennington; Petróleo|01012009|
+110203052|Rabi; Petróleo|01012009|
+110203053|Ras Budran; Petróleo|01012009|
+110203054|Ras Gharib; Petróleo|01012009|
+110203055|Sahara Mistura; Petróleo|01012009|
+110203056|Sarir; Petróleo|01012009|
+110203057|Sirtica; Petróleo|01012009|
+110203058|Skikda; Petróleo|01012009|
+110203059|Soyo; Petróleo|01012009|
+110203060|Soyo 38; Petróleo|01012009|
+110203061|Takula; Petróleo|01012009|
+110203062|Tchatamba; Petróleo|01012009|
+110203063|Ukpokiti; Petróleo|01012009|
+110203064|Zaire; Petróleo|01012009|
+110203065|Zafiro; Petróleo|01012009|
+110203066|Zarzaitine; Petróleo|01012009|
+110203067|Zeit Bay; Petróleo|01012009|
+110203068|Zueitina; Petróleo|01012009|
+110203069|EA Crude; Petróleo|01012009|
+110203070|Sable Crude Oil; Petróleo|01012009|
+110203071|Yoho; Petróleo|01012009|
+110203072|Amenan Blend; Petróleo|01012009|
+110203073|ABO 3; Petróleo|01012009|
+110203074|Hungo; Petróleo|01012009|
+110203075|Saltpond; Petróleo|01012009|
+110203076|Xicomba; Petróleo|01012009|
+110203077|Bonga; Petróleo|01012009|
+110203078|Mellitah; Petróleo|01012009|
+110203079|Erha; Petróleo|01012009|
+110203080|Kissanje|01012009|
+110203081|Okwori|01012009|
+110203082|Plutonio|01012009|
+110203083|Agbami|01012009|
+110203084|Kuito|01012009|
+110203085|Ceiba|01012009|
+110203086|Dalia|01012009|
+110203087|Girassol|01012009|
+110203088|El Sharara|01012009|
+110203089|Mondo|01012009|
+110203090|Saxi Blend|01012009|
+110203091|Akpo|01012009|
+110203092|Bu Attifel ; Bach Ho|01012009|
+110203093|Olowi|01012009|
+110203094|Nile Blend|01012009|
+110203095|ETAME|01122009|
+110204001|Aboozar; Petróleo|01012009|
+110204002|Abu Asafah; Petróleo|01012009|
+110204003|Alif; Petróleo|01012009|
+110204004|Arabe Extra Leve; Petróleo|01012009|
+110204005|Arabe Leve; Petróleo|01012009|
+110204006|Arabe Medio; Petróleo|01012009|
+110204007|Arabe Medio Banoco; Petróleo|01012009|
+110204008|Arabe Medio Zuluf; Petróleo|01012009|
+110204009|Arabe Pesado; Petróleo|01012009|
+110204010|Arabe Recon; Petróleo|01012009|
+110204011|Arabe Super Leve; Petróleo|01012009|
+110204012|Basrah Leve; Petróleo|01012009|
+110204013|Basrah Medio; Petróleo|01012009|
+110204014|Basrah Pesado; Petróleo|01012009|
+110204015|Burgan; Petróleo|01012009|
+110204016|Fao Blend; Petróleo|01012009|
+110204017|Dorood; Petróleo|01012009|
+110204018|Dubai; Petróleo|01012009|
+110204019|Foroozan; Petróleo|01012009|
+110204020|Gavarzin; Petróleo|01012009|
+110204021|Iraniano Leve; Petróleo|01012009|
+110204022|Iraniano Mistura; Petróleo|01012009|
+110204023|Iraniano Pesado; Petróleo|01012009|
+110204024|Jambur Bar Hassan; Petróleo|01012009|
+110204025|Kangan; Petróleo|01012009|
+110204026|Khafji; Petróleo|01012009|
+110204027|Khafji Blend; Petróleo|01012009|
+110204028|Kirkuk; Petróleo|01012009|
+110204029|Kirkuk Blend; Petróleo|01012009|
+110204030|Kuwait; Petróleo|01012009|
+110204031|Lavan Blend; Petróleo|01012009|
+110204032|Marib Light; Petróleo|01012009|
+110204033|Masila Blend; Petróleo|01012009|
+110204034|Murban; Petróleo|01012009|
+110204035|Oman; Petróleo|01012009|
+110204036|Qatar Dukhan; Petróleo|01012009|
+110204037|Qatar Land; Petróleo|01012009|
+110204038|Qatar Marine; Petróleo|01012009|
+110204039|Ratawi; Petróleo|01012009|
+110204040|Rostam; Petróleo|01012009|
+110204041|Rumaila; Petróleo|01012009|
+110204042|Salman; Petróleo|01012009|
+110204043|Sarkhoon; Petróleo|01012009|
+110204044|Sirri; Petróleo|01012009|
+110204045|Sorrosh; Petróleo|01012009|
+110204046|Souedia; Petróleo|01012009|
+110204047|Syrian Light; Petróleo|01012009|
+110204048|Umm Shaif; Petróleo|01012009|
+110204049|Upper Zakum; Petróleo|01012009|
+110204050|Zakum; Petróleo|01012009|
+110204051|DSL; Petróleo|01012009|
+110204052|Suedie; Petróleo|01012009|
+110205001|Ardjuna; Petróleo|01012009|
+110205002|Bekok; Petróleo|01012009|
+110205003|Belida; Petróleo|01012009|
+110205004|Bombay High; Petróleo|01012009|
+110205005|Brunei Light; Petróleo|01012009|
+110205006|Cinta; Petróleo|01012009|
+110205007|Daí Hung; Petróleo|01012009|
+110205008|Daquing; Petróleo|01012009|
+110205009|Labuan; Petróleo|01012009|
+110205010|Miri Leve; Petróleo|01012009|
+110205011|Nanhai Light; Petróleo|01012009|
+110205012|Pulai; Petróleo|01012009|
+110205013|Shengli; Petróleo|01012009|
+110205014|Sumatran Light; Petróleo|01012009|
+110205015|Sumatran Heavy; Petróleo|01012009|
+110205016|Taching; Petróleo|01012009|
+110205017|Tapis; Petróleo|01012009|
+110205018|Tiong; Petróleo|01012009|
+110205019|Udang; Petróleo|01012009|
+110205020|Widuri; Petróleo|01012009|
+110205021|Xijiang|01012009|
+110205022|Duri Crude Oil|01012009|
+110205023|Bach Ho|01012009|
+110205024|Condensado Senipah|01012009|30092009
+110205025|Kaji Semoga|01012009|
+110205026|Kikeh|01012009|
+110205027|Minas|01012009|
+110205028|Seria Light|01012009|
+110205029|RANG DONG|01112009|
+110206001|Beatrice; Petróleo|01012009|
+110206002|Beryl; Petróleo|01012009|
+110206003|Black Gasoil Crude Oil; Petróleo|01012009|
+110206004|Brent; Petróleo|01012009|
+110206005|Ekofish; Petróleo|01012009|
+110206006|Flotta; Petróleo|01012009|
+110206007|Flotta Ocidental; Petróleo|01012009|
+110206008|Forties; Petróleo|01012009|
+110206009|Forties Blend; Petróleo|01012009|
+110206010|Gull Falks C; Petróleo|01012009|
+110206011|Gull Falks; Petróleo|01012009|
+110206012|Oseberg; Petróleo|01012009|
+110206013|Soviet Export Blend; Petróleo|01012009|
+110206014|Statfjord Low Sulfur; Petróleo|01012009|
+110206015|Statfjord; Petróleo|01012009|
+110206016|Tengiz; Petróleo|01012009|
+110206017|Ural; Petróleo|01012009|
+110206018|Wytch Farm; Petróleo|01012009|
+110206019|Azerj Light; Petróleo|01012009|
+110206020|CPC Blend; Petróleo|01012009|
+110206021|Norne Blend|01012009|
+110206022|VITYAZ|01122010|
+110207001|Challis; Petróleo|01012009|
+110207002|Gippsland Blend; Petróleo|01012009|
+110207003|Griffin; Petróleo|01012009|
+110207004|Jabiru; Petróleo|01012009|
+110207005|Laminaria; Petróleo|01012009|
+110207006|Legendre; Petróleo|01012009|
+110207007|North West Shelf; Petróleo|01012009|
+110208001|Mistura de Petróleos Importados; Petróleo|01012009|
+110208002|Outros Petróleos Importados; Petróleo|01012009|
+110301001|Mistura de Petróleos; Petróleo|01012009|
+120101001|Merluza; Condensado|01012009|
+120102001|Condensado para Petroquímica; Condensado|01012009|
+120103001|Manati|01012009|
+120104001|CONDENSADO CAMARUPIM|01022009|
+120104002|CONDENSADO PEROA|01032011|
+120201001|Boliviano; Condensado|01012009|
+120201002|Santa Rosa; Condensado|01012009|
+120201003|Terra del Fuego; Condensado|01012009|
+120202001|Badak; Condensado|01012009|
+120202002|Carline; Condensado|01012009|
+120203001|AR-720; Condensado|01012009|
+120203002|Argelino; Condensado|01012009|
+120203003|OSO; Condensado|01012009|
+120203004|Brega|01012009|
+120203005|Mellitah|01012009|
+120203006|LION|01122012|
+120203007|ESPOIR|01032011|
+120204001|Al Khaymah; Condensado|01012009|
+120204002|Libia; Condensado|01012009|
+120204003|Margham; Condensado|01012009|
+120204004|North Field; Condensado|01012009|
+120204005|Sharjah; Condensado|01012009|
+120204006|Thamama; Condensado|01012009|
+120204007|Umm Saif; Condensado|01012009|
+120204008|Ras Gas|01012009|
+120204009|Khuff|01012009|
+120204010|DOLPHIN|01082011|
+120204010|Mellitah|01012009|30052009
+120204010|MELLITAH|01062009|30062009
+120205001|Arum; Condensado|01012009|
+120205002|Bintulu; Condensado|01012009|
+120205003|Brunei; Condensado|01012009|
+120205004|Erawan; Condensado|01012009|
+120205005|Indiano; Condensado|01012009|
+120205006|Pembina; Condensado|01012009|
+120205007|Terenganu; Condensado|01012009|
+120205008|Thai; Condensado|01012009|
+120205009|Condensado Senipah|01012009|01012009
+120205009|CONDENSADO SENIPAH|01092009|
+120205010|ANOA|01092011|
+120205011|MALAMPAYA|01042011|
+120205012|GERAGAI|01062011|
+120206001|Alba Field; Condensado|01012009|
+120206002|Sleipner; Condensado|01012009|
+120206003|Purovsky|01012009|
+120206004|SNOHVIT|01012011|
+120207001|Cossack; Condensado|01012009|
+120207002|Maui; Condensado|01012009|
+120207003|Bayu Undan|01012009|
+120207004|KITAN|01092011|
+120207005|WOOLLYBUTT CRUDE|01092011|
+130101001|Xisto Bruto; Outros Insumos Brutos|01012009|
+130201001|Outros Insumos Brutos; Outros Insumos Brutos|01012009|
+130201002|Álcool Etílico Anidro Insumo Para Biodiesel|01012009|
+130202001|Gases Liquefeitos para Reprocessamento; Outros Insumos Brutos|01012009|
+130202002|Derivados Leves para Reprocessamento; Outros Insumos Brutos|01012009|
+130202003|Derivados Médios para Reprocessamento; Outros Insumos Brutos|01012009|
+130202004|Derivados Pesados para Reprocessamento; Outros Insumos Brutos|01012009|
+130202005|Gasóleo para Reprocessamento; Outros Insumos Brutos|01012009|
+130202006|Diluente para Reprocessamento; Outros Insumos Brutos|01012009|
+130202007|Resíduo para Reprocessamento; Outros Insumos Brutos|01012009|
+130202008|Outros produtos para Reprocessamento; Outros Insumos Brutos|01012009|
+140101001|Óleo de Mamona (Ricinus Communis); Biodiesel|01012009|
+140101002|Óleo de Palmiste; Biodiesel|01012009|
+140101003|Óleo de Palma/Dendê (Elaeis guineensis ou Elaeis oleifera); Biodiesel|01012009|
+140101004|Óleo de Soja (Glycine max); Biodiesel|01012009|
+140101005|Óleo de Babaçu (Orbinya martiana); Biodiesel|01012009|
+140101006|Óleo de Colza/Canola (Bressica campestris); Biodiesel|01012009|
+140101007|Óleo de Pinhão-Manso; Biodiesel|01012009|
+140101008|Óleo de Pequi (Jatropha curcas); Biodiesel|01012009|
+140101009|Óleo de Algodão (Gossypium hirsut); Biodiesel|01012009|
+140101010|Óleo de Girassol (Hellanthus annus); Biodiesel|01012009|
+140101011|Óleo de Nabo-forrageiro; Biodiesel|01012009|
+140101012|Óleo de Linhaça; Biodiesel|01012009|
+140101013|Óleo de Macaúba; Biodiesel|01012009|
+140101014|Óleo de Buriti; Biodiesel|01012009|
+140101015|Óleo de Abacate (Persia americana); Biodiesel|01012009|
+140101016|Óleo de Amendoim (Orachis hypogeae); Biodiesel|01012009|
+140101017|Óleo de Andiroba (Carapa guianersis); Biodiesel|01012009|
+140101018|Óleo de Coco (Cocus numifera); Biodiesel|01012009|
+140101019|Óleo de Sésamo (Sesamun indicum); Biodiesel|01012009|
+140101020|Sebo; Biodiesel|01012009|01102009
+140101021|Òleo de fritura usado; Biodiesel|01012009|
+140101022|Outros Materiais Graxos; Biodiesel|01012009|
+140101023|Gordura Bovina|01012009|
+140101024|Gordura De Frango|01012009|
+140101025|Gordura De Porco|01012009|
+140101026|ÁCIDO GRAXO DE ÓLEO DE SOJA|01012009|
+140101027|ÁCIDO GRAXO DE ÓLEO DE PALMA / DENDÊ|01012010|
+140101029|OUTROS ÁCIDOS GRAXOS|01122010|
+140102001|ÉSTER METÍLICO|01012011|
+210101001|Gás Combustível; Gases|01012009|
+210201001|Propano; Gases|01012009|
+210201002|Propano especial; Gases|01012009|
+210201003|Propeno; Gases|01012009|
+210202001|Butano; Gases|01012009|
+210202002|Butano especial; Gases|01012009|
+210202003|Butadieno; Gases|01012009|
+210203001|GLP; Gases|01012009|
+210203002|GLP fora de especificação; Gases|01012009|
+210204001|Gás Liquefeito Intermediário; Gases|01012009|
+210204002|Outros Gases Liquefeitos; Gases|01012009|
+210301001|Etano; Gases|01012009|
+210301002|Eteno; Gases|01012009|
+210302001|Outros Gases; Gases|01012009|
+210302002|Gás Intermediário; Gases|01012009|
+210302003|Gás de Xisto; Gases|01012009|
+210302004|Gás Ácido; Gases|01012009|
+220101001|Gás Natural Úmido; Gás Natural|01012009|
+220101002|Gás Natural Seco; Gás Natural|01012009|
+220101003|Gás Natural Comprimido; Gás Natural|01012009|
+220101004|Gás Natural Liquefeito; Gás Natural|01012009|
+220101005|Gás Natural Veicular; Gás Natural|01012009|
+220101006|Gás Natural Veicular Padrão; Gás Natural|01012009|
+220102001|Gasolina Natural (C5+); Gás Natural|01012009|
+220102002|Líquido de Gás Natural; Gás Natural|01012009|
+310101001|Nafta petroquímica; Nafta|01012009|
+310102001|Nafta de Xisto; Nafta|01012009|
+310102002|Outras Naftas; Nafta|01012009|
+310103001|Nafta fora de especificação; Nafta|01012009|
+320101001|Gasolina A Comum; Gasolinas|01012009|
+320101002|Gasolina A Premium; Gasolinas|01012009|
+320101003|Gasolina A fora de especificação; Gasolinas|01012009|
+320102001|Gasolina C Comum; Gasolinas|01012009|
+320102002|Gasolina C Aditivada; Gasolinas|01012009|
+320102003|Gasolina C Premium; Gasolinas|01012009|
+320102004|Gasolina C fora de especificação; Gasolinas|01012009|
+320103001|Gasolina Automotiva Padrão; Gasolinas|01012009|30112015
+320103002|Outras Gasolinas Automotivas; Gasolinas|01012009|
+320201001|Gasolina de Aviação; Gasolinas|01012009|
+320201002|Gasolina de Aviação fora de especificação; Gasolinas|01012009|
+320301001|Outras Gasolinas; Gasolinas|01012009|
+320301002|Gasolina para exportação; Gasolinas|01012009|
+330101001|Aguarrás Mineral; Solventes|01012009|
+330101002|Hexano; Solventes|01012009|
+330101003|Diluente de tintas; Solventes|01012009|
+330101004|Solvente para borracha; Solventes|01012009|
+330101005|Rafinado de Pirólise; Solventes|01012009|
+330101006|Rafinado de Reforma; Solventes|01012009|
+330101007|Outros solventes alifáticos; Solventes|01012009|
+330101008|Heptano; Solventes|01012009|
+330101009|HEXENO|01012009|
+330101010|ISOPENTANO|01082009|
+330201001|Benzeno; Solventes|01012009|
+330201002|Tolueno; Solventes|01012009|
+330201003|Xilenos; Solventes|01012009|
+330201004|Alquilbenzeno AB9; Solventes|01012009|
+330201005|Alquilbenzeno AB10; Solventes|01012009|
+330201006|Alquilbenzeno AB11; Solventes|01012009|
+330201007|C9 Dihidrogenado (ou C9 de Pirólise); Solventes|01012009|
+330201008|Solvente C9 (ou C9 aromático); Solventes|01012009|01102009
+330201009|Outros solventes aromáticos; Solventes|01012009|
+330201010|ETILBENZENO|01022010|
+340101001|Reformados; Outros Derivados Leves|01012009|01102009
+340101002|Derivados Leves Intermediários; Outros Derivados Leves|01012009|
+340101003|Outros Derivados Leves; Outros Derivados Leves|01012009|
+410101001|Querosene de Aviação; Querosenes|01012009|
+410101002|Querosene de Aviação fora de especificação; Querosenes|01012009|
+410102001|Querosene Iluminante; Querosenes|01012009|
+410102002|Querosene Iluminante fora de especificação; Querosenes|01012009|
+410103001|Outros Querosenes; Querosenes|01012009|
+420101001|Óleo Diesel Interior (B) Comum; Óleo Diesel|01012009|01102009
+420101002|Óleo Diesel Interior (B) Aditivado; Óleo Diesel|01012009|01102009
+420101003|ÓLEO DIESEL A S1800 - FORA DE ESPECIFICAÇÃO|01012010|31122013
+420101003|Óleo Diesel Interior fora de especificação; Óleo Diesel|01012009|31122009
+420101004|ÓLEO DIESEL A S1800 - COMUM|01012010|31122013
+420101004|Óleo Diesel Interior Comum - Enxofre 2000 ppm; Óleo Diesel|01012009|31122009
+420101005|ÓLEO DIESEL A S1800 - ADITIVADO|01012010|31122013
+420101005|Óleo Diesel Interior Aditivado - Enxofre 2000 ppm; Óleo Diesel|01012009|31122009
+420102001|Óleo Diesel Metropolitano (D) Comum; Óleo Diesel|01012009|01102009
+420102002|Óleo Diesel Metropolitano (D) Aditivado; Óleo Diesel|01012009|01102009
+420102003|ÓLEO DIESEL A S500 - FORA DE ESPECIFICAÇÃO|01012010|
+420102003|Óleo Diesel Metropolitano fora de especificação; Óleo Diesel|01012009|31122009
+420102004|ÓLEO DIESEL A S500 - COMUM|01012010|
+420102004|Óleo Diesel Metropolitano Comum - Enxofre 500 ppm; Óleo Diesel|01012009|31122009
+420102005|ÓLEO DIESEL A S500 - ADITIVADO|01012010|
+420102005|Óleo Diesel Metropolitano Aditivado - Enxofre 500 ppm; Óleo Diesel|01012009|31122009
+420102006|ÓLEO DIESEL A S50|01012010|
+420102006|Óleo Diesel S50|01012009|31122009
+420103001|Óleo Diesel S500 Comum; Óleo Diesel|01012009|01102009
+420103002|Óleo Diesel S500 Aditivado; Óleo Diesel|01012009|01102009
+420103003|Óleo Diesel S500 fora de especificação; Óleo Diesel|01012009|01102009
+420104001|Óleo Diesel Automotivo Especial - Enxofre 200 PPM|01012009|
+420105001|ÓLEO DIESEL A S10|01112011|30112012
+420105001|Óleo Diesel A S10|01122012|
+420201001|Óleo Diesel Marítimo; Óleo Diesel|01012009|
+420201002|Óleo Diesel Marítimo fora de especificação; Óleo Diesel|01012009|
+420201003|MGO; Óleo Diesel|01012009|
+420202001|Óleo Diesel Náutico Especial - Enxofre 200 Ppm|01012009|
+420301001|Óleo Diesel Padrão; Óleo Diesel|01012009|
+420301002|Outros Óleos Diesel; Óleo Diesel|01012009|
+420301003|Óleo diesel fora de especificação; Óleo Diesel|01012009|
+430101001|Normal Parafinas; Outros Derivados Médios|01012009|
+430101002|Derivados Médios Intermediários; Outros Derivados Médios|01012009|
+430101003|Outros Derivados Médios; Outros Derivados Médios|01012009|
+430101004|Óleo Leve para Turbina Elétrica; Outros Derivados Médios|01012009|
+510101001|Óleo Combustível A1; Óleos Combustíveis|01012009|
+510101002|Óleo Combustível A2; Óleos Combustíveis|01012009|
+510101003|Óleo Combustível A fora de especificação; Óleos Combustíveis|01012009|
+510102001|Óleo Combustível B1; Óleos Combustíveis|01012009|
+510102002|Óleo Combustível B2; Óleos Combustíveis|01012009|
+510102003|Óleo Combustível B fora de especificação; Óleos Combustíveis|01012009|
+510201001|Óleo Combustível Marítimo; Óleos Combustíveis|01012009|
+510201002|Óleo Combustível Marítimo fora de especificação; Óleos Combustíveis|01012009|
+510201003|Óleo Combustível Marítimo Mistura (MF); Óleos Combustíveis|01012009|
+510301001|Outros Óleos Combustíveis; Óleos Combustíveis|01012009|
+510301002|Óleos Combustíveis para exportação; Óleos Combustíveis|01012009|
+510301003|Óleo Combustível para Geração Elétrica; Óleos Combustíveis|01012009|
+520101001|Gasóleos; Gasóleos|01012009|
+530101001|Cimentos asfáticos; Asfaltos|01012009|
+530101002|Asfaltos diluídos; Asfaltos|01012009|
+530101003|Emulsões asfálticas; Asfaltos|01012009|
+530101018|Cimentos asfálticos de petróleo modificados por polímeros SBS|01112009|
+530101019|Emulsões asfálticas catiônicas modificadas por polímeros|01112009|
+530101020|Cimentos Asfálticos de petróleo modificados por borracha moída de pneus (asfalta borracha)|01112009|
+530102001|Asfalto natural; Asfaltos|01012009|
+530103001|Outros Asfaltos; Asfaltos|01012009|
+530104001|Outros Insumos para Asfaltos; Asfaltos|01012009|
+540101001|Coque Verde; Coque|01012009|
+540101002|Coque Calcinado; Coque|01012009|
+550101001|Resíduo Aromático (RARO); Resíduos Pesados|01012009|
+550101002|Resíduo Atmosférico (RAT); Resíduos Pesados|01012009|
+550101003|Resíduo de Vácuo; Resíduos Pesados|01012009|
+550101004|Resíduo de Vácuo de alto teor de enxogre; Resíduos Pesados|01012009|
+550101005|Resíduo Asfáltico(RASF); Resíduos Pesados|01012009|
+560101001|Óleo de Xisto; Outros Derivados Pesados|01012009|
+560101002|Derivados Pesados Intermediários; Outros Derivados Pesados|01012009|
+560101003|Outros Derivados Pesados; Outros Derivados Pesados|01012009|
+610101001|Spindle; Óleos Lubrificantes Básicos|01012009|
+610101002|Neutro Leve; Óleos Lubrificantes Básicos|01012009|
+610101003|Neutro Médio; Óleos Lubrificantes Básicos|01012009|
+610101004|Neutro Pesado; Óleos Lubrificantes Básicos|01012009|
+610101005|Cilindro I; Óleos Lubrificantes Básicos|01012009|
+610101006|Cilindro II; Óleos Lubrificantes Básicos|01012009|
+610101007|Turbina Leve; Óleos Lubrificantes Básicos|01012009|
+610101008|Turbina Pesado; Óleos Lubrificantes Básicos|01012009|
+610101009|Bright Stock; Óleos Lubrificantes Básicos|01012009|
+610101010|Outros Parafínicos; Óleos Lubrificantes Básicos|01012009|
+610201001|Hidrogenado Leve; Óleos Lubrificantes Básicos|01012009|
+610201002|Hidrogenado Médio; Óleos Lubrificantes Básicos|01012009|
+610201003|Hidrogenado Pesado; Óleos Lubrificantes Básicos|01012009|
+610201004|Outros Naftênicos; Óleos Lubrificantes Básicos|01012009|
+610301001|Polialfaolefina; Óleos Lubrificantes Básicos|01012009|
+610301002|Outros Sintéticos; Óleos Lubrificantes Básicos|01012009|
+610302001|Outros Sintéticos|01012009|31082009
+610302001|OUTROS SINTÉTICOS|01092009|
+610401001|Spindle RR; Óleos Lubrificantes Básicos|01012009|
+610401002|Neutro Leve RR; Óleos Lubrificantes Básicos|01012009|
+610401003|Neutro Médio RR; Óleos Lubrificantes Básicos|01012009|
+610401004|Neutro Pesado RR; Óleos Lubrificantes Básicos|01012009|
+610501001|Outros Óleos Lubrificantes Básicos; Óleos Lubrificantes Básicos|01012009|
+610601001|Óleos Básicos - Grupo Ii|01012009|30082009
+610601001|ÓLEOS BÁSICOS - GRUPO II|01092009|
+610701001|Óleos Básicos - Grupo Iii|01012009|30082009
+610701001|ÓLEOS BÁSICOS - GRUPO III|01092009|
+620101001|Hidráulico; Óleos Lubrificantes Acabados|01012009|
+620101002|Engrenagens e sistemas circulatórios; Óleos Lubrificantes Acabados|01012009|
+620101003|Processo; Óleos Lubrificantes Acabados|01012009|
+620101004|Isolante Tipo A; Óleos Lubrificantes Acabados|01012009|
+620101005|Isolante Tipo B; Óleos Lubrificantes Acabados|01012009|
+620101006|Têxtil / Amaciante de fibras; Óleos Lubrificantes Acabados|01012009|
+620101007|Estampagem; Óleos Lubrificantes Acabados|01012009|
+620101008|Outros Óleos Lubrificantes Industriais; Óleos Lubrificantes Acabados|01012009|
+620201001|Óleos Lubrificantes para Aviação; Óleos Lubrificantes Acabados|01012009|
+620301001|Óleos Lubrificantes Marítimos; Óleos Lubrificantes Acabados|01012009|
+620401001|Óleos Lubrificantes Ferroviários; Óleos Lubrificantes Acabados|01012009|
+620501001|Ciclo Otto; Óleos Lubrificantes Acabados|01012009|
+620501002|Ciclo Diesel; Óleos Lubrificantes Acabados|01012009|
+620502001|Motores 2 tempos; Óleos Lubrificantes Acabados|01012009|
+620503001|Transmissões e sistemas hidráulicos; Óleos Lubrificantes Acabados|01012009|
+620504001|Transmissão automática; Óleos Lubrificantes Acabados|01012009|
+620505001|Outros Óleos Lubrificantes Automotivos; Óleos Lubrificantes Acabados|01012009|
+620601001|Óleos Extensores e Plastificantes; Óleos Lubrificantes Acabados|01012009|
+620601002|Pulverização Agrícola; Óleos Lubrificantes Acabados|01012009|
+620601003|Corrente de Motosserra; Óleos Lubrificantes Acabados|01012009|
+620601004|Outros Óleos Lubrificantes Acabados; Óleos Lubrificantes Acabados|01012009|
+630101001|Óleos Lubrificantes Usados ou Contaminados; Óleos Lubrificantes Usados ou Contaminados|01012009|
+640101001|Microoleosas; Parafinas|01012009|
+640201001|Macrooleosas; Parafinas|01012009|
+640301001|Vaselina; Parafinas|01012009|
+640401001|Outras Parafinas; Parafinas|01012009|
+650101001|Graxas Minerais; Graxas|01012009|
+650101002|Outras Graxas; Graxas|01012009|
+660101001|Óleos Lub. Paraf e Graxas Intermediários; Outros Óleos Lub. Paraf. e Graxas|01012009|
+710101001|Hidrogênio; Hidrogênio|01012009|
+720101001|Enxofre líquido; Enxofre|01012009|
+720101002|Enxofre sólido; Enxofre|01012009|
+730101001|Outros Sub-Produtos; Outros Sub-Produtos|01012009|
+730101002|Glicerina; Outros Sub-Produtos|01012009|
+740101001|Aditivos para gasolina; Aditivos|01012009|
+740101002|Aditivos para óleo diesel; Aditivos|01012009|
+740101003|Outros aditivos; Aditivos|01012009|
+740101004|Aditivos para Álcool Hidratado; Aditivos|01012009|
+740101005|Aditivos para biodiesel; Aditivos|01012009|
+740101006|Aditivos para Lubrificantes; Aditivos|01012009|
+740101007|Metil Terc Butil Eter - MTBE; Aditivos|01012009|
+810101001|Álcool Etílico Hidratado Comum; Álcool|01012009|
+810101002|Álcool Etílico Hidratado Aditivado; Álcool|01012009|
+810101003|Álcool Etílico Hidratado fora de especificação; Álcool|01012009|
+810102001|Álcool Etílico Anidro; Álcool|01012009|
+810102002|Álcool Etílico Anidro fora de especificação; Álcool|01012009|
+810102003|Álcool Etílico Anidro Padrão; Álcool|01012009|
+810102004|Álcool Etílico Anidro com corante; Álcool|01012009|
+810201001|Álcool Metílico; Álcool|01012009|
+810201002|Outros Alcoóis; Álcool|01012009|
+820101001|Biodiesel B100; Biodiesel|01012009|
+820101002|DIESEL B4 INTERIOR COMUM|01072009|31122009
+820101002|DIESEL B4 S1800 - COMUM|01012010|31122012
+820101002|Mistura Óleo Diesel (98%) / biodiesel (2%) B2 - Interior Comum; Biodiesel|01012009|30062009
+820101003|MIST. DIESEL-95% / BIODIESEL-5% - B5 INT COMUM; Biodiesel|01012009|31122009
+820101003|ÓLEO DIESEL B S1800 - COMUM|01012010|31122013
+820101004|Mistura óleo diesel (90%) / biodiesel (10%) - B10; Biodiesel|01012009|
+820101005|Mistura óleo diesel (85%) / biodiesel (15%) - B15; Biodiesel|01012009|
+820101006|DIESEL B20 S1800 - COMUM|01012010|31122013
+820101006|MIST. DIESEL-80% / BIODIESEL-20% - B5 INT COMUM; Biodiesel|01012009|31122009
+820101007|DIESEL B4 INTERIOR ADITIVADO|01072009|31122009
+820101007|DIESEL B4 S1800 - ADITIVADO|01012010|31122012
+820101007|Mistura Óleo Diesel (98%) / biodiesel (2%) B2 - Interior aditivado; Biodiesel|01012009|30062009
+820101008|DIESEL B4 METROPOLITANO COMUM|01072009|31122009
+820101008|DIESEL B4 S500 - COMUM|01012010|
+820101008|Mistura Óleo Diesel (98%) / biodiesel (2%) B2 - metropolitano Comum; Biodiesel|01012009|30062009
+820101009|DIESEL B4 METROPOLITANO ADITIVADO|01072009|31122009
+820101009|DIESEL B4 S500 - ADITIVADO|01012010|
+820101009|Mistura Óleo Diesel (98%) / biodiesel (2%) B2 - Metropolitano Aditivado; Biodiesel|01012009|30062009
+820101010|Biodiesel fora de especificação; Biodiesel|01012009|
+820101011|MIST. DIESEL-95% / BIODIESEL-5% - B5 INT ADITIVADO; Biodiesel|01012009|31122009
+820101011|ÓLEO DIESEL B S1800 - ADITIVADO|01012010|31122013
+820101012|MIST. DIESEL-95% / BIODIESEL-5% - B5 MET COMUM; Biodiesel|01012009|31122009
+820101012|ÓLEO DIESEL B S500 - COMUM|01012010|
+820101013|MIST. DIESEL-95% / BIODIESEL-5% - B5 MET ADITIVADO; Biodiesel|01012009|31122009
+820101013|ÓLEO DIESEL B S500 - ADITIVADO|01012010|
+820101014|DIESEL B20 S1800 - ADITIVADO|01012010|31122013
+820101014|MIST. DIESEL-80% / BIODIESEL-20% - B20 INT ADITIV; Biodiesel|01012009|31122009
+820101015|DIESEL B20 S500 - COMUM|01012010|
+820101015|MIST. DIESEL-80% / BIODIESEL-20% - B20 MET COMUM; Biodiesel|01012009|31122009
+820101016|DIESEL B20 S500 - ADITIVADO|01012010|
+820101016|MIST. DIESEL-80% / BIODIESEL-20% - B20 MET ADITIV; Biodiesel|01012009|31122009
+820101017|DIESEL MARÍTIMO - DMA B2|01012009|
+820101018|Diesel Marítimo - Dma B5|01012009|
+820101019|Diesel Marítimo - Dmb B2|01012009|
+820101020|Diesel Marítimo - Dmb B5|01012009|
+820101021|Diesel Náutico B2 Especial - 200 Ppm Enxofre|01012009|
+820101022|DIESEL B2 ESPECIAL - 200 PPM ENXOFRE|01012009|
+820101025|Diesel B30|01012009|
+820101026|DIESEL B S1800 PARA GERAÇÃO DE ENERGIA ELÉTRICA|01012010|31122013
+820101026|Diesel B4 Interior Para Geração De Energia Elétrica|01012009|30062009
+820101026|DIESEL B4 INTERIOR PARA GERAÇÃO DE ENERGIA ELÉTRICA|01072009|31122009
+820101027|DIESEL B S500 PARA GERAÇÃO DE ENERGIA ELÉTRICA|01012010|
+820101027|Diesel B4 Metropolitano Para Geração De Energia Elétrica|01012009|30062009
+820101027|DIESEL B4 METROPOLITANO PARA GERAÇÃO DE ENERGIA ELÉTRICA|01072009|31122009
+820101028|DIESEL B3 S50 ADITIVADO|01012009|30062009
+820101028|DIESEL B4 S50 ADITIVADO|01072009|31122009
+820101028|ÓLEO DIESEL B S50 - ADITIVADO|01012010|
+820101029|DIESEL B3 S50 COMUM|01012009|30062009
+820101029|DIESEL B4 S50 COMUM|01072009|31122009
+820101029|ÓLEO DIESEL B S50 - COMUM|01012010|
+820101030|Diesel B20 S50 Comum|01012009|31082009
+820101030|DIESEL B20 S50 COMUM|01092009|
+820101031|Diesel B20 S50 Aditivado|01012009|31082009
+820101031|DIESEL B20 S50 ADITIVADO|01092009|
+820101032|DIESEL B S50 PARA GERAÇÃO DE ENERGIA ELÉTRICA|01112010|
+820101033|ÓLEO DIESEL B S10 - ADITIVADO|01112011|
+820101034|ÓLEO DIESEL B S10 - COMUM|01112011|
+910101001|Água|01012009|
+650101004|GRAXAS DE CALCIO|01012015|
+650101003|GRAXAS DE LITIO|01012015|
+110207008|PLUTO CONDENSADO ; PETRÓLEO|01032013|
+110203100|USAN BLEND ; PETRÓLEO|01032013|
+110206027|VARANDEY ; PETRÓLEO|01032013|
+120207006|VARANUS ; CONDENSADO|01032013|
+110206026|ZAKINSKAYA ; PETRÓLEO|01032013|
+140101030|ÓLEO DE MILHO ; RENOVAVEIS|01042013|
+820101026|DIESEL B S1800 NÃO RODOVIÁRIO PARA GERAÇÃO DE ENERGIA ELÉTRICA ; BIODIESEL|01012014|
+820101014|DIESEL B20 S1800 NÃO RODOVIÁRIO - ADITIVADO ; BIODIESEL|01012014|
+820101006|DIESEL B20 S1800 NÃO RODOVIÁRIO - COMUM ; BIODIESEL|01012014|
+420101005|ÓLEO DIESEL A S1800 NÃO RODOVIÁRIO - ADITIVADO ; ÓLEO DIESEL|01012014|
+420101004|ÓLEO DIESEL A S1800 NÃO RODOVIÁRIO - COMUM ; ÓLEO DIESEL|01012014|
+420101003|ÓLEO DIESEL A S1800 NÃO RODOVIÁRIO - FORA DE ESPECIFICAÇÃO ; ÓLEO DIESEL|01012014|
+820101011|ÓLEO DIESEL B S1800 NÃO RODOVIÁRIO - ADITIVADO ; BIODIESEL|01012014|
+820101003|ÓLEO DIESEL B S1800 NÃO RODOVIÁRIO - COMUM ; BIODIESEL|01012014|
+110201067|ALEN CONDENSATE ; PETRÓLEO|01062014|
+110207010|BALNAVES ; PETRÓLEO|01062014|
+110205034|CHAMPION ; PETRÓLEO|01062014|
+110205031|CHIM SÃO ; PETRÓLEO|01062014|
+110205035|DULANG ; PETRÓLEO|01062014|
+110203104|EBOME ; PETRÓLEO|01062014|
+110201068|HIDES ; PETRÓLEO|01062014|
+110205036|LALANG ; PETRÓLEO|01062014|
+120203008|MISKAR ; CONDENSADO|01062014|
+110207009|MUTINEER ; PETRÓLEO|01062014|
+110205033|OYONG ; PETRÓLEO|01062014|
+110203102|PAZFLOR ; PETRÓLEO|01062014|
+110205032|PENARA BLEND ; PETRÓLEO|01062014|
+110203101|QUARUN ; PETRÓLEO|01062014|
+110203103|SATURNO BLEND ; PETRÓLEO|01062014|
+110204055|SOUTHERN PARS ; PETRÓLEO|01062014|
+110204054|TAQ TAQ ; PETRÓLEO|01062014|
+110202010|WHITE ROSE ; PETRÓLEO|01062014|
+420106001|ÓLEO DIESEL B S10 AMD 10 ; ÓLEO DIESEL|01122014|
+420106002|ÓLEO DIESEL B S500 AMD 10 ; ÓLEO DIESEL|01122014|
+830101001|ÓLEO DIESEL DE CANA AMD 100 ; ÓLEO DIESEL ALTERNATIVO|01122014|
+611301001|ÓLEOS BÁSICOS - GRUPO I ; ÓLEOS LUBRIFICANTES BÁSICOS|01012015|
+610801001|BRIGHT STOCK ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610811001|BS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812001|BS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610803003|BS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610805001|BS 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806003|BS 2500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610802001|CALPAR 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610802002|CALPAR 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610804001|CONOSOL 260 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806006|CORE 100 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806007|CORE 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806008|CORE 2500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806009|CORE 600 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610903001|EHC 45 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610903002|EHC 60 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611003001|ETRO 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611003002|ETRO 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611003003|ETRO 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610904001|FLINT HILLS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610808001|HVI 120 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610808002|HVI 60 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611201002|MVI (N) 40 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611201003|MVI 1050 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611201001|MVI(N) 170 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610803002|N 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207003|NAFTALENOS ALQUILADOS (AN) ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610801002|NEUTRAL OIL 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610801004|NEUTRAL OIL 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610801005|NEUTRAL OIL 60 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610801003|NEUTRAL OIL300 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610905001|NEUTRAL 110 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610813002|NEUTRO LEVE RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610906002|NEUTRO LEVE RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610813003|NEUTRO MÉDIO RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610906003|NEUTRO MÉDIO RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610906004|NEUTRO PESADO RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610813004|NEUTRO PESADO RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611102001|NEXBASE 2002 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611102002|NEXBASE 2004 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611102003|NEXBASE 2006 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611102004|NEXBASE 2008 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611001001|NEXBASE 3030 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611001002|NEXBASE 3043 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611001003|NEXBASE 3050 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611001004|NEXBASE 3060 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611001005|NEXBASE 3080 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611202001|NH 10 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611202002|NH 140 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611202003|NH 20 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611203002|NYNAS T22 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207002|ÓLEO MINERAL BRANCO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207004|ÓLEOS VEGETAIS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610907001|OUTRO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610814001|OUTRO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611107001|OUTRO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611007001|OUTRO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207006|OUTRO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207001|OUTROS ÉSTERES SINTÉTICOS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611103001|PAO 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611106002|PAO 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611104001|PAO 40 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611106003|PAO 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101007|PAO 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611106001|PAO 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809002|PBS 30 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809001|PBS 33 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809003|PCL 45 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809004|PCL 60 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611204001|PIB 24 - POLIBUTENO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611207005|PLIGLICÓIS ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809005|PNL 30 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809006|PNM 55 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809007|PNM 80 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809008|PNP 95 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611206001|PRIOLUBE 3970 - ÉSTER ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611206002|PRIOLUBE 3999 - ÉSTER ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809009|PSP 09 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809010|PTL 25 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610809011|PTP 85 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610811002|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806001|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610807001|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610805002|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610810001|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610803001|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812002|SN 150 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806004|SN 275 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812003|SN 330 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806005|SN 330 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610811003|SN 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610810002|SN 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610807002|SN 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610805003|SN 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812004|SN 500 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812005|SN 600 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610806002|SN 600 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610812006|SN 85 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101001|SPECTRASYN 100 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101002|SPECTRASYN 2 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101003|SPECTRASYN 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101004|SPECTRASYN 40 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101005|SPECTRASYN 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611101006|SPECTRASYN 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610906001|SPINDLE RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610813001|SPINDLE RR ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611203001|SR 130 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610905002|STAR 10 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610905003|STAR 12 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610905004|STAR 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610905005|STAR 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611105001|SYNFLUID PAO 100 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611105002|SYNFLUID PAO 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611105003|SYNFLUID PAO 40 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611105004|SYNFLUID PAO 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611105005|SYNFLUID PAO 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611203003|T 9 - NAFTÊNICO ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611004001|ULTRA-S 2 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611004002|ULTRA-S 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611004003|ULTRA-S 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611004004|ULTRA-S 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611002001|VHVI 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611002002|VHVI 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611002003|VHVI 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611205001|VISTONE A-10 - ÉSTER ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611005001|XHVI 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611005002|XHVI 8 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611006001|YUBASE 3 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611006002|YUBASE 4 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+611006003|YUBASE 6 ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610902001|100N ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610901005|100N ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|31032015
+610901001|100R ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610901002|150R ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610901003|220R ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610902002|225N ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610902003|600N ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+610901004|600R ; ÓLEOS LUBRIFICANTES BÁSICOS|01032015|
+420301004|OLEO DIESEL DE REFERÊNCIA S300 ; ÓLEO DIESEL|01052015|
+110205037|BARANTAI ; PETRÓLEO|01092015|
+110202011|CASCADE CHINOOK ; PETRÓLEO|01092015|
+110201069|MAYNA ; PETRÓLEO|01092015|
+110104009|GAIVOTA ; PETRÓLEO|01102015|
+320103001|GASOLINA DE REFERÊNCIA ; GASOLINAS|01122015|
+510103001|ÓLEO COMBUSTÍVEL 3 (OC3) ; ÓLEOS COMBUSTÍVEIS|01012016|

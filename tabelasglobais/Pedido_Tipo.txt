@@ -1,0 +1,31 @@
+id	codigo	descricao	tipooperacaofiscal	tipo_preco_pedido      	per_preco	indicador_presenca_nfe	indicador_presenca_nfce	mensagem_padrao	natureza_custos	centro_custo	cfop	quantidade_zero	altera_precos	transferencia      	tipo_de_pagamento	prazo_de_pagamento	tipo_entrega
+	1101	COMPRA DE MERCADORIA COMERCIO           	1	V            	               	N 			110020	1				N            			
+	1111	CONTAGEM FISICA ESTOQUE  - ENTRADAS             	10	V            	               	S 			110020	1				0			
+	1202	ENTRADA DE DEVOLUCAO DE CLIENTES           	2	V            	               	N 			110020	1				0			
+	1202	ENTRADA DE TRANSFERENCIA           	5	C            	               	N 			110020	1				F            			
+	1900	ENTRADA SIMPLES REMESSA                         	7	V            	               	N 			110020	1				N            			
+	1910	ENTRADA BONIFICACAO/DOACAO/BRINDE               	6	V            	               	N 			110020	1				N            			
+	1912	ENTRADA DE EMPRESTIMO OU DEMONSTRACAO                    	17	V            	               	S 			110020	1				0			
+	1913	DEVOLUCAO DE EMPRESTIMO OU DEMONSTRACAO          	18	V            	               	S 			110020	1				0			
+	1926	ENTRADA  KIT CFOP 5926 -> 1926 AUTOMATICO  	44	V            	               	S 			110020	1				0			
+	3102	IMPORTACAO C/EMISSAO NF ENTRADA 3102    	63	V            	               	N 			110020	1				N            			
+	5001	VENDAS CUPOM NFCE                       	65	V            	               	N 			110020	1				0			
+	5002	VENDA DE VEICULOS                      	77	V            	               	S 			110020	1				0			
+	5051	PECAS E SERVICOS OFICINA                	51	V            	               	N 			110020	1				0			
+	5055	REQUIS. P/PRODUCAO                      	55	V            	               	S 			110020	1				0			
+	5060	REQUISICAO P/PRODUCAO INDUSTRIA         	60	V            	               	S 			110020	1				0			
+	5061	COMPLEMENTO DE ICMS                     	61	V            	               	N 			110020	1				0			
+	5062	COMPLEMENTO DE IPI                      	62	V            	               	N 			110020	1				0			
+	5100	 VENDAS ECF/CUPOM FISCAL                	4	V            	               	N 			110020	1				0			
+	5101	*VENDA DE MERCADORIA COMERCIO           	1	V            	               	N 			110020	1				N            			
+	5102	 VENDAS NO BALCAO                       	3	V            	               	N 			110020	1				0			
+	5152	SAIDA DE TRANSFERENCIA                      	5	C            	               	N 			110020	1				F            			
+	5202	SAIDA DEVOLUCAO AO FORNECEDOR                 	2	V            	               	N 			110020	1				0			
+	5555	CONTAGEM FISICA ESTOQUE                 	10	V            	               	S 			110020	1				0			
+	5555	CONTAGEM FISICA ESTOQUE - SAIDAS                 	10	V            	               	S 			110020	1				0			
+	5900	SIMPLES REMESSA                         	7	V            	               	N 			110020	1				N            			
+	5910	BONIFICACAO/DOACAO/BRINDE               	6	V            	               	N 			110020	1				N            			
+	5910	SAIDAS DE DOACOES                       	11	V            	               	S 			110020	1				0			
+	5912	SAIDA PARA EMPRESTIMO OU DEMONSTRACAO                 	17	V            	               	S 			110020	1				0			
+	5926	SAIDA KIT CFOP 5926 -> 1926 AUTOMATICO  	44	V            	               	S 			110020	1				0			
+	7102	EXPORTACAO C/EMISSAO NF SAIDA 7102     6	64	V            	               	N 			110020	1				N            			

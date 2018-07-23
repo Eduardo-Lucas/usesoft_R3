@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/tabelasglobais/CST_PIS.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/Cest Substituicao Tributaria.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/Municipios_Ibge.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/TABELA_CODIGOS_MUNICIPIOS_IBGE.TXT" charset="UTF-32" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/TABELA_PAISES_IBGE.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/TABELA_SITUACAO_TRIBUTARIA_ICMS.TXT" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/TABELA_SITUACAO_TRIBUTARIA_IPI.TXT" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/TABELA_UF_SIGLAS.TXT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/cfop.csv" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/cfop.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/tabela_codigos_municipios_ibge.csv" charset="UTF-32" />
+    <file url="file://$PROJECT_DIR$/tabelasglobais/tabela_paises_ibge.csv" charset="windows-1252" />
+  </component>
+</project>

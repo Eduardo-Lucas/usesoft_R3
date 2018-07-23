@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usesoft_R3/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#226#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Reg</find>
+      <find>verbose</find>
+      <find>GrupoParticipante</find>
+      <find>class Produto</find>
+      <find>MensagemPadrao</find>
+      <find>class ProdutoTri</find>
+      <find>class SituacaoTrib</find>
+      <find>modelodocumento</find>
+      <find>situacaodocumentosped</find>
+      <find>=20</find>
+      <find>preco_venda</find>
+      <find>class PedidoWebItem(</find>
+      <find>desconto</find>
+      <find>total_produto</find>
+      <find>100</find>
+      <find>validator</find>
+      <find>validators=</find>
+      <find>validate</find>
+      <find>perc_desc</find>
+      <find>excedeu_limite_maximo</find>
+      <find>percentual_maximo_desconto</find>
+      <find>class PedidoWebI</find>
+      <find>pedidoweb_list</find>
+      <find>static</find>
+      <find>email_info</find>
+      <find>class PedidoWeb(</find>
+      <find>django_filter</find>
+      <find>wsgi</find>
+      <find>wsgi.py</find>
+      <find>Preço Total</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>choices=STATUS_PEDIDO_ITEM_CHOICES</replace>
+      <replace>choices=INDICADOR_FRETE_CHOICES</replace>
+      <replace>choices=TIPO_FRETE_CHOICES</replace>
+      <replace>choices=STATUS_CONFERENCIA_CHOICES</replace>
+      <replace>choices=MODALIDADE_CALC_ICMS_CHOICES</replace>
+      <replace>choices=REGIME_TRIBUTARIO_CHOICES</replace>
+      <replace>choices=MODALIDADE_ICMSSUB_CHOICES</replace>
+      <replace>choices=TIPO_PAGAMENTO_CHOICES</replace>
+      <replace>choices=SIM_NAO_CHOICES</replace>
+      <replace>choices=CALC_CUSTOS_CFOP_CHOICES</replace>
+      <replace>situacao_tributaria_</replace>
+      <replace>prec_venda</replace>
+      <replace>categorias</replace>
+      <replace>preco_venda</replace>
+      <replace>quantidade</replace>
+      <replace>total_preco_venda</replace>
+      <replace>atualiza</replace>
+      <replace>descricao</replace>
+      <replace>item['']</replace>
+      <replace>item[''],</replace>
+      <replace>produto</replace>
+      <replace>pedidoweb.</replace>
+      <replace>h4</replace>
+      <replace>Participante</replace>
+      <replace>participante</replace>
+      <replace>url</replace>
+      <replace>path</replace>
+      <replace>faturamento</replace>
+      <replace>,</replace>
+      <replace>produtos</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\HP\DjangoProjects\Dev\usesoft_R3\tabelasglobais</dir>
+      <dir>C:\Users\HP\DjangoProjects\Dev\usesoft_R3</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="SHOW_REMOTE_BRANCHES" value="true" />
+    <option name="ONTO" value="refs/heads/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/usesoft_R3" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list_backup.html" />
+        <option value="$PROJECT_DIR$/cart/views.py" />
+        <option value="$PROJECT_DIR$/cart/cart.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/index.html" />
+        <option value="$PROJECT_DIR$/accounts/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/resources.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/vendedores/vendedores_list.html" />
+        <option value="$PROJECT_DIR$/materiais/forms.py" />
+        <option value="$PROJECT_DIR$/accounts/models.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_change.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_change_done.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_reset.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_reset_complete.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_reset_confirm.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_reset_done.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/password_reset_form.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/logout.html" />
+        <option value="$PROJECT_DIR$/materiais/static/css/signin.css" />
+        <option value="$PROJECT_DIR$/materiais/templates/login.html" />
+        <option value="$PROJECT_DIR$/usesoft_R3/views.py" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/registration/logout.html" />
+        <option value="$PROJECT_DIR$/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/registration/password_reset.html" />
+        <option value="$PROJECT_DIR$/accounts/templates/registration/password_reset_done.html" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/usesoft_R3/urls.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
+        <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
+        <option value="$PROJECT_DIR$/materiais/urls.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" />
+        <option value="$PROJECT_DIR$/materiais/models.py" />
+        <option value="$PROJECT_DIR$/materiais/filters.py" />
+        <option value="$PROJECT_DIR$/accounts/templates/vendedores/perfil.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/search_pedidoweb/pedidoweb_filter_list.html" />
+        <option value="$PROJECT_DIR$/materiais/views.py" />
+        <option value="$PROJECT_DIR$/wsgi.py" />
+        <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/detail.html" />
+        <option value="$PROJECT_DIR$/cart/forms.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/usesoft_R3/email_info.py" />
+        <option value="$PROJECT_DIR$/usesoft_R3/settings.ini" />
+        <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/usesoft_R3/wsgi.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="654" />
+    <option name="width" value="712" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts\templates\registration" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts\templates" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\materiais\templates" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts\templates\vendedores" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\usesoft_R3" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts\templates\registration" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\accounts\templates" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\usesoft_R3\templates\registration" />
+      <recent name="C:\Users\HP\DjangoProjects\Dev\usesoft_R3\usesoft_R3\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="" />
+      <created>1520690747557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520690747557</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2nd commit - Almost closing Order">
+      <created>1526824103273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526824103273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3rd commit - Closed Order">
+      <created>1527274653836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527274653836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="5th commit - REST API implemented">
+      <created>1527380292493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380292493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6th commit - Pagination">
+      <created>1528125451869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528125451869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="7th commit - Shopping cart with Discount">
+      <created>1528918031706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528918031707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8th commit - 2 Decimal Places on Cart Detail Template">
+      <created>1529068477715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529068477715</updated>
+    </task>
+    <task id="LOCAL-00007" summary="9th commit - installed Django-import-export">
+      <created>1530370446075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530370446075</updated>
+    </task>
+    <task id="LOCAL-00008" summary="10th commit - installed ProdutoTributacao">
+      <created>1530402750406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530402750406</updated>
+    </task>
+    <task id="LOCAL-00009" summary="11th commit - List of Products, chart and CreateOrder displaying cards">
+      <created>1531311985303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531311985303</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12th commit - authentication and login enhanced">
+      <created>1531579839065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531579839065</updated>
+    </task>
+    <task id="LOCAL-00011" summary="12th commit - authentication and login enhanced">
+      <created>1531669876155</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531669876155</updated>
+    </task>
+    <task id="LOCAL-00012" summary="13th commit - django-filters installed">
+      <created>1531747539940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1531747539940</updated>
+    </task>
+    <task id="LOCAL-00013" summary="14th commit - pre-deployment">
+      <created>1531851355622</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531851355622</updated>
+    </task>
+    <task id="LOCAL-00014" summary="15th commit - dj_database_url">
+      <created>1531935248594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531935248595</updated>
+    </task>
+    <task id="LOCAL-00015" summary="15th commit - dj_database_url">
+      <created>1531936080489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531936080489</updated>
+    </task>
+    <task id="LOCAL-00016" summary="16th commit - dj-config-url">
+      <created>1531938934923</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531938934923</updated>
+    </task>
+    <task id="LOCAL-00017" summary="17th commit - gunicorn">
+      <created>1531946520400</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1531946520400</updated>
+    </task>
+    <task id="LOCAL-00018" summary="18th commit - decouple improvements">
+      <created>1532045837517</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532045837517</updated>
+    </task>
+    <task id="LOCAL-00019" summary="19th commit - upgrade python 3.6.6">
+      <created>1532209317103</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532209317104</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20th commit - automated deploy from Github">
+      <created>1532345561055</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1532345561055</updated>
+    </task>
+    <task id="LOCAL-00021" summary="20th commit - automated deploy from Github">
+      <created>1532346375414</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1532346375414</updated>
+    </task>
+    <task id="LOCAL-00022" summary="20th commit - Final adjustments">
+      <created>1532363189644</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532363189644</updated>
+    </task>
+    <task id="LOCAL-00023" summary="20th commit - Final adjustments">
+      <created>1532363313685</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1532363313685</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3517398" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.66831684" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25718608" side_tool="true" visible="true" weight="0.3729373" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.74281394" visible="true" weight="0.3729373" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.66831684" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4108911" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2nd commit - Almost closing Order" />
+    <MESSAGE value="3rd commit - Closed Order" />
+    <MESSAGE value="5th commit - REST API implemented" />
+    <MESSAGE value="6th commit - Pagination" />
+    <MESSAGE value="7th commit - Shopping cart with Discount" />
+    <MESSAGE value="8th commit - 2 Decimal Places on Cart Detail Template" />
+    <MESSAGE value="9th commit - installed Django-import-export" />
+    <MESSAGE value="10th commit - installed ProdutoTributacao" />
+    <MESSAGE value="11th commit - List of Products, chart and CreateOrder displaying cards" />
+    <MESSAGE value="12th commit - authentication and login enhanced" />
+    <MESSAGE value="13th commit - django-filters installed" />
+    <MESSAGE value="14th commit - pre-deployment" />
+    <MESSAGE value="15th commit - dj_database_url" />
+    <MESSAGE value="16th commit - dj-config-url" />
+    <MESSAGE value="17th commit - gunicorn" />
+    <MESSAGE value="18th commit - decouple improvements" />
+    <MESSAGE value="19th commit - upgrade python 3.6.6" />
+    <MESSAGE value="20th commit - automated deploy from Github" />
+    <MESSAGE value="20th commit - Final adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="20th commit - Final adjustments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cart/cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="40" lean-forward="true" selection-start-line="37" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/vendedores/vendedores_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_reset_complete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_reset_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/static/css/signin.css" />
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/views.py" />
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_change_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_reset_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="100" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="19" lean-forward="true" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/registration/password_reset_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/vendedores/perfil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="121" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/search_pedidoweb/pedidoweb_filter_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="1981" column="41" selection-start-line="1981" selection-start-column="41" selection-end-line="1981" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/email_info.py" />
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pipfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requeriments_fake.txt" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+versão=1.0
+755311|Relógios; Verde|01012009|
+755312|Relógios Importado; Vermelho|01012009|
+755313|Relógios Zona Franca Manaus Nacional; Azul|01012009|
+755314|Relógios Zona Franca Manaus Importado; Marrom|01012009|
+756401|Fósforos Importado; Vermelho|01012009|
+758501|Fonográficos; Verde|01012009|
+758502|Fonográficos Importado; Vermelho|01012009|
+758503|Fonográficos Exportação; Azul-marinho|01012009|
+758511|Audio Visual; Amarelo|01012009|
+758512|Audio Visual Importado; Violeta|01012009|
+758513|Audio Visual Exportação; Azul|01012009|
+861001|Cigarro; Verde Escuro / marrom|01012009|
+861002|Cigarro; Verde Claro / marrom|01012009|
+861003|Cigarro; Roxa / marrom|01012009|
+861004|Cigarro; Violeta / marrom|01012009|
+861005|Cigarro; Laranja / marrom|01012009|
+861006|Cigarro; Amarela / marrom|01012009|
+861009|Cigarro Estrangeiro; Vermelha / azul|01012009|
+861010|Cigarro Exportação tipo "1"; Azul-Marinho / Cinza|01012009|
+861011|Cigarro Exportação tipo "2"; Azul-Marinho / Cinza|01012009|
+861012|Cigarro Exportação tipo "3"; Verde / Azul|01012009|
+971001|Cigarro; Verde / marrom|01012009|
+971002|Cigarro; Verde Claro / marrom|01012009|
+971003|Cigarro; Azul / marrom|01012009|
+971004|Cigarro; Violeta / marrom|01012009|
+971005|Cigarro; Laranja / marrom|01012009|
+971006|Cigarro; Amarela / marrom|01012009|
+971010|Cigarro Exportação tipo "1"; Verde Escuro / marrom|01012009|
+971011|Cigarro Exportação tipo "2"; Verde Escuro / marrom|01012009|
+971012|Cigarro Exportação tipo "3"; Verde Escuro / marrom|01012009|
+972911|Uísque; Verde / marrom|01012009|
+972912|Uísque; Azul / marrom|01012009|
+972913|Uísque Estrangeiro; Vermelho / marrom|01012009|
+972914|Uísque Estrangeiro; Amarelo / marrom|01012009|
+972921|Uísque Miniatura; Verde / marrom|01012009|
+972922|Uísque Miniatura; Azul / marrom|01012009|
+972923|Uísque Miniatura Estrangeiro; Vermelho / marrom|01012009|
+972924|Uísque Miniatura Estrangeiro; Amarelo / marrom|01012009|
+973711|Bebida Alcoólica; Laranja / marrom|01012009|
+973712|Bebida Alcoólica; Cinza / marrom|01012009|
+973713|Bebida Alcoólica; Marrom / marrom|01012009|
+973714|Bebida Alcoólica; Verde / marrom|01012009|
+973715|Bebida Alcoólica Estrangeira; Vermelho / marrom|01012009|
+973716|Bebida Alcoólica Exportação; Azul Marinho / marrom|01012009|
+973721|Bebida Alcoólica Miniatura; Verde / marrom|01012009|
+973722|Bebida Alcoólica Miniatura Estrangeira; Vermelho / marrom|01012009|
+973723|Bebida Alcoólica Miniatura Exportação; Azul Marinho / marrom|01012009|
+974511|Aguardente; Laranja / marrom|01012009|
+974512|Aguardente; Azul / marrom|01012009|
+974513|Aguardente; Violeta / marrom|01012009|

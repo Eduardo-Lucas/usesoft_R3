@@ -1,0 +1,165 @@
+codigo	descricao	data_publicacao	data_validade	data_publicacao	
+0	Nacional - Tributada integralmente	1012009	31122012	01-01-2009	
+10	Nacional - Tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+20	Nacional - Com redução de base de cálculo	1012009	31122012	01-01-2009	
+30	Nacional - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+40	Nacional - Isenta	1012009	31122012	01-01-2009	
+41	Nacional - Não tributada	1012009	31122012	01-01-2009	
+50	Nacional - Suspensão	1012009	31122012	01-01-2009	
+51	Nacional - Diferimento	1012009	31122012	01-01-2009	
+60	Nacional - ICMS cobrado anteriormente por substituição tributária	1012009	31122012	01-01-2009	
+70	Nacional - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+90	Nacional - Outras	1012009	31122012	01-01-2009	
+100	Estrangeira - Importação direta - Tributada integralmente	1012009	31122012	01-01-2009	
+110	Estrangeira - Importação direta - Tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+120	Estrangeira - Importação direta - Com redução de base de cálculo	1012009	31122012	01-01-2009	
+130	Estrangeira - Importação direta - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+140	Estrangeira - Importação direta - Isenta	1012009	31122012	01-01-2009	
+141	Estrangeira - Importação direta - Não tributada	1012009	31122012	01-01-2009	
+150	Estrangeira - Importação direta - Suspensão	1012009	31122012	01-01-2009	
+151	Estrangeira - Importação direta - Diferimento	1012009	31122012	01-01-2009	
+160	Estrangeira - Importação direta - ICMS cobrado anteriormente por substituição tributária	1012009	31122012	01-01-2009	
+170	Estrangeira - Importação direta - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+190	Estrangeira - Importação direta - Outras	1012009	31122012	01-01-2009	
+200	Estrangeira - Adquirida no mercado interno - Tributada integralmente	1012009	31122012	01-01-2009	
+210	Estrangeira - Adquirida no mercado interno - Tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+220	Estrangeira - Adquirida no mercado interno - Com redução de base de cálculo	1012009	31122012	01-01-2009	
+230	Estrangeira - Adquirida no mercado interno - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+240	Estrangeira - Adquirida no mercado interno - Isenta	1012009	31122012	01-01-2009	
+241	Estrangeira - Adquirida no mercado interno - Não tributada	1012009	31122012	01-01-2009	
+250	Estrangeira - Adquirida no mercado interno - Suspensão	1012009	31122012	01-01-2009	
+251	Estrangeira - Adquirida no mercado interno - Diferimento	1012009	31122012	01-01-2009	
+260	Estrangeira - Adquirida no mercado interno - ICMS cobrado anteriormente por substituição tributária	1012009	31122012	01-01-2009	
+270	Estrangeira - Adquirida no mercado interno - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012009	31122012	01-01-2009	
+290	Estrangeira - Adquirida no mercado interno - Outras	1012009	31122012	01-01-2009	
+101	Simples Nacional - Tributada pelo Simples Nacional com permissão de crédito	1102010		01-10-2010	
+102	Simples Nacional - Tributada pelo Simples Nacional sem permissão de crédito	1102010		01-10-2010	
+103	Simples Nacional - Isenção do ICMS no Simples Nacional para faixa de receita bruta	1102010		01-10-2010	
+201	Simples Nacional - Tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por substituição tributária	1102010		01-10-2010	
+202	Simples Nacional - Tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por substituição tributária	1102010		01-10-2010	
+203	Simples Nacional - Isenção do ICMS no Simples Nacional para faixa de receita bruta e com cobrança do ICMS por substituição tributária	1102010		01-10-2010	
+300	Simples Nacional - Imune	1102010	31122012	01-10-2010	
+400	Simples Nacional - Não tributada pelo Simples Nacional	1102010	31122012	01-10-2010	
+500	Simples Nacional - ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação	1102010	31122012	01-10-2010	
+900	Simples Nacional - Outros	1102010		01-10-2010	
+0	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Tributada integralmente	1012013	31072013	01-01-2013	
+10	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Tributada e com cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+20	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Com redução de base de cálculo	1012013	31072013	01-01-2013	
+30	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+40	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Isenta	1012013	31072013	01-01-2013	
+41	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Não tributada	1012013	31072013	01-01-2013	
+50	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Suspensão	1012013	31072013	01-01-2013	
+51	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Diferimento	1012013	31072013	01-01-2013	
+60	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - ICMS cobrado anteriormente por substituição tributária	1012013	31072013	01-01-2013	
+70	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+90	Nacional, exceto as indicadas nos códigos 3 a 5 da Tabela A - Outras	1012013	31072013	01-01-2013	
+0	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Tributada integralmente	1082013		01-08-2013	
+10	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+20	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Com redução de base de cálculo	1082013		01-08-2013	
+30	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+40	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Isenta	1082013		01-08-2013	
+41	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Não tributada	1082013		01-08-2013	
+50	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Suspensão	1082013		01-08-2013	
+51	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Diferimento	1082013		01-08-2013	
+60	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - ICMS cobrado anteriormente por substituição tributária	1082013		01-08-2013	
+70	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+90	Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8 da Tabela A - Outras	1082013		01-08-2013	
+100	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Tributada integralmente	1012013		01-01-2013	
+110	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+120	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Com redução de base de cálculo	1012013		01-01-2013	
+130	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+140	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Isenta	1012013		01-01-2013	
+141	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Não tributada	1012013		01-01-2013	
+150	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Suspensão	1012013		01-01-2013	
+151	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Diferimento	1012013		01-01-2013	
+160	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+170	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+190	Estrangeira - Importação direta, exceto a indicada no código 6 da Tabela A - Outras	1012013		01-01-2013	
+200	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Tributada integralmente	1012013		01-01-2013	
+210	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+220	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Com redução de base de cálculo	1012013		01-01-2013	
+230	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+240	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Isenta	1012013		01-01-2013	
+241	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Não tributada	1012013		01-01-2013	
+250	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Suspensão	1012013		01-01-2013	
+251	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Diferimento	1012013		01-01-2013	
+260	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+270	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+290	Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7 da Tabela A - Outras	1012013		01-01-2013	
+300	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Tributada integralmente	1012013	31072013	01-01-2013	
+310	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Tributada e com cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+320	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Com redução de base de cálculo	1012013	31072013	01-01-2013	
+330	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+340	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Isenta	1012013	31072013	01-01-2013	
+341	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Não tributada	1012013	31072013	01-01-2013	
+350	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Suspensão	1012013	31072013	01-01-2013	
+351	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Diferimento	1012013	31072013	01-01-2013	
+360	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - ICMS cobrado anteriormente por substituição tributária	1012013	31072013	01-01-2013	
+370	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013	31072013	01-01-2013	
+390	Nacional, mercadoria ou bem com Conteúdo de Importação superior a  40% (quarenta por cento) - Outras	1012013	31072013	01-01-2013	
+300	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Tributada integralmente	1082013		01-08-2013	
+310	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+320	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Com redução de base de cálculo	1082013		01-08-2013	
+330	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+340	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Isenta	1082013		01-08-2013	
+341	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Não tributada	1082013		01-08-2013	
+350	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Suspensão	1082013		01-08-2013	
+351	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Diferimento	1082013		01-08-2013	
+360	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - ICMS cobrado anteriormente por substituição tributária	1082013		01-08-2013	
+370	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+390	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% (quarenta por cento) e inferior ou igual a 70% (setenta por cento) - Outras	1082013		01-08-2013	
+400	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/07 - Tributada integralmente	1012013		01-01-2013	
+410	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/08 - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+420	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/09 - Com redução de base de cálculo	1012013		01-01-2013	
+430	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/10 - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+440	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/11 - Isenta	1012013		01-01-2013	
+441	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/12 - Não tributada	1012013		01-01-2013	
+450	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/13 - Suspensão	1012013		01-01-2013	
+451	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/14 - Diferimento	1012013		01-01-2013	
+460	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/15 - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+470	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/16 - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+490	Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam o Decreto-Lei nº 288/67, e as Leis nºs 8.248/91, 8.387/91, 10.176/01 e 11.484/17 - Outras	1012013		01-01-2013	
+500	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Tributada integralmente	1012013		01-01-2013	
+510	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+520	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Com redução de base de cálculo	1012013		01-01-2013	
+530	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+540	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Isenta	1012013		01-01-2013	
+541	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Não tributada	1012013		01-01-2013	
+550	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Suspensão	1012013		01-01-2013	
+551	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Diferimento	1012013		01-01-2013	
+560	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+570	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+590	Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40% (quarenta por cento) - Outras	1012013		01-01-2013	
+600	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Tributada integralmente	1012013		01-01-2013	
+610	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+620	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Com redução de base de cálculo	1012013		01-01-2013	
+630	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+640	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Isenta	1012013		01-01-2013	
+641	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Não tributada	1012013		01-01-2013	
+650	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Suspensão	1012013		01-01-2013	
+651	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Diferimento	1012013		01-01-2013	
+660	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+670	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+690	Estrangeira - Importação direta, sem similar nacional, constante em lista de Resolução CAMEX - Outras	1012013		01-01-2013	
+700	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Tributada integralmente	1012013		01-01-2013	
+710	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+720	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Com redução de base de cálculo	1012013		01-01-2013	
+730	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+740	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Isenta	1012013		01-01-2013	
+741	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Não tributada	1012013		01-01-2013	
+750	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Suspensão	1012013		01-01-2013	
+751	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Diferimento	1012013		01-01-2013	
+760	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - ICMS cobrado anteriormente por substituição tributária	1012013		01-01-2013	
+770	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1012013		01-01-2013	
+790	Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista de Resolução CAMEX - Outras	1012013		01-01-2013	
+800	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Tributada integralmente	1082013		01-08-2013	
+810	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+820	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Com redução de base de cálculo	1082013		01-08-2013	
+830	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Isenta ou não tributada e com cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+840	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Isenta	1082013		01-08-2013	
+841	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Não tributada	1082013		01-08-2013	
+850	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Suspensão	1082013		01-08-2013	
+851	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Diferimento	1082013		01-08-2013	
+860	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - ICMS cobrado anteriormente por substituição tributária	1082013		01-08-2013	
+870	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Com redução de base de cálculo e cobrança do ICMS por substituição tributária	1082013		01-08-2013	
+890	Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70% (setenta por cento) - Outras	1082013		01-08-2013	

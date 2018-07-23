@@ -1,0 +1,17 @@
+{% extends 'materiais/base.html' %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <h2>Sessão encerrada</h2>
+
+    <h3>Obrigado por utilizar nosso site.</h3>
+
+    <h4><a href="{% url 'login' %}">Entrar novamente</a></h4>
+
+</div>
+
+{% endblock %}

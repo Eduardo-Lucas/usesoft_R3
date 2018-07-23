@@ -1,0 +1,72 @@
+{% extends "materiais/base.html" %}
+{% load static %}
+{% load l10n %}
+
+{% block title %}Detalhes do Pedido{% endblock %}
+
+
+{% block content %}
+
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+    <div align="right">
+        <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">
+            <i class="far fa-arrow-alt-circle-left"></i> Voltar
+        </a>
+    </div>
+
+    <ul>
+        <li><h4>Pedido: {{ pedidoweb.id }} - {{ pedidoweb.participante }}</h4></li>
+        <li>Status do Pedido:
+            <strong><select>
+               <option value="{{ pedidoweb.status_pedido}}">{{ pedidoweb.status_pedido}}</option>
+                    </select>
+            </strong>
+        </li>
+        <li>Total do Pedido: <strong>{{ pedidoweb.total_produtos}}</strong></li>
+        <li>Tipo de Pagamento: <strong>{{pedidoweb.tipo_de_pagamento}}</strong></li>
+        <li>Prazo de Pagamento: <strong>{{ pedidoweb.prazo_de_pagamento }}</strong></li>
+        <li>Observações: <strong>{{ pedidoweb.observacoes }}</strong></li>
+    </ul>
+
+    {% if pedidoweb.pedidowebitem_set.all %}
+        <table class="responsive table table-responsive table-condensed table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Sequência</th>
+                    <th>Descrição</th>
+                    <th style="text-align:right">Preço Unitário</th>
+                    <th style="text-align:right">Quantidade</th>
+                    <th style="text-align:right">% Desconto</th>
+                    <th style="text-align:right">Preço Líquido</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in pedidoweb.pedidowebitem_set.all %}
+                    <tr>
+                        <td>{{ item.sequencia }}</td>
+                        <td>{{ item.produto }}</td>
+                        <td style="text-align:right">{{ item.preco_unitario|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.quantidade|floatformat:0 }}</td>
+                        <td style="text-align:right">{{ item.perc_desc|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.total_produto|floatformat:2 }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tr>
+                <td colspan="4"></td>
+                <td style="text-align:right"><strong>Total <i class="far fa-hand-point-right"></i></strong></td>
+                <td class="num"><strong>R$ {{ pedidoweb.total_produtos|floatformat:2 }}</strong></td>
+            </tr>
+        </table>
+    {% endif %}
+
+{% endblock %}

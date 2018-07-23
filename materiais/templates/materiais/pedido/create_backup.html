@@ -1,0 +1,47 @@
+{% extends "materiais/base.html" %}
+
+{% block title %}
+    Fechar Pedido
+{% endblock %}
+
+{% block content %}
+
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<h2>Fechar Pedido</h2>
+<div class="row">
+     <div class="col-sm-5">
+        <div >
+            <h4>Itens do Pedido</h4>
+            <ul>
+                {% for item in cart %}
+                    <li>{{ item.quantity }} x {{ item.descricao }} <span>R$ {{ item.total_price|floatformat:2 }}</span></li>
+                {% endfor %}
+            </ul>
+            <p>Total do Pedido: R$ {{ cart.get_total_price|floatformat:2 }}</p>
+        </div>
+    </div>
+
+    <div class="col-sm-7">
+        <form action="." method="post" class="order-form">
+            <ul>
+                <li>Participante: <a href="{% url 'faturamento:participante_list' %}"></a> {{ form.participante }}</li>
+                <li><a href="{% url 'faturamento:participante_add' %}">Criar Novo Participante</a></li>
+                <li>Forma de Pagamento: {{ form.tipo_de_pagamento }}</li>
+                <li>Prazo de Pagamento: {{ form.prazo_de_pagamento }}</li>
+                <li>Observações: {{ form.observacoes }}</li>
+            </ul>
+            <p><input type="submit" value="Gravar Pedido"></p>
+            {% csrf_token %}
+        </form>
+    </div>
+
+</div>
+
+{% endblock %}

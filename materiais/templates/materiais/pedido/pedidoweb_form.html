@@ -1,0 +1,93 @@
+{% extends 'materiais/base.html' %}
+{% load l10n %}
+
+{% block content %}
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<div class="col-md-offset-2"> <!-- Header -->
+    <!-- Left Contato Info -->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            {% if pedidoweb.id %}
+            <h4>Edita o Pedido {{pedidoweb.id}}</h4>
+            {% else %}
+            <h4>Cria um Novo Pedido Web</h4>
+            {% endif %}
+
+            <div align="right">
+                <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">
+                    <i class="far fa-arrow-alt-circle-left"></i> Voltar
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <form action="" method="post">{% csrf_token %}
+
+        <div class="container">
+            {{ form.as_p }}
+        </div>
+
+        <table class="table table-responsive table-condensed table-bordered table-hover table-striped">
+            {{ pedidoweb_item.management_form }}
+
+            {% if pedidoweb_item.errors %}
+                {% for field in pedidoweb_item %}
+                    {% for error in field.errors %}
+                        <div class="alert alert-danger">
+                            <strong>{{ error|escape }}</strong>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+
+                {% for error in form.non_field_errors %}
+                    <div class="alert alert-danger">
+                        <strong>{{ error|escape }}</strong>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            {% for form in pedidoweb_item %}
+                {% if forloop.first %}
+                    <thead>
+                    <tr>
+                        {% for field in form.visible_fields %}
+                        <th>{{ field.label|capfirst }}</th>
+                        {% endfor %}
+                    </tr>
+                    </thead>
+                {% endif %}
+                <tr class="{% cycle row1 row2 %} formset_row">
+
+                    {% for field in form.visible_fields %}
+                    <td>
+                        {# Include the hidden fields in the form #}
+                        {% if forloop.first %}
+                            {% for hidden in form.hidden_fields %}
+                            {{ hidden }}
+                            {% endfor %}
+                        {% endif %}
+                        {{ field.errors.as_ul }}
+                        {{ field }}
+                    </td>
+                    {% endfor %}
+
+                </tr>
+            {% endfor %}
+        </table>
+        <div align="right">
+            <input type="submit" value="Gravar"/>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}
