@@ -135,7 +135,7 @@ WSGI_APPLICATION = 'usesoft_R3.wsgi.application'
 DATABASES = {
     'default': {
         # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         # 'ENGINE': 'tenant_schemas.postgresql_backend',
 
         # Or path to database file if using sqlite3.
