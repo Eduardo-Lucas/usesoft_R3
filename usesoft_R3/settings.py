@@ -83,7 +83,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+
 ]
 
 ROOT_URLCONF = 'usesoft_R3.urls'
@@ -135,7 +135,8 @@ WSGI_APPLICATION = 'usesoft_R3.wsgi.application'
 DATABASES = {
     'default': {
         # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'tenant_schemas.postgresql_backend',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'ENGINE': 'tenant_schemas.postgresql_backend',
 
         # Or path to database file if using sqlite3.
         'NAME': config('DB_NAME'),
