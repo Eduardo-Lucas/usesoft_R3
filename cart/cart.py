@@ -52,7 +52,8 @@ class Cart(object):
 
         produto_id = str(produto.id)
 
-        produto_tributacao = ProdutoTributacao.objects.get(produto=produto_id)
+        # TODO Revisão de Abel
+        # produto_tributacao = ProdutoTributacao.objects.get(produto=produto_id)
 
         if produto_id not in self.cart:
 
@@ -107,13 +108,17 @@ class Cart(object):
                                      'participante': str(produto.fabricante),
                                      'total_produto': str(total_produto),
                                      'modalidade_ipi': 0,
-                                     'situacao_tributaria_ipi': str(produto_tributacao.situacao_tributaria_ipi),
+                                     # TODO Revisão de Abel
+                                     # 'situacao_tributaria_ipi': str(produto_tributacao.situacao_tributaria_ipi),
+                                     'situacao_tributaria_ipi': 0,
                                      'base_calc_ipi': 0,
                                      'perc_ipi': 0,
                                      'perc_red_ipi': 0,
                                      'modalidade_calculo': 0,
                                      'modalidade_icms': 0,
-                                     'situacao_tributaria_icms': str(produto_tributacao.situacao_tributaria_icms),
+                                     # TODO Revisão de Abel
+                                     # 'situacao_tributaria_icms': str(produto_tributacao.situacao_tributaria_icms),
+                                     'situacao_tributaria_icms': 0,
                                      'base_calc_icms': 0,
                                      'perc_icms': 0,
                                      'perc_antec_tributaria': 0,
@@ -124,10 +129,14 @@ class Cart(object):
                                      'perc_icms_sub': 0,
                                      'base_calc_antecipacao_trib': 0,
                                      'perc_antecipacao_trib': 0,
-                                     'situacao_tributaria_pis': str(produto_tributacao.situacao_tributaria_pis),
+                                     # TODO Revisão de Abel
+                                     # 'situacao_tributaria_pis': str(produto_tributacao.situacao_tributaria_pis),
+                                     'situacao_tributaria_pis': 0,
                                      'base_calc_pis': 0,
                                      'perc_pis': 0,
-                                     'situacao_tributaria_cofins': str(produto_tributacao.situacao_tributaria_cofins),
+                                     # TODO Revisão de Abel
+                                     # 'situacao_tributaria_cofins': str(produto_tributacao.situacao_tributaria_cofins),
+                                     'situacao_tributaria_cofins': 0,
                                      'base_calc_cofins': 0,
                                      'perc_fundo_pobreza': 0,
                                      'perc_trib_aproximado': 0,
