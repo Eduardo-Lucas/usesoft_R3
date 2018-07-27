@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/materiais/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/search_pedidoweb/pedidoweb_filter_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/search_pedidoweb/pedidoweb_filter_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usesoft_R3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/usesoft_R3/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +13,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="154" column="7" lean-forward="true" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+              <folding>
+                <element signature="e#311#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="306">
               <caret line="291" column="30" lean-forward="true" selection-start-line="291" selection-start-column="30" selection-end-line="291" selection-end-column="30" />
             </state>
           </provider>
@@ -224,12 +231,12 @@
         <option value="$PROJECT_DIR$/usesoft_R3/wsgi.py" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/cart/cart.py" />
-        <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/search_pedidoweb/pedidoweb_filter_list.html" />
         <option value="$PROJECT_DIR$/materiais/filters.py" />
         <option value="$PROJECT_DIR$/materiais/views.py" />
+        <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
       </list>
     </option>
   </component>
@@ -549,7 +556,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.607413" weight="0.3729373" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
@@ -888,16 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="99" column="51" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="51" />
-          <folding>
-            <element signature="e#311#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -942,8 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/materiais/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="306">
           <caret line="291" column="30" lean-forward="true" selection-start-line="291" selection-start-column="30" selection-end-line="291" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="154" column="7" lean-forward="true" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
