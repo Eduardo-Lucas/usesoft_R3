@@ -72,6 +72,7 @@
                 <tbody>
                     <tr>
                         <th>Status</th>
+                        <th>Vendedor</th>
                         <th>Pedido</th>
                         <th>Série</th>
                         <th>Subsérie</th>
@@ -86,6 +87,7 @@
                     <tfoot>
                         <tr>
                             <th>Status</th>
+                            <th>Vendedor</th>
                             <th>Pedido</th>
                             <th>Série</th>
                             <th>Subsérie</th>
@@ -108,6 +110,7 @@
                                 <td style="text-align:center"><i class="far fa-thumbs-down" data-toggle="tooltip"
                                         title="Pedido NÃO pode mais ser alterado"></i></td>
                             {% endif %}
+                           <td>{{ pedidoweb.vendedor }}</td>
                            <td>{{ pedidoweb.id }}</td>
                            <td>{{ pedidoweb.serie }}</td>
                            <td>{{ pedidoweb.subserie }}</td>

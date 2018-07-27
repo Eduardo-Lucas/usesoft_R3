@@ -1,6 +1,7 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.models import User
 from django.contrib.messages.views import SuccessMessageMixin
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -8,6 +9,7 @@ from django.db import transaction
 from django.db.models import Q
 from django.http import request
 from django.shortcuts import render, get_object_or_404
+from django.template import response
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView
 
@@ -212,8 +214,11 @@ class PedidoWebTradicionalList(SuccessMessageMixin, LoginRequiredMixin, ListView
                 Q(observacoes__icontains=valor)
             )
         else:
-            object_list = self.model.objects.filter(vendedor=self.request.user)[:100]
             # this returns the first 100 objects (LIMIT 100):
+            if self.request.user.is_superuser:
+                object_list = self.model.objects.all()[:100]
+            else:
+                object_list = self.model.objects.filter(vendedor=self.request.user)[:100]
 
         paginator = Paginator(object_list, 6)  # Show 6 pedidos per page
 
@@ -285,6 +290,10 @@ class PedidoWebTradicionalUpdate(SuccessMessageMixin, LoginRequiredMixin, Update
 
 
 def search_pedidoweb(request):
-    pedidoweb_list = PedidoWeb.objects.filter(vendedor=request.user)
+    if request.user.is_superuser:
+        pedidoweb_list = PedidoWeb.objects.all()
+    else:
+        pedidoweb_list = PedidoWeb.objects.filter(vendedor=request.user)
+
     pedidoweb_filter = PedidoWebFilter(request.GET, queryset=pedidoweb_list)
     return render(request, 'materiais/search_pedidoweb/pedidoweb_filter_list.html', {'filter': pedidoweb_filter})

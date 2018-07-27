@@ -14,4 +14,5 @@ class PedidoWebFilter(django_filters.FilterSet):
     class Meta:
         model = PedidoWeb
         fields = ['ano_pedido', 'ano_pedido__gt', 'mes_pedido', 'participante', 'tipo_de_pagamento',
-                  'prazo_de_pagamento', 'total_produtos', 'total_produtos__gt', 'total_produtos__lt', ]
+                  'prazo_de_pagamento', 'total_produtos', 'total_produtos__gt', 'total_produtos__lt',
+                  'vendedor', ]

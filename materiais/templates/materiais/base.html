@@ -35,8 +35,13 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="{% url 'faturamento:participante_list' %}">Participantes</a>
-                    </li><li class="nav-item">
-                      <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">Meus Pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        {% if request.user.is_superuser %}
+                           <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">Todos os Pedidos</a>
+                        {% else %}
+                           <a class="nav-link" href="{% url 'materiais:pedidoweb_list' %}">Meus Pedidos</a>
+                        {% endif  %}
                     </li>
                     <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown"
