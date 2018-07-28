@@ -1,5 +1,5 @@
-from materiais.models import PedidoWeb
-from materiais.serializers import PedidoWebSerializer
+from materiais.models import PedidoWeb, PedidoWebItem
+from materiais.serializers import PedidoWebSerializer, PedidoWebItemSerializer
 
 from rest_framework import generics
 
@@ -22,3 +22,21 @@ class PedidoWebDetail(generics.RetrieveUpdateDestroyAPIView):
     """
     queryset = PedidoWeb.objects.all()
     serializer_class = PedidoWebSerializer
+
+
+class PedidoWebItemList(generics.ListCreateAPIView):
+    """
+    Lista todos os PedidoWebItem, ou cria um novo PedidoWebItem.
+    """
+    queryset = PedidoWebItem.objects.all()
+    serializer_class = PedidoWebItemSerializer
+
+
+class PedidoWebItemDetail(generics.RetrieveUpdateDestroyAPIView):
+    """
+    Recupera, atualiza ou apaga uma instância de PedidoWeb.
+    """
+    queryset = PedidoWebItem.objects.all()
+    serializer_class = PedidoWebItemSerializer
+
+

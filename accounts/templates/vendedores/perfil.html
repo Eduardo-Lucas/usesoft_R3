@@ -1,28 +1,31 @@
 {% extends 'materiais/base.html' %}
-
+{% load l10n %}
 {% load static %}
 
 {% block content %}
     <h3>Perfil</h3>
     <div class="row">
-        <div class="col-sm-4 col-md-3">
-        <h4>Usuário: {{ request.user.username }}</h4>
+        <div class="col-sm-5 col-md-4">
+            <h5>Usuário: {{ request.user.username }}</h5>
+            <h5>Último Login: {{ request.user.last_login|date:"SHORT_DATETIME_FORMAT" }}</h5>
         </div>
         <div class="col-sm-4 col-md-3">
-        <h5>Grupos:
-            {% for group in user.groups.all %}
-              {{ group }},
-            {% empty %}
-                <em class="text-muted">No group</em>
-            {% endfor %}
-        </h5>
+            <h5>Grupos:
+                {% for group in user.groups.all %}
+                  {{ group }},
+                {% empty %}
+                    <em class="text-muted">Sem grupo</em>
+                {% endfor %}
+            </h5>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <h5>Nome Completo: {{ request.user.first_name }} {{ request.user.last_name }}</h5>
+            {% if request.user.email %}
+                <h5>E-mail: {{ request.user.email }}</h5>
+            {% else %}
+                <h5><i class="far fa-smile fa fa-4x"></i> Não esqueça de atualizar seu E-mail</h5>
+            {% endif %}
         </div>
     </div>
-    <h5>Nome Completo: {{ request.user.first_name }} {{ request.user.last_name }}</h5>
-    {% if request.user.email %}
-        <h5>E-mail: {{ request.user.email }}</h5>
-    {% else %}
-        <h5><i class="far fa-smile fa fa-4x"></i> Não esqueça de atualizar seu E-mail</h5>
-    {% endif %}
 {% endblock %}
 

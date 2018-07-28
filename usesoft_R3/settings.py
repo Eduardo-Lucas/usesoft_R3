@@ -113,46 +113,26 @@ WSGI_APPLICATION = 'usesoft_R3.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'central_aluminio',
-#         'USER': 'usesoft',
-#         'PASSWORD': 'Password123#',
-#         'OPTIONS': {
-#           'autocommit': True,
-#         },
-#     }
-# }
-
 # if DEBUG:
-#     DATABASES = {
-#        'default': {
-#            # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-#            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#            # 'ENGINE': 'tenant_schemas.postgresql_backend',
+# DATABASES = {
+#    'default': {
+#        # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        # 'ENGINE': 'tenant_schemas.postgresql_backend',
 #
-#            # Or path to database file if using sqlite3.
-#            'NAME': config('DB_NAME'),
-#            'USER': config('DB_USER'),
-#            'PASSWORD': config('DB_PASSWORD'),
+#        # Or path to database file if using sqlite3.
+#        'NAME': config('DB_NAME'),
+#        'USER': config('DB_USER'),
+#        'PASSWORD': config('DB_PASSWORD'),
 #
-#            # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-#            'HOST': '',
+#        # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+#        'HOST': '',
 #
-#            # Set to empty string for default
-#            'PORT': '',
-#        }
+#        # Set to empty string for default
+#        'PORT': '',
+#    }
 #
-#     }
+# }
 # else:
 
 # Never deploy a site into production with DEBUG turned on.
@@ -251,6 +231,7 @@ DATETIME_INPUT_FORMATS = [
 
 DATE_FORMAT = 'd/m/Y'
 SHORT_DATE_FORMAT = 'd/m/Y'
+SHORT_DATETIME_FORMAT = 'd/m/Y H:i'
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 

@@ -21,6 +21,9 @@ urlpatterns = [
     url(r'^pedidoweb/$', api_views.PedidoWebList.as_view()),
     url(r'^pedidoweb/(?P<pk>[0-9]+)/$', api_views.PedidoWebDetail.as_view()),
 
+    url(r'^pedidowebitem/$', api_views.PedidoWebItemList.as_view()),
+    url(r'^pedidowebitem/(?P<pk>[0-9]+)/$', api_views.PedidoWebItemDetail.as_view(), name='pedidowebitem-detail'),
+
     url(r'^create/$', views.order_create, name='order_create'),
     # Pedido Tipo: E-Commerce
     # url(r'', views.ProdutoList.as_view(), name='produto_list'),

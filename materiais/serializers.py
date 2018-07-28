@@ -1,9 +1,11 @@
 from rest_framework import serializers
 
-from materiais.models import PedidoWeb
+from materiais.models import PedidoWeb, PedidoWebItem
 
 
-class PedidoWebSerializer(serializers.ModelSerializer):
+class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
+    items = serializers.HyperlinkedRelatedField(many=True, view_name='pedidowebitem-detail', read_only=True)
+
     class Meta:
         model = PedidoWeb
         fields = ('serie', 'subserie', 'indicador_pagamento_nfe', 'status_pedido', 'regime_tributario', 'notafiscal',
@@ -17,4 +19,11 @@ class PedidoWebSerializer(serializers.ModelSerializer):
                   'valor_pis', 'base_calc_cofins', 'valor_cofins', 'valor_seguro', 'base_calc_issqn', 'perc_issqn',
                   'quantidade_servicos', 'valor_servicos', 'transportadora', 'valor_frete', 'valor_icm_frete',
                   'cif_fob_frete', 'tipo_frete', 'status_manifestacao', 'status_contabilidade', 'status_financeiro',
-                  'status_precos', 'status_expedicao', 'status_diferenca')
+                  'status_precos', 'status_expedicao', 'status_diferenca', 'items', )
+
+
+class PedidoWebItemSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = PedidoWebItem
+        fields = '__all__'
+
