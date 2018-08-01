@@ -23,7 +23,8 @@ class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class PedidoWebItemSerializer(serializers.HyperlinkedModelSerializer):
-
+    pedidoweb = serializers.ReadOnlyField(source='pedidoweb.id')
+    
     class Meta:
         model = PedidoWebItem
         fields = ['url', 'pedidoweb', 'sequencia', 'produto', 'unidade', 'descricao', 'observacoes', 'cfop',
