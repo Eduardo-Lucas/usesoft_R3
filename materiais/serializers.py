@@ -4,6 +4,7 @@ from materiais.models import PedidoWeb, PedidoWebItem, Produto
 
 
 class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
+    itenspedido = serializers.HyperlinkedRelatedField(many=True, view_name='pedidowebitem-detail')
 
     class Meta:
         model = PedidoWeb
@@ -18,7 +19,7 @@ class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
                   'valor_pis', 'base_calc_cofins', 'valor_cofins', 'valor_seguro', 'base_calc_issqn', 'perc_issqn',
                   'quantidade_servicos', 'valor_servicos', 'transportadora', 'valor_frete', 'valor_icm_frete',
                   'cif_fob_frete', 'tipo_frete', 'status_manifestacao', 'status_contabilidade', 'status_financeiro',
-                  'status_precos', 'status_expedicao', 'status_diferenca',  )
+                  'status_precos', 'status_expedicao', 'status_diferenca', 'itenspedido', )
 
 
 class PedidoWebItemSerializer(serializers.HyperlinkedModelSerializer):
