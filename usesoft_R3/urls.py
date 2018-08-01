@@ -19,19 +19,42 @@ from django.contrib import admin
 from django.contrib.auth.views import password_reset, password_reset_done, password_reset_confirm, \
     password_reset_complete
 from django.urls import path, include
+from rest_framework import routers
+
 from accounts.views import login_view, logout_view
-
 from django.conf.urls.static import static
-
-
 from usesoft_R3 import settings
 
+from materiais import api_views as materiais_api
+from globais import api_views as globais_api
+from financeiro import api_views as financeiro_api
+from faturamento import api_views as faturamento_api
+from accounts import api_views as accounts_api
+
+router = routers.DefaultRouter()
+router.register(r'pedidosweb', materiais_api.PedidoWebViewSet)
+router.register(r'cfops', globais_api.CfopViewSet)
+router.register(r'municipios', globais_api.MunicipioViewSet)
+router.register(r'estados', globais_api.UfViewSet)
+router.register(r'paises', globais_api.PaisIbgeViewSet)
+router.register(r'tiposoperacoesfiscais', globais_api.TipoOperacaoFiscalViewSet)
+router.register(r'tipospagamento', financeiro_api.TipoPagamentoViewSet)
+router.register(r'prazospagamento', financeiro_api.PrazoPagamentoViewSet)
+router.register(r'tiposdocumentos', financeiro_api.TipoDocumentoViewSet)
+router.register(r'participantes', faturamento_api.ParticipanteViewSet)
+router.register(r'gruposparticipantes', faturamento_api.GrupoParticipanteViewSet)
+router.register(r'regioesdevenda', faturamento_api.RegiaoDeVendaViewSet)
+router.register(r'usuarios', accounts_api.UserViewSet)
+router.register(r'grupos', accounts_api.GroupViewSet)
+router.register(r'mensagenspadrao', globais_api.MensagemPadraoViewSet)
 
 urlpatterns = [
-    url(r'^api-auth/', include('rest_framework.urls')),
+    url(r'^api', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls'),),
     path('admin/', admin.site.urls),
     url(r'^cart/', include('cart.urls')),
     url(r'^faturamento/', include('faturamento.urls')),
+    url(r'^financeiro/', include('financeiro.urls')),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^', include('materiais.urls')),
     url(r'^login', login_view, name='login'),

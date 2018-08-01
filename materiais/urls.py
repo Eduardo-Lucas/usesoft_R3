@@ -10,19 +10,11 @@ app_name = 'materiais'
 
 urlpatterns = [
 
-
     # Pedido Tipo: Tradicional
     url(r'^pedidoweb_list/$', PedidoWebTradicionalList.as_view(), name='pedidoweb_list'),
     url(r'^pedidoweb_list/(?P<pk>[0-9]+)/$', PedidoWebTradicionalDetalhe.as_view(), name="pedidoweb_detail"),
     url(r'^pedidoweb_add/$', PedidoWebTradicionalCreate.as_view(), name='pedidoweb_add'),
     url(r'^pedidoweb_edit/(?P<pk>[0-9]+)/edit/$', PedidoWebTradicionalUpdate.as_view(), name='pedidoweb_edit'),
-
-    # API
-    url(r'^pedidoweb/$', api_views.PedidoWebList.as_view()),
-    url(r'^pedidoweb/(?P<pk>[0-9]+)/$', api_views.PedidoWebDetail.as_view()),
-
-    url(r'^pedidowebitem/$', api_views.PedidoWebItemList.as_view()),
-    url(r'^pedidowebitem/(?P<pk>[0-9]+)/$', api_views.PedidoWebItemDetail.as_view(), name='pedidowebitem-detail'),
 
     url(r'^create/$', views.order_create, name='order_create'),
     # Pedido Tipo: E-Commerce

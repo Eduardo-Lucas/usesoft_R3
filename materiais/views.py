@@ -1,27 +1,24 @@
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.models import User
+
 from django.contrib.messages.views import SuccessMessageMixin
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 from django.db import transaction
 from django.db.models import Q
-from django.http import request
+
 from django.shortcuts import render, get_object_or_404
-from django.template import response
+
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView
 
 from cart.cart import Cart
 from cart.forms import CartAddProductForm
-from faturamento.models import Participante
-from financeiro.models import NaturezaCusto, CentroCusto
-from globais.models import Cfop, CodigoNcm, CodigoCest, SituacaoTribIpi, SituacaoTribIcms, SituacaoTribPis, \
-    SituacaoTribCofins
+
 from materiais.filters import PedidoWebFilter
 from materiais.forms import OrderCreateForm, PedidoWebFormSet
-from materiais.models import Produto, Categoria, PedidoWebItem, ProdutoPromocao, PedidoWeb
+from materiais.models import Produto, PedidoWebItem, PedidoWeb
 
 
 @login_required

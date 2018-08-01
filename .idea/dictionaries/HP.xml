@@ -86,6 +86,7 @@
       <w>casa</w>
       <w>certificado</w>
       <w>cest</w>
+      <w>cfops</w>
       <w>chaves</w>
       <w>chegada</w>
       <w>classificações</w>
@@ -268,6 +269,7 @@
       <w>gravar</w>
       <w>gravação</w>
       <w>gravou</w>
+      <w>gruposparticipantes</w>
       <w>gtin</w>
       <w>gunicorn</w>
       <w>habilita</w>
@@ -335,6 +337,7 @@
       <w>margem</w>
       <w>medio</w>
       <w>mensagempadrao</w>
+      <w>mensagenspadrao</w>
       <w>mensalmente</w>
       <w>meus</w>
       <w>minp</w>
@@ -427,6 +430,7 @@
       <w>prazopagamento</w>
       <w>prazopagameto</w>
       <w>prazos</w>
+      <w>prazospagamento</w>
       <w>preenche</w>
       <w>preencher</w>
       <w>preenchido</w>
@@ -463,6 +467,7 @@
       <w>referenciados</w>
       <w>referentes</w>
       <w>referência</w>
+      <w>regioesdevenda</w>
       <w>regiões</w>
       <w>regras</w>
       <w>relativo</w>
@@ -514,6 +519,9 @@
       <w>tipomovimentofiscal</w>
       <w>tipooperacaofiscal</w>
       <w>tipopagamento</w>
+      <w>tiposdocumentos</w>
+      <w>tiposoperacoesfiscais</w>
+      <w>tipospagamento</w>
       <w>tornar</w>
       <w>totalizada</w>
       <w>tradicional</w>
