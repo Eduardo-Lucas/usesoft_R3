@@ -50,7 +50,7 @@ router.register(r'grupos', accounts_api.GroupViewSet)
 router.register(r'mensagenspadrao', globais_api.MensagemPadraoViewSet)
 
 urlpatterns = [
-    url(r'^api', include(router.urls)),
+    url(r'^api/', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls'),),
     path('admin/', admin.site.urls),
     url(r'^cart/', include('cart.urls')),
