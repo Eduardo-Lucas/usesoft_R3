@@ -1,3 +1,5 @@
+from django_filters.rest_framework import DjangoFilterBackend
+
 from materiais.models import PedidoWeb, PedidoWebItem, Produto
 from materiais.serializers import PedidoWebSerializer, PedidoWebItemSerializer, ProdutoSerializer
 
@@ -14,6 +16,8 @@ class PedidoWebViewSet(viewsets.ModelViewSet):
     """
     queryset = PedidoWeb.objects.all().order_by('-id')
     serializer_class = PedidoWebSerializer
+    filter_backends = (DjangoFilterBackend,)
+    filter_fields = ('status_pedido',)
 
 
 class PedidoWebItemViewSet(viewsets.ModelViewSet):

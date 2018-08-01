@@ -20,6 +20,7 @@ from django.contrib.auth.views import password_reset, password_reset_done, passw
     password_reset_complete
 from django.urls import path, include
 from rest_framework import routers
+from rest_framework.schemas import get_schema_view
 
 from accounts.views import login_view, logout_view
 from django.conf.urls.static import static
@@ -30,6 +31,10 @@ from globais import api_views as globais_api
 from financeiro import api_views as financeiro_api
 from faturamento import api_views as faturamento_api
 from accounts import api_views as accounts_api
+
+from rest_framework.schemas import get_schema_view
+
+schema_view = get_schema_view(title='Usesoft_R3 API')
 
 router = routers.DefaultRouter()
 router.register(r'pedidosweb', materiais_api.PedidoWebViewSet)
@@ -51,6 +56,7 @@ router.register(r'grupos', accounts_api.GroupViewSet)
 router.register(r'mensagenspadrao', globais_api.MensagemPadraoViewSet)
 
 urlpatterns = [
+    url(r'^schema/$', schema_view),
     url(r'^api/', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls'),),
     path('admin/', admin.site.urls),
