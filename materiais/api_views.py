@@ -12,7 +12,7 @@ class PedidoWebViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows PedidoWeb to be viewed or edited.
     """
-    queryset = PedidoWeb.objects.all().order_by('-id')[:100]
+    queryset = PedidoWeb.objects.all().order_by('-id')
     serializer_class = PedidoWebSerializer
 
 
@@ -28,5 +28,5 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Produto be viewed or edited.
     """
-    queryset = Produto.objects.all().order_by('descricao')[:100]
+    queryset = Produto.objects.all().order_by('descricao')
     serializer_class = ProdutoSerializer
