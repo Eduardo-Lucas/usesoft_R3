@@ -4,7 +4,7 @@ from materiais.models import PedidoWeb, PedidoWebItem, Produto
 
 
 class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
-    itenspedido = serializers.HyperlinkedRelatedField(many=True, view_name='pedidowebitem-detail')
+    itenspedido = serializers.HyperlinkedRelatedField(many=True, view_name='pedidowebitem-detail', read_only='True')
 
     class Meta:
         model = PedidoWeb
