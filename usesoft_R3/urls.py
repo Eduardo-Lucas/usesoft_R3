@@ -33,6 +33,7 @@ from accounts import api_views as accounts_api
 
 router = routers.DefaultRouter()
 router.register(r'pedidosweb', materiais_api.PedidoWebViewSet)
+router.register(r'pedidowebitens', materiais_api.PedidoWebItemViewSet)
 router.register(r'cfops', globais_api.CfopViewSet)
 router.register(r'municipios', globais_api.MunicipioViewSet)
 router.register(r'estados', globais_api.UfViewSet)
