@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from materiais.models import PedidoWeb, PedidoWebItem
+from materiais.models import PedidoWeb, PedidoWebItem, Produto
 
 
 class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
@@ -39,6 +39,15 @@ class PedidoWebItemSerializer(serializers.HyperlinkedModelSerializer):
                   'base_calc_cofins', 'perc_fundo_pobreza', 'perc_trib_aproximado', 'base_calc_import', 'perc_import',
                   'base_calc_issqn', 'perc_issqn', 'perc_desp_acessorias', 'perc_seguro', 'perc_frete',
                   'natureza_custos', 'centro_custo', 'codigo_promocao']
+
+
+class ProdutoSerializer(serializers.HyperlinkedModelSerializer):
+
+    class Meta:
+        model = Produto
+        fields = '__all__'
+
+
 
 
 
