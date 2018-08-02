@@ -26,6 +26,8 @@ class PedidoWebItemViewSet(viewsets.ModelViewSet):
     """
     queryset = PedidoWebItem.objects.all().order_by('sequencia')
     serializer_class = PedidoWebItemSerializer
+    filter_backends = (DjangoFilterBackend, )
+    filter_fields = ('pedidoweb', 'produto', 'descricao')
 
 
 class ProdutoViewSet(viewsets.ModelViewSet):
