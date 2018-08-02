@@ -1,7 +1,9 @@
 from django_filters.rest_framework import DjangoFilterBackend
+
+
 from materiais.models import PedidoWeb, PedidoWebItem, Produto, Categoria
 from materiais.serializers import PedidoWebSerializer, PedidoWebItemSerializer, ProdutoSerializer, CategoriaSerializer
-from materiais.filters import ProdutoFilter
+
 from rest_framework import viewsets
 
 """
@@ -28,7 +30,7 @@ class PedidoWebItemViewSet(viewsets.ModelViewSet):
     queryset = PedidoWebItem.objects.all().order_by('sequencia')
     serializer_class = PedidoWebItemSerializer
     filter_backends = (DjangoFilterBackend, )
-    filter_fields = ('pedidoweb', 'produto', )
+    filter_fields = ['pedidoweb', 'produto', ]
 
 
 class ProdutoViewSet(viewsets.ModelViewSet):
@@ -39,7 +41,7 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     queryset = Produto.objects.all().order_by('descricao')
     serializer_class = ProdutoSerializer
     filter_backends = (DjangoFilterBackend, )
-    filterset_class = ProdutoFilter
+    filter_fields = ['categoria', 'disponivel']
 
 
 class CategoriaViewSet(viewsets.ModelViewSet):
