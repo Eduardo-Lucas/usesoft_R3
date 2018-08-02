@@ -23,5 +23,5 @@ class ProdutoFilter(django_filters.FilterSet):
         model = Produto
         fields = {
             'preco_venda': ['icontains', ],
-            'produto': ['icontains', ],
+            
         }
