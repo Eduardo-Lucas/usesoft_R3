@@ -39,7 +39,7 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     queryset = Produto.objects.all().order_by('descricao')
     serializer_class = ProdutoSerializer
     filter_backends = (DjangoFilterBackend, )
-    filter_fields = ('categoria', 'disponivel', 'produto')
+    filter_fields = ('categoria', 'disponivel', 'produto', 'preco_venda')
 
 
 class CategoriaViewSet(viewsets.ModelViewSet):
