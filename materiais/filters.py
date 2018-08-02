@@ -1,4 +1,4 @@
-from materiais.models import PedidoWeb
+from materiais.models import PedidoWeb, Produto
 import django_filters
 
 

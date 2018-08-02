@@ -1,7 +1,4 @@
 from django_filters.rest_framework import DjangoFilterBackend
-
-from globais.models import CodigoNcm
-from globais.serializers import CodigoNcmSerializer
 from materiais.models import PedidoWeb, PedidoWebItem, Produto, Categoria
 from materiais.serializers import PedidoWebSerializer, PedidoWebItemSerializer, ProdutoSerializer, CategoriaSerializer
 
@@ -42,7 +39,7 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     queryset = Produto.objects.all().order_by('descricao')
     serializer_class = ProdutoSerializer
     filter_backends = (DjangoFilterBackend, )
-    filter_fields = ('produto', 'preco_venda', )
+    filter_fields = ('categoria', 'disponivel', 'produto')
 
 
 class CategoriaViewSet(viewsets.ModelViewSet):
