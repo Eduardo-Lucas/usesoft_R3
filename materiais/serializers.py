@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from materiais.models import PedidoWeb, PedidoWebItem, Produto
+from materiais.models import PedidoWeb, PedidoWebItem, Produto, Categoria
 
 
 class PedidoWebSerializer(serializers.HyperlinkedModelSerializer):
@@ -40,14 +40,12 @@ class PedidoWebItemSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class ProdutoSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = Produto
         fields = '__all__'
 
 
-
-
-
-
-
+class CategoriaSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Categoria
+        fields = '__all__'
