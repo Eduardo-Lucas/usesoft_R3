@@ -1,8 +1,9 @@
+from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 
-from globais.models import Cfop, MensagemPadrao, Municipio, Uf, PaisIbge, TipoOperacaoFiscal
+from globais.models import Cfop, MensagemPadrao, Municipio, Uf, PaisIbge, TipoOperacaoFiscal, CodigoNcm
 from globais.serializers import CfopSerializer, MensagemPadraoSerializer, MunicipioSerializer, UfSerializer, \
-    PaisIbgeSerializer, TipoOperacaoFiscalSerializer
+    PaisIbgeSerializer, TipoOperacaoFiscalSerializer, CodigoNcmSerializer
 
 
 class CfopViewSet(viewsets.ModelViewSet):
@@ -53,3 +54,12 @@ class TipoOperacaoFiscalViewSet(viewsets.ModelViewSet):
     serializer_class = TipoOperacaoFiscalSerializer
 
 
+class CodigoNcmViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows Codigo Ncm be viewed or edited.
+    API endpoint que  permite que Codigo Ncm seja visualizado ou editado.
+    """
+    queryset = CodigoNcm.objects.all().order_by('codigo')
+    serializer_class = CodigoNcmSerializer
+    filter_backends = (DjangoFilterBackend, )
+    filter_fields = ('codigo', )

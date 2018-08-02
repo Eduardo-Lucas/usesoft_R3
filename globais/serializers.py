@@ -1,12 +1,9 @@
 from rest_framework import serializers
 
-from globais.models import Cfop, MensagemPadrao, Municipio, Uf, PaisIbge, TipoOperacaoFiscal
+from globais.models import Cfop, MensagemPadrao, Municipio, Uf, PaisIbge, TipoOperacaoFiscal, CodigoNcm
 
 
 class CfopSerializer(serializers.HyperlinkedModelSerializer):
-    # pedidos = serializers.HyperlinkedRelatedField(many=True, view_name='pedidoweb-detail', read_only=True,
-    #                                              lookup_field='pedidoweb_id')
-
     class Meta:
         model = Cfop
         fields = ['url', 'id', 'codigo', 'descricao', 'tipomovimentofiscal', 'natureza_base_calc_cred_pis',
@@ -21,35 +18,36 @@ class CfopSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class MensagemPadraoSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = MensagemPadrao
         fields = ['codigo', 'descricao', 'habilitado', ]
 
 
 class MunicipioSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = Municipio
         fields = '__all__'
 
 
 class UfSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = Uf
         fields = '__all__'
 
 
 class PaisIbgeSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = PaisIbge
         fields = '__all__'
 
 
 class TipoOperacaoFiscalSerializer(serializers.HyperlinkedModelSerializer):
-
     class Meta:
         model = TipoOperacaoFiscal
+        fields = '__all__'
+
+
+class CodigoNcmSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = CodigoNcm
         fields = '__all__'

@@ -1,5 +1,7 @@
 from django_filters.rest_framework import DjangoFilterBackend
 
+from globais.models import CodigoNcm
+from globais.serializers import CodigoNcmSerializer
 from materiais.models import PedidoWeb, PedidoWebItem, Produto, Categoria
 from materiais.serializers import PedidoWebSerializer, PedidoWebItemSerializer, ProdutoSerializer, CategoriaSerializer
 
@@ -52,3 +54,4 @@ class CategoriaViewSet(viewsets.ModelViewSet):
     serializer_class = CategoriaSerializer
     filter_backends = (DjangoFilterBackend, )
     filter_fields = ('nome', )
+
