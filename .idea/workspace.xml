@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/materiais/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/filters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -56,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filters.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filters.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/filters.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -242,8 +241,8 @@
         <option value="$PROJECT_DIR$/globais/api_views.py" />
         <option value="$PROJECT_DIR$/usesoft_R3/urls.py" />
         <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
-        <option value="$PROJECT_DIR$/materiais/api_views.py" />
         <option value="$PROJECT_DIR$/materiais/filters.py" />
+        <option value="$PROJECT_DIR$/materiais/api_views.py" />
       </list>
     </option>
   </component>
@@ -564,14 +563,14 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3578869" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3578869" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.66831684" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39258698" side_tool="true" weight="0.3729373" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.607413" weight="0.35973597" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.607413" visible="true" weight="0.35973597" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -982,22 +981,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
