@@ -17,7 +17,7 @@ class PedidoWebViewSet(viewsets.ModelViewSet):
     queryset = PedidoWeb.objects.all().order_by('-id')
     serializer_class = PedidoWebSerializer
     filter_backends = (DjangoFilterBackend,)
-    filter_fields = ('status_pedido',)
+    filter_fields = ('status_pedido', 'participante', 'tipo_de_pagamento', 'prazo_de_pagamento')
 
 
 class PedidoWebItemViewSet(viewsets.ModelViewSet):
