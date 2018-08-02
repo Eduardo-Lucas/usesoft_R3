@@ -22,6 +22,6 @@ class ProdutoFilter(django_filters.FilterSet):
     class Meta:
         model = Produto
         fields = {
-            'preco_venda': ['exact', 'lt', 'gt'],
+            'preco_venda': ['icontains', ],
             'produto': ['icontains', ],
         }
