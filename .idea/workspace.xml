@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -56,14 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filters.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filters.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/filters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -233,8 +230,8 @@
         <option value="$PROJECT_DIR$/globais/serializers.py" />
         <option value="$PROJECT_DIR$/globais/api_views.py" />
         <option value="$PROJECT_DIR$/usesoft_R3/urls.py" />
-        <option value="$PROJECT_DIR$/materiais/api_views.py" />
         <option value="$PROJECT_DIR$/materiais/filters.py" />
+        <option value="$PROJECT_DIR$/materiais/api_views.py" />
       </list>
     </option>
   </component>
@@ -634,11 +631,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8568" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -969,22 +961,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
+    <entry file="file://$PROJECT_DIR$/materiais/filters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/filters.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django_filters/rest_framework/backends.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="68">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
