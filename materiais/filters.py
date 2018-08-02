@@ -1,4 +1,4 @@
-from materiais.models import PedidoWeb
+from materiais.models import PedidoWeb, Produto
 import django_filters
 
 
@@ -16,3 +16,12 @@ class PedidoWebFilter(django_filters.FilterSet):
         fields = ['ano_pedido', 'ano_pedido__gt', 'mes_pedido', 'participante', 'tipo_de_pagamento',
                   'prazo_de_pagamento', 'total_produtos', 'total_produtos__gt', 'total_produtos__lt',
                   'vendedor', ]
+
+
+class ProdutoFilter(django_filters.FilterSet):
+    class Meta:
+        model = Produto
+        fields = {
+            'preco_venda': ['exact', 'lt', 'gt'],
+            'produto': ['icontains', ],
+        }
