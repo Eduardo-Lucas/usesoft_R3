@@ -48,7 +48,7 @@ class CategoriaViewSet(viewsets.ModelViewSet):
     API endpoint that allows Categoria be viewed or edited.
     API endpoint que  permite que Categoria seja visualizado ou editado.
     """
-    queryset = Categoria.objects.all().order_by('descricao')
+    queryset = Categoria.objects.all().order_by('nome')
     serializer_class = CategoriaSerializer
     filter_backends = (DjangoFilterBackend, )
-    filter_fields = ('descricao', )
+    filter_fields = ('nome', )
