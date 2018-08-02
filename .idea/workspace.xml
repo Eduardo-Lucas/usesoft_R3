@@ -46,8 +46,8 @@
       <file leaf-file-name="api_views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -58,8 +58,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4553">
-              <caret line="1926" column="75" lean-forward="true" selection-start-line="1926" selection-start-column="73" selection-end-line="1926" selection-end-column="75" />
+            <state relative-caret-position="177">
+              <caret line="554" column="14" selection-start-line="554" selection-end-line="554" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>static</find>
       <find>email_info</find>
       <find>django_filter</find>
       <find>wsgi</find>
@@ -127,6 +126,7 @@
       <find>class TipoDocumento(</find>
       <find>TipoOperacaoFiscal</find>
       <find>100</find>
+      <find>class Produto(</find>
     </findStrings>
     <replaceStrings>
       <replace>choices=INDICADOR_FRETE_CHOICES</replace>
@@ -954,15 +954,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/materiais/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4553">
-          <caret line="1926" column="75" lean-forward="true" selection-start-line="1926" selection-start-column="73" selection-end-line="1926" selection-end-column="75" />
+        <state relative-caret-position="177">
+          <caret line="554" column="14" selection-start-line="554" selection-end-line="554" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/materiais/api_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>

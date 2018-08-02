@@ -13,6 +13,7 @@ from rest_framework import viewsets
 class PedidoWebViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows PedidoWeb to be viewed or edited.
+    API endpoint que  permite que PedidoWeb seja visualizado ou editado.
     """
     queryset = PedidoWeb.objects.all().order_by('-id')
     serializer_class = PedidoWebSerializer
@@ -36,3 +37,5 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     """
     queryset = Produto.objects.all().order_by('descricao')
     serializer_class = ProdutoSerializer
+    filter_backends = (DjangoFilterBackend, )
+    filter_fields = ('produto', )
