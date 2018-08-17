@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
-import dj_database_url
 from decouple import config, Csv
 
 EMAIL_USE_TLS = config('EMAIL_USE_TLS')
@@ -114,35 +113,35 @@ WSGI_APPLICATION = 'usesoft_R3.wsgi.application'
 
 
 # if DEBUG:
-# DATABASES = {
-#    'default': {
-#        # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        # 'ENGINE': 'tenant_schemas.postgresql_backend',
-#
-#        # Or path to database file if using sqlite3.
-#        'NAME': config('DB_NAME'),
-#        'USER': config('DB_USER'),
-#        'PASSWORD': config('DB_PASSWORD'),
-#
-#        # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-#        'HOST': '',
-#
-#        # Set to empty string for default
-#        'PORT': '',
-#    }
-#
-# }
+DATABASES = {
+   'default': {
+       # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       # 'ENGINE': 'tenant_schemas.postgresql_backend',
+
+       # Or path to database file if using sqlite3.
+       'NAME': config('DB_NAME'),
+       'USER': config('DB_USER'),
+       'PASSWORD': config('DB_PASSWORD'),
+
+       # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+       'HOST': '',
+
+       # Set to empty string for default
+       'PORT': '',
+   }
+
+}
 # else:
 
 # Never deploy a site into production with DEBUG turned on.
 # Did you catch that? NEVER deploy a site into production with DEBUG turned on.
 # Default: False
-DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL')
-    )
-}
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default=config('DATABASE_URL')
+#     )
+# }
 
 
 # Password validation

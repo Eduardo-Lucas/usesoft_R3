@@ -48,7 +48,7 @@ class ProdutoList(SuccessMessageMixin, LoginRequiredMixin, ListView):
         else:
             object_list = self.model.objects.all()
 
-        paginator = Paginator(object_list, 12)  # Show 12 produtos per page
+        paginator = Paginator(object_list, 2)  # Show 2 produtos per page
 
         page = self.request.GET.get('page')
         try:
@@ -94,6 +94,12 @@ def produto_detail(request, id=None, slug=None):
     cart_produto_form = CartAddProductForm(initial={'preco_negociado': produto.preco_venda})
     return render(request, 'materiais/produto/detail.html', {'produto': produto,
                                                              'cart_produto_form': cart_produto_form})
+
+
+class ProdutoDetalhe(SuccessMessageMixin, LoginRequiredMixin, DetailView):
+    model = Produto
+    context_object_name = 'produto'
+    template_name = 'materiais/produto/produto_detail.html'
 
 
 @login_required
@@ -276,7 +282,7 @@ class PedidoWebTradicionalDetalhe(SuccessMessageMixin, LoginRequiredMixin, Detai
 
 class PedidoWebTradicionalUpdate(SuccessMessageMixin, LoginRequiredMixin, UpdateView):
     model = PedidoWeb
-    fields = ['participante', 'tipo_de_pagamento', 'prazo_de_pagamento', 'observacoes']
+    fields = ['participante', 'tipo_de_pagamento', 'prazo_de_pagamento', ]
     template_name = 'materiais/pedido/pedidoweb_form.html'
 
     def get_success_message(self, cleaned_data):

@@ -8,7 +8,7 @@
     <div class="card-group">
 
         <div class="card" align="center">
-            <h5 style="margin-center"><strong>Lista de Participantes</strong></h5>
+            <h5 style="margin-center"><strong>Lista de Clientes</strong></h5>
         </div>
 
         <div class="card" align="left">
@@ -63,75 +63,28 @@
 
 <div class="container">
         {% if object_list %}
-                <table class=" responsive table table-responsive table-condensed table-bordered table-hover table-striped"
-                   style="margin-bottom: 0px;">
-                    <tbody>
-                        <tr>
-                            <th>Código</th>
-                            <th>Razão Social</th>
-                            <th>Nome Fantasia</th>
-                            <th>CNPJ / CPF</th>
-                            <th>Telefone</th>
-                            <th>Estado</th>
-                            <th>E-mail</th>
-                            <th>Ações</th>
-                        </tr>
-                        <tfoot>
-                            <tr>
-                                <th>Código</th>
-                                <th>Razão Social</th>
-                                <th>Nome Fantasia</th>
-                                <th>CNPJ / CPF</th>
-                                <th>Telefone</th>
-                                <th>Estado</th>
-                                <th>E-mail</th>
-                                <th>Ações</th>
-                            </tr>
-                        </tfoot>
+                    <div class="row">
                         {% for participante in object_list %}
-                                <tr class="danger">
+                            <div class="col-sm-12">
+                                <div class="card border-dark mb-3" style="background-color: #eee;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">#{{ participante.codigo }} - {{ participante.razao_social}}</h5>
+                                        <p class="card-text">{{ pedidoweb.nome_fantasia }}</p>
 
-                                <td>{{ participante.codigo  }}</td>
-                                <td>{{ participante.razao_social  }}</td>
-                                <td>{{ participante.nome_fantasia  }}</td>
-                                <td>{{ participante.cnpj_cpf}}</td>
-                                <td>{{ participante.telefone}}</td>
-                                <td>{{ participante.estado}}</td>
-                                <td>{{ participante.exibe_email}}</td>
+                                        <!-- Detalhes -->
+                                        <a href="{% url 'faturamento:participante_detail' participante.id %}"
+                                           class="btn btn-outline-primary btn-sm"><i class="fas fa-info-circle"></i> Detalhes</a>
 
-                                <td>
-                                    <div class="btn-group">
-                                            <!-- Edita -->
-                                            <a href="{% url 'faturamento:participante_edit' participante.id %}"
-                                                class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
-                                                title="Altera o registro">
-                                                <i class="fas fa-pencil-alt"></i>
-                                            </a>
-                                            <!-- Detalhes -->
-                                            <a href="{% url 'faturamento:participante_detail' participante.id %}"
-                                                class="btn btn-primary btn-sm" role="button" data-toggle="tooltip"
-                                                title="Detalhes do participante">
-                                                <i class="fas fa-info-circle"></i>
-                                            </a>
-                                            <!-- Deleta -->
-                                            <!--<form action="{% url 'faturamento:participante_delete' participante.id %}">
-                                                {% csrf_token %}
-                                                <input type="hidden"   />
-                                                    <button type="submit" class="btn btn-danger btn-sm"
-                                                            data-toggle="tooltip" title="Exclui o registro">
-
-                                                        <i class="fas fa-trash-alt"></i>
-                                                    </button>
-                                            </form>-->
+                                        <!-- Altera -->
+                                        <a href="{% url 'faturamento:participante_edit' participante.id %}"
+                                            class="btn btn-outline-primary btn-sm" role="button" >
+                                            <i class="fas fa-pencil-alt"></i>Edita
+                                        </a>
                                     </div>
-                                </td>
-                            </tr>
-
+                                </div>
+                            </div>
                         {% endfor %}
-
-                    </tbody>
-
-                </table>
+                    </div>
 
         {% else %}
             <h2>Nenhum registro encontrado para a pesquisa {{ request.GET.q }} </h2>

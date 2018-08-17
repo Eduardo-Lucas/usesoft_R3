@@ -4,7 +4,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 
 from materiais import views, api_views
 from materiais.views import PedidoWebTradicionalList, PedidoWebTradicionalDetalhe, PedidoWebTradicionalCreate, \
-    PedidoWebTradicionalUpdate
+    PedidoWebTradicionalUpdate, ProdutoDetalhe
 
 app_name = 'materiais'
 
@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^produto_list/(?P<categoria_slug>[-\w]+)/$', views.ProdutoList.as_view(), name='produto_list_by_category'),
     # url(r'^(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.produto_detail, name='produto_detail'),
     url(r'^produto_list/(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.produto_detail, name='produto_detail'),
+    url(r'^produto_detalhe/(?P<pk>[0-9]+)/$', ProdutoDetalhe.as_view(), name="produto_detalhe"),
 
     # Index
     path('', views.ProdutoList.as_view(), name='home'),
