@@ -39,7 +39,7 @@
                         <i class="fas fa-home"></i>
                             Pedidos
                     </a>
-                    {% if user.group == "Clientes" %}
+                    {% if user.group == "Vendedores" %}
                         <a href="{% url 'faturamento:participante_list' %}">
                             <i class="fas fa-briefcase"></i>
                             Clientes

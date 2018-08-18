@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/faturamento/migrations/0004_participante_vendedor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/materiais/migrations/0008_auto_20180818_1202.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faturamento/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usesoft_R3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/usesoft_R3/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -68,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="187">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -254,8 +247,8 @@
         <option value="$PROJECT_DIR$/faturamento/models.py" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
       </list>
     </option>
   </component>
@@ -1044,17 +1037,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
         </state>
       </provider>
     </entry>
