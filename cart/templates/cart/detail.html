@@ -32,7 +32,7 @@
             {% for item in cart %}
                 {% with produto=item.product %}
 
-                     <div class="col-sm-3">
+                     <div class="col-sm-12">
                           <div class="card border-success mb-3" style="background-color: #eee;">
                                <div class="card-body">
                                    <h6 class="card-title">{{ produto.produto }}</h6>
@@ -66,7 +66,7 @@
 
     {% else %}
 
-        <h1 align="center"><i class="fas fa-shopping-cart"></i> Seu carrinho de compras está vazio!</h1>
+        <h1 align="center"><i class="fas fa-shopping-cart"></i> Seu carrinho está vazio!</h1>
         <a href="{% url 'materiais:produto_list' %}" class="btn btn-success btn-lg btn-block" role="button">Continuar vendendo!</a>
 
     {% endif%}

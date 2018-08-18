@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usesoft_R3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/usesoft_R3/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="participante_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="participante_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="117" selection-start-line="71" selection-start-column="117" selection-end-line="71" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/globais/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/materiais/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="2001" column="101" selection-start-line="2001" selection-start-column="91" selection-end-line="2001" selection-end-column="101" />
+            <state relative-caret-position="323">
+              <caret line="73" column="150" selection-start-line="73" selection-start-column="150" selection-end-line="73" selection-end-column="150" />
             </state>
           </provider>
         </entry>
@@ -61,17 +40,71 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
+            <state relative-caret-position="272">
+              <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pedidoweb_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="70" lean-forward="true" selection-start-line="38" selection-end-line="70" />
+            <state relative-caret-position="-901">
+              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-20">
+              <caret line="70" column="10" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_backup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base_backup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -88,9 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class PedidoWebI</find>
-      <find>Cfop</find>
-      <find>Mensage</find>
       <find>api_views</find>
       <find>'api_</find>
       <find>serializers</find>
@@ -118,6 +148,9 @@
       <find>class PedidoW</find>
       <find>Uf</find>
       <find>class Participante</find>
+      <find>subheader</find>
+      <find>cart</find>
+      <find>vazio</find>
     </findStrings>
     <replaceStrings>
       <replace>choices=TIPO_FRETE_CHOICES</replace>
@@ -168,12 +201,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/accounts/templates/registration/password_reset_done.html" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/accounts/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/materiais/models.py" />
         <option value="$PROJECT_DIR$/wsgi.py" />
-        <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/detail.html" />
         <option value="$PROJECT_DIR$/cart/forms.py" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -205,12 +235,10 @@
         <option value="$PROJECT_DIR$/materiais/api_views.py" />
         <option value="$PROJECT_DIR$/materiais/templates/base.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/base_backup.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/materiais/urls.py" />
         <option value="$PROJECT_DIR$/materiais/views.py" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/produto_detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_form.html" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_form.html" />
@@ -218,6 +246,11 @@
         <option value="$PROJECT_DIR$/globais/models.py" />
         <option value="$PROJECT_DIR$/faturamento/models.py" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
+        <option value="$PROJECT_DIR$/materiais/static/css/style.css" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
+        <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
         <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
       </list>
     </option>
@@ -258,6 +291,24 @@
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
               <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
@@ -560,6 +611,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.66831684" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39258698" side_tool="true" weight="0.3729373" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32838285" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -575,7 +627,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32838285" />
@@ -636,14 +687,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="141" column="38" lean-forward="true" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/usesoft_R3/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -669,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -836,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/usesoft_R3/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -854,20 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base_backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -923,20 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="77" column="22" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3757">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -979,10 +980,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
+    <entry file="file://$PROJECT_DIR$/materiais/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
+          <caret line="73" column="150" selection-start-line="73" selection-start-column="150" selection-end-line="73" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
         </state>
       </provider>
     </entry>

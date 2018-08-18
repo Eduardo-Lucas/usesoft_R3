@@ -51,6 +51,18 @@ span {
     display: inline-block;
 }
 
+#subheader {
+    /*background:#ececec;*/
+    color:#444;
+    padding:15px 100px;
+    overflow:auto;
+}
+
+#subheader .cart {
+    float:right;
+    padding-top:4px;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
