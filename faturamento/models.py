@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.core.validators import MaxValueValidator
 from django.db import models
 from django.urls import reverse
@@ -63,6 +64,8 @@ class Participante(models.Model):
 
     # TODO Depois excluir a opção null=True
     codigo = models.PositiveIntegerField("Código", validators=[MaxValueValidator(99999999)], blank=True, null=True)
+
+    vendedor = models.ForeignKey(User, on_delete=models.DO_NOTHING, blank=True, null=True, related_name="responsavel")
 
     # TODO 1. Depois excluir a opção null=True
     regiao_de_venda = models.ForeignKey(RegiaoDeVenda, on_delete=models.CASCADE, blank=True, null=True)

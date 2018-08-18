@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/faturamento/migrations/0004_participante_vendedor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materiais/migrations/0008_auto_20180818_1202.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usesoft_R3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/usesoft_R3/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +29,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="participante_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="72" column="97" selection-start-line="72" selection-start-column="97" selection-end-line="72" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faturamento/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="134" column="39" lean-forward="true" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
+            <state relative-caret-position="211">
+              <caret line="67" column="116" selection-start-line="67" selection-start-column="116" selection-end-line="67" selection-end-column="116" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,17 +53,17 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="306">
               <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/materiais/views.py">
+      <file leaf-file-name="participante_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+            <state relative-caret-position="116">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -58,8 +71,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+            <state relative-caret-position="442">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
@@ -96,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-425">
               <caret line="29" column="46" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/materiais/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,10 +151,10 @@
       <find>pedidowebitem</find>
       <find>class PedidoW</find>
       <find>Uf</find>
-      <find>class Participante</find>
       <find>subheader</find>
       <find>cart</find>
       <find>vazio</find>
+      <find>class Participante</find>
     </findStrings>
     <replaceStrings>
       <replace>choices=TIPO_FRETE_CHOICES</replace>
@@ -242,15 +246,15 @@
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_form.html" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_form.html" />
-        <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" />
         <option value="$PROJECT_DIR$/globais/models.py" />
-        <option value="$PROJECT_DIR$/faturamento/models.py" />
-        <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
         <option value="$PROJECT_DIR$/materiais/static/css/style.css" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
+        <option value="$PROJECT_DIR$/faturamento/models.py" />
+        <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" />
+        <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
       </list>
     </option>
@@ -295,20 +299,28 @@
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
               <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
               <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
               <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="faturamento" type="462c0819:PsiDirectoryNode" />
+              <item name="participante" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
@@ -952,31 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/globais/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="162" column="29" selection-start-line="162" selection-start-column="29" selection-end-line="162" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="117" selection-start-line="71" selection-start-column="117" selection-end-line="71" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faturamento/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="134" column="39" lean-forward="true" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1015,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="102" column="79" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cart/templates/cart/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1036,9 +1020,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/faturamento/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="67" column="116" selection-start-line="67" selection-start-column="116" selection-end-line="67" selection-end-column="116" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="72" column="97" selection-start-line="72" selection-start-column="97" selection-end-line="72" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="306">
           <caret line="135" column="7" lean-forward="true" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
         </state>
       </provider>

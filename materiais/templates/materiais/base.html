@@ -39,10 +39,12 @@
                         <i class="fas fa-home"></i>
                             Pedidos
                     </a>
-                    <a href="{% url 'faturamento:participante_list' %}">
-                        <i class="fas fa-briefcase"></i>
-                        Clientes
-                    </a>
+                    {% if user.group == "Clientes" %}
+                        <a href="{% url 'faturamento:participante_list' %}">
+                            <i class="fas fa-briefcase"></i>
+                            Clientes
+                        </a>
+                    {% endif %}
                     <a href="{% url 'materiais:produto_list' %}">
                         <i class="fas fa-copy"></i>
                         Produtos
