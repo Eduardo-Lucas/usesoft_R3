@@ -113,7 +113,6 @@ class Participante(models.Model):
         else:
             return "-"
 
-
     def exibe_bairro(self):
         if self.bairro:
             return self.bairro
@@ -131,6 +130,12 @@ class Participante(models.Model):
             return self.email
         else:
             return "Favor atualizar E-mail."
+
+    def exibe_fisica_juridica(self):
+        if self.fisica_juridica == 'J':
+            return "Pessoa Jurídica"
+        else:
+            return "Pessoa Física"
 
     class Meta:
         ordering = ['razao_social']

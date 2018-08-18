@@ -160,7 +160,7 @@ class Municipio(models.Model):
     data_publicacao = models.DateField(null=True, blank=True)
 
     def __str__(self):
-        return self.descricao + " - " + str(self.codigo)
+        return self.descricao
 
     class Meta:
         ordering = ('descricao',)
@@ -182,7 +182,7 @@ class Uf(models.Model):
     data_publicacao = models.DateField(null=True, blank=True)
 
     def __str__(self):
-        return str(self.codigo) + " - " + self.estado
+        return self.estado
 
     class Meta:
         ordering = ['sigla_estado']

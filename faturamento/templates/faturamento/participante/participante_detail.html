@@ -18,6 +18,8 @@
             <h5>Complemento  : <strong>{{ participante.exibe_complemento }}</strong></h5>
             <h5>Telefone 1   : <strong>{{ participante.telefone }}</strong></h5>
             <h5>Telefone 2   : <strong>{{ participante.exibe_telefone2 }}</strong></h5>
+            <h5>Celular 1   : <strong>{{ participante.celular }}</strong></h5>
+            <h5>Celular 2   : <strong>{{ participante.celular2 }}</strong></h5>
             <h5>E-mail       : <strong>{{ participante.exibe_email }}</strong></h5>
             <h5>Bairro       : <strong>{{ participante.exibe_bairro }}</strong></h5>
             <h5>Cidade       : <strong>{{ participante.cidade }}</strong></h5>
@@ -25,6 +27,36 @@
         </div>
 
     </div>
+
+        {% if participante.pedidoweb_set.all %}
+        <table class="responsive table table-responsive table-condensed table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Sequência</th>
+                    <th>Descrição</th>
+                    <th style="text-align:right">Preço Unitário</th>
+                    <th style="text-align:right">Quantidade</th>
+                    <th style="text-align:right">% Desconto</th>
+                    <th style="text-align:right">Preço Líquido</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in clienteWeb.pedidoweb_set %}
+                    <tr>
+                        <td>{{ item.sequencia }}</td>
+                        <td>{{ item.produto }}</td>
+                        <td style="text-align:right">{{ item.preco_unitario|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.quantidade|floatformat:0 }}</td>
+                        <td style="text-align:right">{{ item.perc_desc|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.total_produto|floatformat:2 }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+    {% endif %}
+
 
 </div>
 {% endblock %}
