@@ -14,8 +14,8 @@
     </ul>
 {% endif %}
 
-{% if user.groups.all.0.name == "Representantes" %}
-    <h3>Grupo de Representantes</h3>
+{% if user.groups.all.0.name == "Vendedores" %}
+    <h3>Grupo de Vendedores</h3>
 {% else %}
     <h3>Grupo de {{user.groups.all.0.name}}</h3>
 {% endif %}

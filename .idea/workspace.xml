@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -82,8 +83,8 @@
       <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -243,11 +244,11 @@
         <option value="$PROJECT_DIR$/materiais/static/css/style.css" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
         <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
         <option value="$PROJECT_DIR$/faturamento/models.py" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_detail.html" />
         <option value="$PROJECT_DIR$/faturamento/templates/faturamento/participante/participante_list.html" />
         <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
       </list>
     </option>
@@ -314,6 +315,53 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="faturamento" type="462c0819:PsiDirectoryNode" />
               <item name="participante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="pedido" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="usesoft_R3" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="materiais" type="462c0819:PsiDirectoryNode" />
+              <item name="produto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="usesoft_R3" type="b2602c69:ProjectViewProjectNode" />
@@ -1006,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faturamento/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1044,10 +1085,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
         </state>
       </provider>
     </entry>
