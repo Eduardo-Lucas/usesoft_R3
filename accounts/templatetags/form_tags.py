@@ -1,4 +1,5 @@
 from django import template
+from django.contrib.auth.models import Group
 
 register = template.Library()
 
@@ -17,3 +18,9 @@ def input_class(bound_field):
         elif field_type(bound_field) != 'PasswordInput':
             css_class = 'is-valid'
     return 'form-control {}'.format(css_class)
+
+
+@register.filter(name='has_group')
+def has_group(user, group_name):
+    group = Group.objects.get(name=group_name)
+    return group in user.groups.all()

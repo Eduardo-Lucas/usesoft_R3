@@ -15,6 +15,7 @@ from django.views.generic import CreateView, ListView, DetailView, UpdateView
 
 from cart.cart import Cart
 from cart.forms import CartAddProductForm
+from faturamento.models import Participante
 
 from materiais.filters import PedidoWebFilter
 from materiais.forms import OrderCreateForm, PedidoWebFormSet
@@ -108,15 +109,21 @@ def order_create(request):
 
     if request.method == 'POST':
         form = OrderCreateForm(request.POST)
+
         if form.is_valid():
             pedidoweb = form.save(commit=False)
-            # TODO Se o usuario for do Grupo Representante, já preenche o campo vendedor
+
+            # TODO Se o usuario for do Grupo Vendedor, já preenche o campo vendedor
             # TODO Caso contrário, Usuário precisa escolher o vendedor da lista
-            # pedidoweb.vendedor = request.user
+
+            if request.user.groups == "Clientes":
+                pedidoweb.vendedor = request.user
+                pedidoweb.participante = Participante.objects.get(vendedor=request.user)
+
             pedidoweb.total_produtos = cart.get_total_price()
             pedidoweb.save()
-            seq = 0
 
+            seq = 0
             for item in cart:
 
                 seq += 1

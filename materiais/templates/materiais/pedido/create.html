@@ -1,4 +1,5 @@
 {% extends "materiais/base.html" %}
+{% load form_tags %}
 
 {% block title %}
     Fechar Pedido
@@ -53,9 +54,11 @@
                 <div class="card-body">
                 <form action="." method="post" class="order-form">
                         {% csrf_token %}
-                        <h6 class="card-text">Vendedor: {{ form.vendedor }}</h6>
-                        <h6 class="card-text">Participante: <a href="{% url 'faturamento:participante_list' %}"></a> {{ form.participante }}</h6>
-                        <h6 class="card-text"><a href="{% url 'faturamento:participante_add' %}">Criar Novo Participante</a></h6>
+                        {% if request.user|has_group:"Vendedores" %}
+                            <h6 class="card-text">Vendedor: {{ form.vendedor }}</h6>
+                            <h6 class="card-text">Participante: <a href="{% url 'faturamento:participante_list' %}"></a> {{ form.participante }}</h6>
+                            <h6 class="card-text"><a href="{% url 'faturamento:participante_add' %}">Criar Novo Participante</a></h6>
+                        {% endif %}
                         <h6 class="card-text">Forma de Pagamento: {{ form.tipo_de_pagamento }}</h6>
                         <h6 class="card-text">Prazo de Pagamento: {{ form.prazo_de_pagamento }}</h6>
                         <h6 class="card-text">Observações: {{ form.observacoes }}</h6>
