@@ -1,0 +1,46 @@
+{% extends 'materiais/base.html' %}
+{% load l10n %}
+
+{% block content %}
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<div class="col-md-offset-2"> <!-- Header -->
+    <!-- Left Contato Info -->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            {% if pedidoweb.id %}
+            <h4>Edita o Produto {{pedidoweb.id}}</h4>
+            {% else %}
+            <h4>Cria um Novo Produto</h4>
+            {% endif %}
+
+            <div align="right">
+                <a class="nav-link" href="{% url 'materiais:produto_list' %}">
+                     <i class="fas fa-arrow-circle-left"></i> Voltar
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <form action="" method="post">{% csrf_token %}
+
+        <div class="container">
+            {{ form.as_p }}
+        </div>
+
+        <div align="right">
+            <input type="submit" value="Gravar"/>
+        </div>
+    </form>
+</div>
+
+
+{% endblock %}

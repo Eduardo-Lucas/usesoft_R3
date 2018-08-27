@@ -4,7 +4,7 @@ from rest_framework.urlpatterns import format_suffix_patterns
 
 from materiais import views, api_views
 from materiais.views import PedidoWebTradicionalList, PedidoWebTradicionalDetalhe, PedidoWebTradicionalCreate, \
-    PedidoWebTradicionalUpdate, ProdutoDetalhe
+    PedidoWebTradicionalUpdate, ProdutoDetalhe, novo_pedido, ProdutoCreate
 
 app_name = 'materiais'
 
@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'^pedidoweb_list/(?P<pk>[0-9]+)/$', PedidoWebTradicionalDetalhe.as_view(), name="pedidoweb_detail"),
     url(r'^pedidoweb_add/$', PedidoWebTradicionalCreate.as_view(), name='pedidoweb_add'),
     url(r'^pedidoweb_edit/(?P<pk>[0-9]+)/edit/$', PedidoWebTradicionalUpdate.as_view(), name='pedidoweb_edit'),
+    url(r'^novo_pedido/$', novo_pedido, name='novo_pedido'),
 
     url(r'^create/$', views.order_create, name='order_create'),
     # Pedido Tipo: E-Commerce
@@ -24,6 +25,7 @@ urlpatterns = [
     # url(r'^(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.produto_detail, name='produto_detail'),
     url(r'^produto_list/(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.produto_detail, name='produto_detail'),
     url(r'^produto_detalhe/(?P<pk>[0-9]+)/$', ProdutoDetalhe.as_view(), name="produto_detalhe"),
+    url(r'^produto_add/$', ProdutoCreate.as_view(), name='produto_add'),
 
     # Index
     path('', views.ProdutoList.as_view(), name='home'),

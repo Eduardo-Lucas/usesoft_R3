@@ -32,6 +32,12 @@ def home(request):
 """
 
 
+class ProdutoCreate(SuccessMessageMixin, LoginRequiredMixin, CreateView):
+    model = Produto
+    fields = '__all__'
+    template_name = 'materiais/produto/produto_form.html'
+
+
 class ProdutoList(SuccessMessageMixin, LoginRequiredMixin, ListView):
     model = Produto
     context_object_name = 'produtos'
@@ -103,7 +109,12 @@ class ProdutoDetalhe(SuccessMessageMixin, LoginRequiredMixin, DetailView):
     template_name = 'materiais/produto/produto_detail.html'
 
 
-@login_required
+@login_required()
+def novo_pedido(request):
+    return render(request, 'materiais/pedido/novopedido.html')
+
+
+@login_required()
 def order_create(request):
     cart = Cart(request)
 

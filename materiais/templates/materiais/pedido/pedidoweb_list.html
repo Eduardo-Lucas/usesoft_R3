@@ -17,14 +17,15 @@
 
         <div class="card" align="center">
             <h5 style="margin-center"><strong>Lista de Pedidos Web</strong></h5>
-            <a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a>
+            <button class="btn btn-outline-primary"><a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a></button>
+            <button class="btn btn-outline-success"><a href="{% url 'materiais:novo_pedido' %}"> Criar Pedido <i class="fas fa-plus"></i> </a></button>
         </div>
 
         <div class="card" align="center">
              <!-- Pesquisa -->
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Pesquisa" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa <i class="fas fa-search"></i></button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i></button>
             </form>
 
         </div>
