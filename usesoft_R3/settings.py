@@ -131,7 +131,7 @@ WSGI_APPLICATION = 'usesoft_R3.wsgi.application'
 #        # Set to empty string for default
 #        'PORT': '',
 #    }
-# 
+#
 # }
 # else:
 
