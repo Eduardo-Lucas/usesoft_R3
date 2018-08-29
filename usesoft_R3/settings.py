@@ -70,12 +70,10 @@ INSTALLED_APPS = [
     'import_export',
     'django_filters',
     'widget_tweaks',
-    'crispy_forms',
     'django_ajax',
 
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
