@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06c9a0e2-663d-4941-9504-00bd4e87f8d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/materiais/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usesoft_R3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/usesoft_R3/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+            <state relative-caret-position="415">
+              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/materiais/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="221">
               <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pedidoweb_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -165,15 +185,15 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/materiais/urls.py" />
         <option value="$PROJECT_DIR$/materiais/forms.py" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_form.html" />
-        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/base.html" />
         <option value="$PROJECT_DIR$/cart/templates/cart/detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_detail.html" />
         <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/create.html" />
-        <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
         <option value="$PROJECT_DIR$/materiais/views.py" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/produto/list.html" />
+        <option value="$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html" />
+        <option value="$PROJECT_DIR$/usesoft_R3/settings.py" />
       </list>
     </option>
   </component>
@@ -546,7 +566,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3296131" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3296131" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.66831684" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.39258698" side_tool="true" weight="0.3729373" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924356" weight="0.32838285" />
@@ -911,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -953,24 +966,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/produto/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/materiais/templates/materiais/pedido/pedidoweb_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usesoft_R3/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/materiais/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        <state relative-caret-position="415">
+          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
         </state>
       </provider>
     </entry>

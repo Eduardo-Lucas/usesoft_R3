@@ -14,44 +14,53 @@
 
     <div class="card-group">
 
-        <div class="card" align="center">
+        <div class="card bg-light" align="center">
+            <div class="card-body">
             <h5 style="margin-center"><strong>Lista de Pedidos Web</strong></h5>
-            <button class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Filtrar Pedidos Web"><a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a></button>
-            <button class="btn btn-outline-success" data-toggle="tooltip" data-placement="top" title="Criar Novo Pedido"><a href="{% url 'materiais:order_create' %}"> Criar Pedido <i class="fas fa-plus"></i> </a></button>
+            </div>
+            <div class="card-footer">
+            <button class="btn btn-outline-success btn-block" data-toggle="tooltip" data-placement="top" title="Criar Novo Pedido"><a href="{% url 'materiais:order_create' %}"> Criar Pedido <i class="fas fa-plus"></i> </a></button>
+            </div>
         </div>
 
-        <div class="card" align="center">
+        <div class="card bg-light">
+            <div class="card-body">
              <!-- Pesquisa -->
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Pesquisa" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="tooltip" data-placement="top" title="Pesquisar" type="submit"> <i class="fas fa-search"></i></button>
             </form>
-
+            </div>
+            <div class="card-footer">
+            <button class="btn btn-outline-primary btn-block" data-toggle="tooltip" data-placement="top" title="Filtrar Pedidos Web"><a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a></button>
+            </div>
         </div>
 
-        <div class="card" align="center">
-            <!-- pagination -->
-            <nav aria-label="Page navigation example">
-              <ul class="pagination pagination-sm justify-content-end">
+        <div class="card bg-light">
+            <div class="card-body">
+                <!-- pagination -->
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-sm justify-content-end">
 
-                {% if object_list.has_previous %}
-                <li class="page-item"><a class="page-link" href="?page={{ object_list.previous_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-left"></i> Anterior</a></li>
-                {% endif %}
+                    {% if object_list.has_previous %}
+                    <li class="page-item"><a class="page-link" href="?page={{ object_list.previous_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-left"></i> Anterior</a></li>
+                    {% endif %}
 
-                <li class="page-item active">
-                    <span class="page-link">
-                            Página {{ object_list.number }} de {{ object_list.paginator.num_pages }}
-                            <span class="sr-only">(current)</span>
-                    </span>
-                </li>
+                    <li class="page-item active">
+                        <span class="page-link">
+                                Página {{ object_list.number }} de {{ object_list.paginator.num_pages }}
+                                <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
 
-                {% if object_list.has_next %}
-                <li class="page-item"><a class="page-link" href="?page={{ object_list.next_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-right"></i> Próxima</a></li>
-                {% endif %}
+                    {% if object_list.has_next %}
+                    <li class="page-item"><a class="page-link" href="?page={{ object_list.next_page_number }}&q={{ request.GET.q }}"><i class="fas fa-chevron-circle-right"></i> Próxima</a></li>
+                    {% endif %}
 
-              </ul>
-            </nav>
-            <!--end of pagination-->
+                  </ul>
+                </nav>
+                <!--end of pagination-->
+            </div>
         </div>
 
     </div>

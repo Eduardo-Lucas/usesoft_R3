@@ -21,19 +21,24 @@
     {% if produtos %}
     <div class="card-group">
 
-        <div class="card" align="center">
-            <h5 style="margin-center"><strong>Lista de Produtos</strong></h5>
+        <div class="card bg-light" align="center">
+            <div class="card-body">
+                <h5 style="margin-center"><strong>Lista de Produtos</strong></h5>
+            </div>
         </div>
 
-        <div class="card" align="center">
+        <div class="card bg-light" align="center">
+            <div class="card-body">
              <!-- Pesquisa -->
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="código, descrição ou preço..." aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="tooltip" data-placement="top" title="Pesquisar" type="submit"><i class="fas fa-search"></i></button>
             </form>
+            </div>
         </div>
 
-        <div class="card" align="center">
+        <div class="card bg-light" align="center">
+            <div class="card-body">
             <!-- pagination -->
             <nav aria-label="Page navigation example">
               <ul class="pagination pagination-sm justify-content-end">
@@ -56,6 +61,7 @@
               </ul>
             </nav>
             <!--end of pagination-->
+            </div>
         </div>
 
     </div>
