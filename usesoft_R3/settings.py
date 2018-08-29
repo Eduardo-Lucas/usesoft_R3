@@ -45,7 +45,6 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 6000
 # Application definition
 
 INSTALLED_APPS = [
-    'django_ajax',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -72,6 +71,7 @@ INSTALLED_APPS = [
     'django_filters',
     'widget_tweaks',
     'crispy_forms',
+    'django_ajax',
 
 ]
 
