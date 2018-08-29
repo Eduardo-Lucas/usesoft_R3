@@ -12,6 +12,7 @@ from django.shortcuts import render, get_object_or_404
 
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView
+from django_ajax.decorators import ajax
 
 from cart.cart import Cart
 from cart.forms import CartAddProductForm
@@ -110,16 +111,11 @@ class ProdutoDetalhe(SuccessMessageMixin, LoginRequiredMixin, DetailView):
 
 
 @login_required()
-def novo_pedido(request):
-    return render(request, 'materiais/pedido/novopedido.html')
-
-
-@login_required()
 def order_create(request):
     cart = Cart(request)
 
     if request.method == 'POST':
-        form = OrderCreateForm(request.POST)
+        form = OrderCreateForm(request.POST, initial={'vendedor': request.user })
 
         if form.is_valid():
             pedidoweb = form.save(commit=False)

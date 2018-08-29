@@ -1,5 +1,4 @@
 {% extends 'materiais/base.html' %}
-{% load l10n %}
 
 {% block content %}
 
@@ -36,57 +35,43 @@
             {{ form.as_p }}
         </div>
 
-        <table class="table table-responsive table-condensed table-bordered table-hover table-striped">
-            {{ pedidoweb_item.management_form }}
-
-            {% if pedidoweb_item.errors %}
-                {% for field in pedidoweb_item %}
-                    {% for error in field.errors %}
-                        <div class="alert alert-danger">
-                            <strong>{{ error|escape }}</strong>
-                        </div>
-                    {% endfor %}
-                {% endfor %}
-
-                {% for error in form.non_field_errors %}
-                    <div class="alert alert-danger">
-                        <strong>{{ error|escape }}</strong>
-                    </div>
-                {% endfor %}
-            {% endif %}
-
-            {% for form in pedidoweb_item %}
-                {% if forloop.first %}
-                    <thead>
-                    <tr>
-                        {% for field in form.visible_fields %}
-                        <th>{{ field.label|capfirst }}</th>
-                        {% endfor %}
-                    </tr>
-                    </thead>
-                {% endif %}
-                <tr class="{% cycle row1 row2 %} formset_row">
-
-                    {% for field in form.visible_fields %}
-                    <td>
-                        {# Include the hidden fields in the form #}
-                        {% if forloop.first %}
-                            {% for hidden in form.hidden_fields %}
-                            {{ hidden }}
-                            {% endfor %}
-                        {% endif %}
-                        {{ field.errors.as_ul }}
-                        {{ field }}
-                    </td>
-                    {% endfor %}
-
-                </tr>
-            {% endfor %}
-        </table>
         <div align="right">
             <input type="submit" value="Gravar"/>
         </div>
     </form>
+
+    {% if pedidoweb.pedidowebitem_set.all %}
+        <table class="responsive table table-responsive table-condensed table-bordered table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Sequência</th>
+                    <th>Descrição</th>
+                    <th style="text-align:right">Preço Unitário</th>
+                    <th style="text-align:right">Quantidade</th>
+                    <th style="text-align:right">% Desconto</th>
+                    <th style="text-align:right">Preço Líquido</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in pedidoweb.pedidowebitem_set.all %}
+                    <tr>
+                        <td>{{ item.sequencia }}</td>
+                        <td>{{ item.produto }}</td>
+                        <td style="text-align:right">{{ item.preco_unitario|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.quantidade|floatformat:0 }}</td>
+                        <td style="text-align:right">{{ item.perc_desc|floatformat:2 }}</td>
+                        <td style="text-align:right">{{ item.total_produto|floatformat:2 }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tr>
+                <td colspan="4"></td>
+                <td style="text-align:right"><strong>Total <i class="far fa-hand-point-right"></i></strong></td>
+                <td class="num"><strong>R$ {{ pedidoweb.total_produtos|floatformat:2 }}</strong></td>
+            </tr>
+        </table>
+    {% endif %}
 </div>
 
 

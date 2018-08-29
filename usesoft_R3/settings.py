@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-
 import dj_database_url
 from decouple import config, Csv
 
@@ -46,6 +45,7 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 6000
 # Application definition
 
 INSTALLED_APPS = [
+    'django_ajax',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -71,6 +71,7 @@ INSTALLED_APPS = [
     'import_export',
     'django_filters',
     'widget_tweaks',
+    'crispy_forms',
 
 ]
 

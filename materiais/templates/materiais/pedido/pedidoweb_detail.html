@@ -1,6 +1,4 @@
 {% extends "materiais/base.html" %}
-{% load static %}
-{% load l10n %}
 
 {% block title %}Detalhes do Pedido{% endblock %}
 
@@ -25,9 +23,10 @@
     <ul>
         <li><h4>Pedido: {{ pedidoweb.id }} - {{ pedidoweb.participante }}</h4></li>
         <li>Status do Pedido:
-            <strong><select>
-               <option value="{{ pedidoweb.status_pedido}}">{{ pedidoweb.status_pedido}}</option>
-                    </select>
+            <strong>
+                <select>
+                    <option value="{{ pedidoweb.status_pedido}}">{{ pedidoweb.status_pedido}}</option>
+                </select>
             </strong>
         </li>
         <li>Total do Pedido: <strong>{{ pedidoweb.total_produtos}}</strong></li>

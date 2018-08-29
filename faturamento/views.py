@@ -1,7 +1,9 @@
 """
     Participante - GENERIC VIEWS
 """
+
 from django.contrib import messages
+from django.contrib.admin.views import autocomplete
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
@@ -10,6 +12,8 @@ from django.shortcuts import get_object_or_404, redirect, render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
 from faturamento.models import Participante
+
+
 
 
 class ParticipanteList(SuccessMessageMixin, LoginRequiredMixin, ListView):

@@ -1,5 +1,4 @@
 {% extends "materiais/base.html" %}
-{% load static %}
 
 {% block content %}
 
@@ -17,15 +16,15 @@
 
         <div class="card" align="center">
             <h5 style="margin-center"><strong>Lista de Pedidos Web</strong></h5>
-            <button class="btn btn-outline-primary"><a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a></button>
-            <button class="btn btn-outline-success"><a href="{% url 'materiais:novo_pedido' %}"> Criar Pedido <i class="fas fa-plus"></i> </a></button>
+            <button class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Filtrar Pedidos Web"><a href="{% url 'materiais:search_pedidoweb' %}"> Filtro <i class="fas fa-filter"></i> </a></button>
+            <button class="btn btn-outline-success" data-toggle="tooltip" data-placement="top" title="Criar Novo Pedido"><a href="{% url 'materiais:order_create' %}"> Criar Pedido <i class="fas fa-plus"></i> </a></button>
         </div>
 
         <div class="card" align="center">
              <!-- Pesquisa -->
             <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" id="searchbox" name="q" type="text" value="{{ request.GET.q }}" placeholder="Pesquisa" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i></button>
+                <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="tooltip" data-placement="top" title="Pesquisar" type="submit"> <i class="fas fa-search"></i></button>
             </form>
 
         </div>
@@ -74,14 +73,13 @@
                             <p class="card-text">{{ pedidoweb.total_produtos }}</p>
                             <!-- Detalhes -->
                             <a href="{% url 'materiais:pedidoweb_detail' pedidoweb.id %}"
-                                class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip"
-                                title="Detalhes do pedido">
+                                class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" data-placement="top"
+                                title="Exibe detalhes do pedido">
                                 <i class="fas fa-info-circle"></i> Detalhes
                             </a>
                             <!-- Altera -->
                             <a href="{% url 'materiais:pedidoweb_edit' pedidoweb.id %}"
-                                class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip"
-                                title="Edita o pedido">
+                                class="btn btn-outline-primary btn-sm" role="button" data-toggle="tooltip" data-placement="top" title="Edita o Pedido">
                                 <i class="fas fa-pencil-alt"></i> Edita
                             </a>
                         </div>

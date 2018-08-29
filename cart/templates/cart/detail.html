@@ -1,5 +1,4 @@
 {% extends "materiais/base.html" %}
-{% load static %}
 
 {% block title %}
     Seu carrinho de compras
@@ -54,7 +53,7 @@
 -->
                                    <p class="card-text">Preço Líquido: R$ {{ item.total_price|floatformat:2 }}</p>
 
-                                    <a href="{% url 'cart:cart_remove' produto.id %}">Remover <i class="fas fa-thumbs-down"></i></a>
+                                    <a href="{% url 'cart:cart_remove' produto.id %}">Remover <i class="fas fa-trash-alt"></i></a>
                                </div>
                           </div>
                      </div>
