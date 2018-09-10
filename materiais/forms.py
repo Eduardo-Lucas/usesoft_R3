@@ -2,6 +2,7 @@ from django import forms
 from django.forms import inlineformset_factory, ModelForm
 
 from materiais.models import PedidoWeb, PedidoWebItem
+from django.forms.models import BaseInlineFormSet
 
 
 class OrderCreateForm(forms.ModelForm):
@@ -35,10 +36,14 @@ class PedidoWebItemForm(forms.ModelForm):
                    'perc_seguro', 'perc_frete', 'natureza_custos', 'centro_custo', 'codigo_promocao']
 
 
+class BasePedidoWebItemFormset(BaseInlineFormSet):
+    def add_fields(self, form, index):
+        super(BasePedidoWebItemFormset, self).add_fields(form, index)
+
+
 PedidoWebFormSet = inlineformset_factory(PedidoWeb, PedidoWebItem,
-                                         form=PedidoWebItemForm,
-                                         fields=('produto', 'quantidade', 'preco_unitario', 'perc_desc',
+                                         formset=BasePedidoWebItemFormset,
+                                         fields=('produto', 'quantidade', 'preco_unitario',
+                                                 'perc_desc',
                                                  'total_produto'),
-                                         can_delete=False,
-                                         extra=2,
-                                         validate_min=False)
+                                         extra=1)

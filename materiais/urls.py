@@ -3,8 +3,8 @@ from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
 
 from materiais import views
-from materiais.views import PedidoWebTradicionalList, PedidoWebTradicionalDetalhe, PedidoWebTradicionalCreate, \
-    PedidoWebTradicionalUpdate, ProdutoDetalhe, ProdutoCreate, ProdutoList
+from materiais.views import PedidoWebTradicionalList, PedidoWebTradicionalDetalhe, \
+    PedidoWebTradicionalUpdate, ProdutoDetalhe, ProdutoCreate, ProdutoList, manage_pedidowebitem
 
 app_name = 'materiais'
 
@@ -13,9 +13,11 @@ urlpatterns = [
     # Pedido Tipo: Tradicional
     url(r'^pedidoweb_list/$', PedidoWebTradicionalList.as_view(), name='pedidoweb_list'),
     url(r'^pedidoweb_list/(?P<pk>[0-9]+)/$', PedidoWebTradicionalDetalhe.as_view(), name="pedidoweb_detail"),
-    url(r'^pedidoweb_add/$', PedidoWebTradicionalCreate.as_view(), name='pedidoweb_add'),
     url(r'^pedidoweb_edit/(?P<pk>[0-9]+)/edit/$', PedidoWebTradicionalUpdate.as_view(), name='pedidoweb_edit'),
+    
+    url(r'^manage_pedidowebitem/(?P<pk>[0-9]+)/$', manage_pedidowebitem, name='manage_pedidowebitem'),
 
+    
     url(r'^create/$', views.order_create, name='order_create'),
     # Pedido Tipo: E-Commerce
     # url(r'', views.ProdutoList.as_view(), name='produto_list'),

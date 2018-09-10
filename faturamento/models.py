@@ -18,6 +18,7 @@ class GrupoParticipante(models.Model):
                                   choices=SIM_NAO_CHOICES,
                                   help_text='Desabilite este Grupo caso sua empresa não o utilize ou utilize muito '
                                             'esporadicamente para evitar erros')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return self.codigo + " - " + self.descricao
@@ -38,6 +39,7 @@ class RegiaoDeVenda(models.Model):
                                   choices=SIM_NAO_CHOICES,
                                   help_text='Desabilite este CFOP caso sua empresa não o utilize ou utilize muito '
                                             'esporadicamente para evitar erros')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return self.codigo + " - "+self.descricao
@@ -103,6 +105,8 @@ class Participante(models.Model):
     celular2 = models.CharField("Celular 2", max_length=20, blank=True, null=True)
 
     email = models.CharField("E-mail", max_length=40, blank=True, null=True)
+    
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def get_absolute_url(self):
         return reverse('faturamento:participante_detail', kwargs={'pk': self.pk})
@@ -156,6 +160,7 @@ class NotaFiscal(models.Model):
                                             validators=[MaxValueValidator(999)])
     subserie_nfe = models.PositiveIntegerField("SubSérie da Nota fiscal", null=True, blank=True,
                                                validators=[MaxValueValidator(999)])
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return str(self.numero_nfe)

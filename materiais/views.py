@@ -7,11 +7,13 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 from django.db import transaction
 from django.db.models import Q
+from django.forms import inlineformset_factory
+from django.http import HttpResponseRedirect
 
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, ListView, DetailView, UpdateView
+from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
 from cart.cart import Cart
 from cart.forms import CartAddProductForm
@@ -252,51 +254,30 @@ class PedidoWebTradicionalList(SuccessMessageMixin, LoginRequiredMixin, ListView
         return queryset
 
 
-class PedidoWebTradicionalCreate(SuccessMessageMixin, LoginRequiredMixin, CreateView):
-    model = PedidoWeb
-    context_object_name = 'pedidoweb'
-    fields = ['participante', 'vendedor', 'tipo_de_pagamento', 'prazo_de_pagamento']
-    success_url = reverse_lazy('materiais:pedidoweb_list')
-    template_name = 'materiais/pedido/pedidoweb_form.html'
-
-    def get_success_message(self, cleaned_data):
-        return self.success_message % dict(
-            cleaned_data,
-            calculated_field=self.object.id,
-        )
-
-    def get_context_data(self, **kwargs):
-        data = super(PedidoWebTradicionalCreate, self).get_context_data(**kwargs)
-        if self.request.POST:
-            data['pedidoweb_item'] = PedidoWebFormSet(self.request.POST)
-        else:
-            data['pedidoweb_item'] = PedidoWebFormSet()
-        return data
-
-    def form_valid(self, form):
-        context = self.get_context_data()
-        pedidoweb_item = context['pedidoweb_item']
-
-        with transaction.atomic():
-            if pedidoweb_item.is_valid():
-                self.object = form.save()
-                pedidoweb_item.instance = self.object
-                pedidoweb_item.save()
-                messages.success(self.request, 'Pedido criado com sucesso!')
-
-        return super(PedidoWebTradicionalCreate, self).form_valid(form)
-
-
 class PedidoWebTradicionalDetalhe(SuccessMessageMixin, LoginRequiredMixin, DetailView):
     model = PedidoWeb
     context_object_name = 'pedidoweb'
     template_name = 'materiais/pedido/pedidoweb_detail.html'
 
 
+def manage_pedidowebitem(request, pedidoweb_id):
+    pedidoweb = PedidoWeb.objects.get(pk=pedidoweb_id)
+    if request.method == "POST":
+        formset = PedidoWebFormSet(request.POST, instance=pedidoweb)
+        if formset.is_valid():
+            formset.save()
+            # Do something. Should generally end with a redirect. For example:
+            return redirect('order_create', pedidoweb_id=pedidoweb.id)
+            
+    else:
+        formset = PedidoWebFormSet(instance=pedidoweb)
+    return render(request, 'materiais/pedido/manage_pedidowebitem.html', {'formset': formset})
+
+
 class PedidoWebTradicionalUpdate(SuccessMessageMixin, LoginRequiredMixin, UpdateView):
     model = PedidoWeb
     fields = ['participante', 'tipo_de_pagamento', 'prazo_de_pagamento', ]
-    template_name = 'materiais/pedido/pedidoweb_form.html'
+    template_name = 'materiais/pedido/manage_pedidowebitem.html'
 
     def get_success_message(self, cleaned_data):
         return self.success_message % dict(

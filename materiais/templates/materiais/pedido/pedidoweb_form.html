@@ -55,14 +55,16 @@
 
             <tbody>
                 {% for item in pedidoweb.pedidowebitem_set.all %}
-                    <tr>
-                        <td>{{ item.sequencia }}</td>
-                        <td>{{ item.produto }}</td>
-                        <td style="text-align:right">{{ item.preco_unitario|floatformat:2 }}</td>
-                        <td style="text-align:right">{{ item.quantidade|floatformat:0 }}</td>
-                        <td style="text-align:right">{{ item.perc_desc|floatformat:2 }}</td>
-                        <td style="text-align:right">{{ item.total_produto|floatformat:2 }}</td>
-                    </tr>
+
+                        <tr>
+                            <td>{{ item.sequencia }}</td>
+                            <td>{{ item.produto }}</td>
+                            <td style="text-align:right">{{ item.preco_unitario|floatformat:2 }}</td>
+                            <td style="text-align:right">{{ item.quantidade|floatformat:0 }}</td>
+                            <td style="text-align:right">{{ item.perc_desc|floatformat:2 }}</td>
+                            <td style="text-align:right">{{ item.total_produto|floatformat:2 }}</td>
+                        </tr>
+
                 {% endfor %}
             </tbody>
             <tr>

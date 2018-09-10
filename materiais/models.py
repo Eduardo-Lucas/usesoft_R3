@@ -531,6 +531,7 @@ class ProdutoDensidade(models.Model):
 class Categoria(models.Model):
     nome = models.CharField(max_length=200, db_index=True)
     slug = models.SlugField(max_length=200, db_index=True, unique=True)
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         ordering = ['nome']
@@ -680,6 +681,8 @@ class Produto(models.Model):
     # densidade
     # TODO Depois excluir a opção null=True
     codigo_densidade = models.ForeignKey(ProdutoDensidade, on_delete=models.CASCADE, blank=True, null=True,)
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
+
 
     class Meta:
         ordering = ['descricao', 'id']
@@ -820,6 +823,8 @@ class ProdutoTributacao(models.Model):
     perc_icms_operacao_propria = models.DecimalField("% de icms de operação própria  ", max_length=10, max_digits=10,
                                                      decimal_places=6, default=0.00,
                                                      help_text='% de icms de operação própria')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         return str(self.produto) + "-" + str(self.estado) + "-" + str(self.tipooperacaofiscal)
@@ -1153,6 +1158,8 @@ class Pedido(models.Model):
     status_diferenca = models.CharField(max_length=1, null=False, default="C", choices=STATUS_DIFERENCA_CHOICES,
                                         help_text='Status de conferencia dos valores na nota fiscal de entrada ou '
                                                   'saida para ver se há diferenças')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         return str(self.serie) + ' ' + str(self.subserie)
@@ -1407,6 +1414,8 @@ class PedidoItem(models.Model):
     # Código da promoção no cadastro de produtos corrente quando foi feita esta venda
     codigo_promocao = models.ForeignKey(ProdutoPromocao, default=0, on_delete=models.CASCADE,
                                         help_text='Código da promoção desta venda na hora da venda')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         return str(self.pedido) + ' ' + str(self.item) + ' ' + str(self.produto)
@@ -1647,6 +1656,8 @@ class PedidoNf(models.Model):
                                         choices=STATUS_DIFERENCA_CHOICES,
                                         help_text='Status de conferencia dos valores na nota fiscal de entrada ou '
                                                   'saida para ver se há diferenças')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         return str(self.serie) + ' ' + str(self.subserie)
@@ -1907,6 +1918,7 @@ class PedidoNfItem(models.Model):
     # Código da promoção no cadastro de produtos corrente quando foi feita esta venda
     codigo_promocao = models.ForeignKey(ProdutoPromocao, default=0, on_delete=models.CASCADE,
                                         help_text='Código da promoção desta venda na hora da venda')
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return str(self.pedido) + ' ' + str(self.item) + ' ' + str(self.produto)
@@ -2154,6 +2166,7 @@ class PedidoWeb(models.Model):
                                                   'saida para ver se há diferenças ')
 
     observacoes = models.TextField("Observações", max_length=200, null=True, blank=True)
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def get_absolute_url(self):
         return reverse('materiais:pedidoweb_detail', kwargs={'pk': self.pk})
@@ -2446,6 +2459,7 @@ class PedidoWebItem(models.Model):
     #                                    help_text='Código da promoção desta venda na hora da venda')
     # TODO Resolver se vai ser obrigatório ou nao o preenchimento desse campo
     codigo_promocao = models.IntegerField(null=True, blank=True, default=0)
+    ultima_alteracao = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return str(self.pedidoweb)
